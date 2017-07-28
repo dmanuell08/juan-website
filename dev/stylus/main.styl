@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  /* =============== Varibles ================== */ 
  	
 white = #fff
@@ -6,15 +7,16 @@ grey1 = #D8E5DA
 grey2 = #74747F
 grey3 = #45454C
 
+droid = Droid Sans, sans-serif
+montserrat = Montserrat, sans-serif
+gray = #45454C
+
 /* ==========================================================================
-   Section 
+   Header Section
    ========================================================================== */
    
-
-
 .diagonal
-	background: linear-gradient(-45deg, rgba(240,183,161,1) 0%,rgba(140,51,16,1)
-	 50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%);
+	background: linear-gradient(-45deg, rgba(240,183,161,1) 0%,rgba(140,51,16,1)50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%)
 	transform skewY(-4deg)translate(0px, -170px)
 	width 100%
 	height 878px
@@ -62,4 +64,103 @@ h2
 	font-weight 300
 	font-size 28px
 	color white
-	
+
+/* ==========================================================================
+   My work Section
+   ========================================================================== */
+   
+
+
+//animaciones
+.animated
+    animation-duration 1.8s
+
+.Subtitle
+    display flex
+    flex-direction column
+    align-items center
+    h4
+        font-size 50px
+        font-weight bold
+        color gray
+        font-family droid
+
+.Subtitle
+    img
+        width 180px
+
+.Work
+    text-align center
+    max-height 375px
+    overflow hidden
+
+    border-radius 3%
+    img
+        width 270px
+
+.Work-img-1
+        background-color #92C24E
+        box-shadow 14px 14px 5px 0px rgba(146,194,78,0.39)
+
+.Work-img-2
+        background-color #0B4EDE
+        box-shadow 14px 14px 5px 0px rgba(11,78,222,0.39)
+
+.Work-img-3
+        background-color #D4B63B
+        box-shadow 14px 14px 5px 0px rgba(212,182,59,0.39)
+
+.Details
+    color gray
+    padding-left 10px
+    min-height 240px
+    h5
+        font-size 30px
+        font-family droid
+        font-weight bold
+
+.Details
+    h2
+        font-size 20px
+        margin-bottom 0
+
+.Details
+    img
+        width 130px
+
+.Details
+    p
+        font-family montserrat
+        color #7B7B87
+        font-size 17px
+        margin-top 10px
+
+.Details
+    button
+        font-family droid
+        font-size 18px
+        font-weight bold
+        border none
+        width 143px
+        height 42px
+        background rgb(115,222,145)
+        box-shadow 8px 8px 5px 0px rgba(115,222,145,0.9)
+        cursor pointer
+
+.Btn1
+.Btn2
+    margin-top 1em
+
+.Btn3
+    margin-top 2.2em
+
+.btn-primary
+    &hover
+        background-color rgb(115,222,145)
+        border none
+
+.hvr-bounce-to-top
+    &before
+        background #04A777 !important
+        border-radius .25rem
+
