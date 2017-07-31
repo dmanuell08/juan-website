@@ -9,7 +9,7 @@ grey3 = #45454C
 
 droid = Droid Sans, sans-serif
 montserrat = Montserrat, sans-serif
-gray = #45454C
+gray = #45454C //gris para los títulos
 
 /* ==========================================================================
    Header Section
@@ -84,6 +84,10 @@ h2
         font-weight bold
         color gray
         font-family droid
+        
+#My-work
+    margin-top 5em
+    margin-bottom 5em
 
 .Subtitle
     img
@@ -123,6 +127,7 @@ h2
     h2
         font-size 20px
         margin-bottom 0
+        color #45454C
 
 .Details
     img
@@ -155,12 +160,138 @@ h2
     margin-top 2.2em
 
 .btn-primary
-    &hover
+    &:hover
         background-color rgb(115,222,145)
         border none
 
 .hvr-bounce-to-top
-    &before
+    &:before
         background #04A777 !important
         border-radius .25rem
+        
+#What-i-do
+    margin-bottom 5em
+    margin-top 7em
+    position relative
+    .diagonal2
+        background-color rgba(118,94,237,1)
+        transform skewY(-4deg)translate(0px, -170px)
+        width 100%
+        height 120%
+        top 180px
+        position absolute
+    h4
+        color #fff
+        padding-top 2em
+    p
+        width 360px
+        
+.Ui-designer
+    img
+        height 320px
+        
+.Ui-designer
+    h3
+        color #ffff
+        font-family droid
+        font-size 30px
+    p
+        font-size 16px
+        color #D8E5DA
+        strong
+            color #73DE91
+            font-weight bold
+    .Keywords
+        ul
+            padding-left 0
+            font-family montserrat
+            font-size 16px
+            li
+                display inline-block
+                border 1px solid #fff
+                border-radius 30px
+                margin-left 5px
+                padding 5px 15px
+                color #fff
+                transition .3s
+                &:first-child
+                    margin-left 0
+                &:hover
+                    border 1px solid #73de91
+                    color #000
+                    
+    .hvr-shutter-out-horizontal
+        background-color transparent
+        &:before
+            background #73de91 !important
+            border-radius 30px
+    
+    .hvr-float-shadow
+        &:before
+            left -5%
+            
+.Tools
+    ul
+        padding-left 0
+        img
+            width 50px
+            height 50px
+            margin-right .5em
+            
+#Contact-me
+    margin-top 16em
+    margin-bottom 6em
+    h5
+        font-size 40px
+        font-family montserrat
+        font-weight initial
+    p
+        font-size 18px
+    a
+        text-decoration none
+        font-size 40px
+        color #00E991
 
+.Info
+    width 400px
+        
+.Info
+    ul
+        width 115px
+        padding-left 0
+        li
+            display inline-block
+            img
+                width 45px
+
+#Contact-me
+    .Images
+        position relative
+        img
+            border-radius 1%
+        .Juan1
+            opacity .5
+            position absolute
+            top 20px
+            right 45px
+            z-index -1
+            
+#About-me
+    color #fff
+    .diagonal3
+        background-color rgba(118,94,237,1)
+        transform skewY(-4deg)translate(0px, -170px)
+        width 100%
+        height 878px
+        position absolute
+        z-index -1
+    img
+        width 240px
+    h5
+        font-size 30px
+        font-family droid
+        font-weight bold
+    p
+        font-size 17px
+        strong
+            color #00e991
