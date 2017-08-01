@@ -1,15 +1,10 @@
-<<<<<<< HEAD
- /* =============== Varibles ================== */ 
+/* =============== Varibles ================== */ 
  	
 white = #fff
 green = #73DE91
 grey1 = #D8E5DA
 grey2 = #74747F
 grey3 = #45454C
-
-droid = Droid Sans, sans-serif
-montserrat = Montserrat, sans-serif
-gray = #45454C //gris para los títulos
 
 /* ==========================================================================
    Header Section
@@ -20,31 +15,68 @@ gray = #45454C //gris para los títulos
 	transform skewY(-4deg)translate(0px, -170px)
 	width 100%
 	height 878px
-	position absolute
+	position absolute	
 	
-.background-juan
-	background-image url("..img/logo.png")
-	width 100%
-	height 840px	
+/*.nav-item
+	padding 1px 2px 1px 32px
+	color white*/
 	
-.nav-item
-	padding 80px 32px 80px 32px
-	color white
+.header ul li a:focus 
+		color #fff
+		border 4px solid #73DE91
+		border-radius 10px
+		padding 2em 3em
+        position absolute
+        
+ 
+.header ul li a:focus::after
+    content ''
+    color #fff   
+    border 4px solid #73DE91
+    border-radius 10px
+    padding 40px 50px
+    position absolute      
 	
+		
+.header ul
+    margin-top 50px
+    li
+        margin-right 4em
+       
+     	
+.header ul li a:hover
+	color #fff
+    	
 .nav-link
 	color white
 	font-family 'Montserrat', sans-serif
-	font-weight 300
+	font-weight 400
 	font-size 22px
-    border 1px solid blue   
+    border 1px solid blue
+    
+.text-header
+	padding-top 15%
+	  
 	
 .logo-juan
 	width 139px
-	transform translate(0, -45px)
+	transform translate(0, -45px)   
 			
 .img-photo
 	border-radius 5px
 	width 450px
+	
+.Juan1-header
+    opacity .5
+    position absolute
+    top 15px
+    right -55px
+    z-index -1
+    border-radius 1%
+    
+.Juan2
+	border-radius 1%
+	
 	
 .img-photo::before
 	content ''
@@ -53,7 +85,7 @@ gray = #45454C //gris para los títulos
 	
 .text-hello
 	margin 90px 0 0 60px
-    	
+   	
 h1
 	font-family 'Montserrat'
 	font-weight 500
@@ -70,9 +102,6 @@ h2
    My work Section
    ========================================================================== */
    
-
-
-//animaciones
 .animated
     animation-duration 1.8s
 
@@ -83,13 +112,13 @@ h2
     h4
         font-size 50px
         font-weight bold
-        color gray
+        color grey3
         font-family droid
         
 #My-work
     margin-top 5em
     margin-bottom 5em
-
+    
 .Subtitle
     img
         width 180px
@@ -116,7 +145,7 @@ h2
     box-shadow 14px 14px 5px 0px rgba(146,123,245,0.2)
 
 .Details
-    color gray
+    color grey3
     padding-left 10px
     min-height 240px
     h5
@@ -140,7 +169,6 @@ h2
         color #7B7B87
         font-size 17px
         margin-top 10px
-
 
 button
     font-family droid
@@ -172,6 +200,10 @@ button
     &:before
         background #04A777 !important
         border-radius .25rem
+        
+/* ==========================================================================
+   What i do Section
+   ========================================================================== */
         
 #What-i-do
     margin-bottom 5em
@@ -242,6 +274,10 @@ button
             height 50px
             margin-right .5em
             
+/* ==========================================================================
+   Contact me Section
+   ========================================================================== */
+            
 #Contact-me
     margin-top 16em
     margin-bottom -5em
@@ -273,12 +309,17 @@ button
         position relative
         img
             border-radius 1%
-        .Juan1
-            opacity .5
-            position absolute
-            top 20px
-            right 45px
-            z-index -1
+            
+.Juan1
+    opacity .5
+    position absolute
+    top 20px
+    right 45px
+    z-index -1
+    
+/* ==========================================================================
+   About me Section
+   ========================================================================== */
             
 #About-me
     color #fff
