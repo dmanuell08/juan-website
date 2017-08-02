@@ -115,6 +115,16 @@ h2
    My work Section
    ========================================================================== */
    
+   .Button
+       position relative
+       .Buton-2
+           position absolute
+           left 5%
+           top 10%
+           opacity .7
+           z-index -1
+
+   
 .animated
     animation-duration 1.8s
 
@@ -131,6 +141,10 @@ h2
 #My-work
     margin-top 5em
     margin-bottom 5em
+   .Button
+        .Buton-2
+           left 5%
+           top 12%
     
 .Subtitle
     img
@@ -205,15 +219,11 @@ button
     border none
     background: linear-gradient(135deg, rgba(115,222,145,1) 0%, rgba(94,192,182,1) 100%)
     &:hover
-        background-color rgb(115,222,145)
+    &:focus
+        background: linear-gradient(135deg, rgba(115,222,145,1) 0%, rgba(94,192,182,1) 100%)
         border none
-
-.hvr-bounce-to-top
-    box-shadow 10px 10px 5px 0px rgba(94,192,182,0.55)
-    &:before
-        background #04A777 !important
-        border-radius .25rem
-        
+        box-shadow none
+    
 /* ==========================================================================
    What i do Section
    ========================================================================== */
@@ -268,10 +278,9 @@ button
                 &:hover
                     border 1px solid #73de91
                     
-    .hvr-sweep-to-right
-        background-color transparent
+    .hvr-fade
         border-radius 30px
-        &:before
+        &:hover
             background #73de91 !important
             border-radius 30px
     
