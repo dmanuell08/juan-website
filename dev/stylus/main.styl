@@ -8,6 +8,7 @@ grey3 = #45454C
 montserrat = 'Montserrat', sans-serif
 droid = 'Droid Sans', sans-serif
 green-button = linear-gradient(135deg, rgba(115,222,145,1) 0%, rgba(94,192,182,1) 100%)
+animation = all ease .8s
 
 /* ==========================================================================
    Header Section
@@ -98,6 +99,7 @@ h2
 .Background-juan
     position relative
     height 100%
+    overflow hidden
     img
         position absolute
         width 1920px
@@ -117,6 +119,7 @@ h2
     &:focus
         color #fff
         border none
+        box-shadow none
     &:active
         background green-button
         border none
@@ -190,22 +193,22 @@ h2
     text-align center
     max-height 375px
     overflow hidden
+    transition animation
 
     border-radius 3%
     img
         width 270px
+        transition animation
 
 .Work-img-1
         background-color #92C24E
-        box-shadow 14px 14px 5px 0px rgba(146,194,78,0.39)
+
 
 .Work-img-2
     background linear-gradient(to right, rgba(2,132,179,1) 0%, rgba(6,55,153,1) 100%)
-    box-shadow 14px 14px 5px 0px rgba(2,132,179,.2)
 
 .Work-img-3
-    background linear-gradient(to right, rgba(240,218,108,1) 0%, rgba(204,150,41,1) 100%);
-    box-shadow 14px 14px 5px 0px rgba(146,123,245,0.2)
+    background linear-gradient(to right, rgba(240,218,108,1) 0%, rgba(204,150,41,1) 100%)
     
 .Cards-works
     position relative
@@ -239,8 +242,9 @@ h2
         height 60px
         background-image url("../img/Lines-2.svg")
         background-repeat no-repeat
-        background-position 0 55%
+        background-position 0 65%
         background-size 50%
+        transition animation
 
 .Details
     img
@@ -298,22 +302,30 @@ h2
             li
                 display inline-block
                 border 1px solid #fff
-                border-radius 30px
-                margin-left 5px
+                border-radius 1rem
+                margin-left .5rem
                 padding 5px 15px
                 color #fff
-                transition .3s
+                position relative
+                overflow hidden
                 &:first-child
                     margin-left 0
-                &:hover
-                    border 1px solid #73de91
-                    
-    .hvr-fade
-        border-radius 30px
-        &:hover
-            background #73de91 !important
-            border-radius 30px
-    
+                /*&:hover
+                    &:after
+                        transform translateX(0%)
+                &:after
+                    content ""
+                    height 100%
+                    width 100%
+                    position absolute
+                    display inline-block
+                    background green-button
+                    left 0
+                    top 0
+                    transform translateX(100%)
+                    z-index -1
+                    border-radius 1rem
+                    transition animation*/
     .hvr-float-shadow
         &:before
             left -5%
@@ -343,6 +355,7 @@ h2
         text-decoration none
         font-size 40px
         color #00E991
+        font-weight bold
 
 .Info
     width 400px
@@ -395,3 +408,86 @@ h2
     .Line2
         right -35%
         bottom 15%
+    
+
+//==============================Media Query================================================//
+
+//Medium device//
+@media (max-width: 991px)
+// My work Section//
+    #My-work
+        img
+            width 85%
+            transition animation
+        .Details
+            h2
+                background-size 22%
+
+//What-i-do section//
+    #What-i-do
+        .diagonal2
+            height 110%
+            
+// Contact Me section//
+    #Contact-me
+        margin-bottom -8em
+        .Juan2
+            &:after
+                width 83%
+                top 2%
+                right 11%
+
+
+
+
+//Movil device//
+@media (max-width: 767px)
+//My-work section//
+    #My-work
+        .Work
+            max-height 268px
+            transition animation
+            
+// Contact Me section//
+    #Contact-me
+        .Juan2
+            &:after
+                width 92%
+                top 2%
+                right 1%
+
+@media (max-width: 470px)
+//What-i-do section//
+    #What-i-do
+        .Jquery
+            margin-left 0
+// Contact Me section//
+    #Contact-me
+        h5,a
+            font-size 30px
+        .Info
+            width auto
+
+@media (max-width: 410px)
+
+//What-i-do section//
+    #What-i-do
+        p
+            width auto
+            
+        .Prototyping
+            margin-left 0
+            
+// Contact Me section//
+    #Contact-me
+        h5,a
+            font-size 23px
+        .Info
+            flex-direction column
+
+// About Me section//
+    #About-me
+        h5
+            font-size 23px
+        p
+            font-size 15px
