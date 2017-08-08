@@ -21,7 +21,7 @@
 
     <body>
 
-        <!-- Header 
+        <!-- Header-->
 
         <div class="diagonal">
             <div class="Background-juan">
@@ -56,7 +56,7 @@
                         <a class="btn btn-primary hvr-grow" href="#" role="button">See my Work</a>
                     </div>
                 </div>
-        </div> -->
+        </div> 
 
         <!-- My Work -->
 
@@ -229,23 +229,35 @@
          <!-- About me-->
 
          <section id="About-me">
-            <div class="diagonal3">
-            </div>  
-            <div class="container">
-                <div class="row pt-5 align-items-center justify-content-center">
-                    <div class="col-5 text-lg-right">
-                        <img src="img/Logo.svg" alt="Logo" class="img-fluid">
-                    </div>
-                    <div class="col-lg-6 col-md-10 col-11 offset-lg-1">
-                        <h5>Know more about me :)</h5>
-                        <p class="mt-4">I am 25 years old. I live in Medellin, Colombia.<br> At the day I am usually designing while listening to <a href=""><strong class="hvr-bob hvr-float-shadow">Hip Hop <i class="fa fa-music" aria-hidden="true"></i></strong><br></a>
-                        on weekends I am playing some video games.</p>
-                    </div>
-                </div>            
-            </div>
-            <img src="img/Lines.svg" class="Lines Line1" alt="Lines">
-            <img src="img/Lines.svg" class="Lines Line2" alt="Lines">
+                <div class="diagonal3">
+                </div>  
+                <div class="container">
+                    <div class="row pt-5 align-items-center justify-content-center">
+                        <div class="col-5 text-lg-right">
+                            <img src="img/Logo.svg" alt="Logo" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-md-10 col-11 offset-lg-1">
+                            <h5>Know more about me :)</h5>
+                            <p class="mt-4">I am 25 years old. I live in Medellin, Colombia.<br> At the day I am usually designing while listening to <a href=""><strong class="hvr-bob hvr-float-shadow">Hip Hop <i class="fa fa-music" aria-hidden="true"></i></strong><br></a>
+                            on weekends I am playing some video games.</p>
+                        </div>
+                    </div>            
+                </div>
+                <img src="img/Lines.svg" class="Lines Line1" alt="Lines">
+                <img src="img/Lines.svg" class="Lines Line2" alt="Lines">
          </section>
+
+         <!--section id="Hamburger-Menu">
+             <nav class="Menuk container fixed-top">
+                <a class="navbar-brand" href="#">Navbar</a>
+            </nav>     
+         </section>
+        <div class="Icon">
+            <div class="Hamburguer">      
+            </div>
+        </div> 
+        <div class="Menu-movil">     
+        </div-->   
         
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
         <section id="Links">
@@ -254,6 +266,13 @@
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         </section>
 
-
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".Icon").click(function(){
+                    $(".Icon").toggleClass("active");
+                    $(".Menu-movil").toggleClass("active");
+                })
+            })
+        </script>
     </body>
 </html>
