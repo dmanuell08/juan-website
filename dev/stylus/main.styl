@@ -1,7 +1,7 @@
 /* =============== Varibles ================== */ 
  	
 white = #fff
-green = #73DE91
+green = #4EDE7D
 grey1 = #D8E5DA
 grey2 = #74747F
 grey3 = #45454C
@@ -40,9 +40,6 @@ animation = all ease .8s
     border-radius 10px
     padding 1.5em 3em
     position absolute
-    
-.navbar
-    height 100px
    
 .header ul
     margin-top 90px
@@ -90,12 +87,7 @@ animation = all ease .8s
  
 .navbar-nav
     margin-right 0px !important
-    
-#navbarSupportedContent ul li a 
-    margin-left 18px
-    color #000
-
-    	
+        	
 .nav-link
 	color white
 	font-family 'Montserrat', sans-serif
@@ -146,6 +138,35 @@ h2
         left -3%
         top -100%
         opacity 0.04
+        
+
+.animated
+    transition (all 0.2s)
+
+.animating
+    transition (all 0.6s)
+
+.delay1
+    animation-delay(0.1s)
+
+.delay2
+    animation-delay(0.2s)
+
+.delay3
+    animation-delay(0.3s)
+
+.delay4
+    animation-delay(0.4s)
+
+.delay5
+    animation-delay(0.8s)
+
+.delay6
+    animation-delay(0.9s)
+
+.delay7
+    animation-delay(1s)
+    
          
 /* ==========================================================================
    My work Section
@@ -203,9 +224,7 @@ h2
         top 3%
         right 7%
         background-image url("../img/Juan-Duotone-1.jpg")
-
-.animated
-    animation-duration 1.8s
+            
 
 .Subtitle
     display flex
@@ -233,13 +252,11 @@ h2
            
 .Work
     text-align center
-    max-height 375px
-    overflow hidden
     transition animation
 
     border-radius 3%
     img
-        width 270px
+        max-width 100%
         transition animation
 
 .Work-img-1
