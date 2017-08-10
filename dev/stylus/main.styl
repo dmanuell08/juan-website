@@ -231,7 +231,7 @@ h2
         background-repeat no-repeat
         margin-top 100px
         
-#My-work
+.My-work
     margin-top 5em
     margin-bottom 5em
    .Button
@@ -242,20 +242,7 @@ h2
 .Work
     text-align center
     transition animation
-
     border-radius 3%
-    img
-        max-width 100%
-        transition animation
-
-.Work-img-1
-        background-color #92C24E
-
-.Work-img-2
-    background linear-gradient(to right, rgba(2,132,179,1) 0%, rgba(6,55,153,1) 100%)
-
-.Work-img-3
-    background linear-gradient(to right, rgba(240,218,108,1) 0%, rgba(204,150,41,1) 100%)
     
 .Cards-works
     position relative
@@ -263,10 +250,13 @@ h2
         content ""
         height 100%
         display inline-block
-        width 114%
+        width 100%
         background-image url("../img/Lines.svg")
+        background-position center
         background-repeat no-repeat
-        transform skewY(-2deg)translate(-5%,39%)
+        transform skewY(-2deg)translate(-50%,-50%)
+        top 50%
+        left 50%
         position absolute
         opacity .1
         z-index -1
@@ -294,10 +284,6 @@ h2
         transition animation
 
 .Details
-    img
-        width 130px
-
-.Details
     p
         font-family montserrat
         color #7B7B87
@@ -308,7 +294,7 @@ h2
    What i do Section
    ========================================================================== */
         
-#What-i-do
+.What-i-do
     margin-bottom 5em
     margin-top 7em
     position relative
@@ -386,7 +372,7 @@ h2
    Contact me Section
    ========================================================================== */
             
-#Contact-me
+.Contact-me
     margin-top 16em
     margin-bottom -5em
     h5
@@ -412,12 +398,29 @@ h2
             display inline-block
             img
                 width 45px
-    
+
+.Contacto
+    position relative
+    &:after
+        content ""
+        display block
+        position absolute
+        width 120%
+        height 100%
+        background-image url("../img/Lines.svg")
+        background-repeat no-repeat
+        background-position center
+        top 50%
+        left 50%
+        transform skewY(-2deg) translate(-50%,-50%)
+        z-index -1
+        opacity .1
+
 /* ==========================================================================
    About me Section
    ========================================================================== */
             
-#About-me
+.About-me
     color #fff
     position relative
     overflow hidden
@@ -431,8 +434,6 @@ h2
     .container
         padding-top 8em
         padding-bottom 2em
-    img
-        width 240px
     h5
         font-size 30px
         font-family droid
@@ -442,16 +443,29 @@ h2
         strong
             color #00e991
             cursor pointer
-    .Lines
+    &:after, &:before
+        content ""
+        width 100%
+        height 15%
+        display block
         position absolute
-        width 53%
+        top 50%
+        left 50%
+        transform translate(-50%,-50%)
         opacity .2
-    .Line1
-        top 40%
-        left -28%
-    .Line2
-        right -35%
-        bottom 15%
+        background-repeat no-repeat
+        background-position center
+        background-image url("../img/Lines.svg")
+    &:before
+        top 44%
+        left 0%
+    &:after
+        top 75%
+        left 102%
+        
+
+        
+        
         
 
 //========Hamburger Menu===========
@@ -525,82 +539,152 @@ h2
 
 //==============================Media Query================================================//
 
-//Medium device//
-@media (max-width: 991px)
-// My work Section//
-    #My-work
-        img
-            width 85%
-            transition animation
-        .Details
-            h2
-                background-size 22%
+// Large devices //
+@media (max-width: 1199px)
+    .Juan   //Contact-me Section//
+        &:after
+            width 94%
+            right 1%
+            top 2%
+    .Juan2
+        &:after
+            width 93%
+            right 0%
 
-//What-i-do section//
-    #What-i-do
+    .About-me //About-me Section//
+        &:before, &:after
+            height 11%
+        &:before
+            left -10%
+        &:after
+            left 110%
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px)
+    .Cards-works  //My-work Section//
+        &:after
+            background-position center 30%
+
+    .Ui-designer //What-i-do Section//
+        h3,p
+            margin-bottom 1.5rem
+    
+    .What-i-do
         .diagonal2
             height 110%
-            
-// Contact Me section//
-    #Contact-me
+   
+
+    .Contact-me  //Contact-me Section//
         margin-bottom -8em
-        .Juan2
-            &:after
-                width 83%
-                top 2%
-                right 11%
+        
+    .Juan2    
+        &:after
+            width 83%
+            right 11%
+    
+    .Contacto
+        overflow hidden
+        &:after
+            background-position center 20%
 
-
-
-
-//Movil device//
-@media (max-width: 767px)
-//My-work section//
-    #My-work
-        .Work
-            max-height 268px
-            transition animation
+    .text-lg-right
+        img
+            margin-bottom 3em
+    
+    .About-me //About-me Section//
+        &:before
+            top 30%
+        &:after
+            top 88%
             
-// Contact Me section//
-    #Contact-me
-        .Juan2
-            &:after
-                width 92%
-                top 2%
-                right 1%
 
-@media (max-width: 470px)
-//What-i-do section//
-    #What-i-do
-        .Jquery
-            margin-left 0
-// Contact Me section//
-    #Contact-me
+
+@media (max-width: 767px)
+    .Juan2    //Contact-me Section//
+        &:after
+            width 94%
+            right 0%
+            
+    .About-me //About-me Section//
+        &:before, &:after
+            height 8%
+
+
+@media (max-width: 575px)
+    .Subtitle
+        h4
+            font-size 40px
+            background-position center 80%
+
+    .Juan   //Contact-me Section//
+        &:after
+            width 91%
+            top 3%
+    .Contact-me
         h5,a
             font-size 30px
-        .Info
-            width auto
+            
+    .About-me //About-me Section//
+        p
+            margin-bottom 2em
+        .Know-more
+            margin-bottom 6em
+            
 
-@media (max-width: 410px)
-
-//What-i-do section//
-    #What-i-do
+            
+@media (max-width: 420px)
+    .What-i-do //What-i-do Section//
         p
             width auto
-            
-        .Prototyping
-            margin-left 0
-            
-// Contact Me section//
-    #Contact-me
-        h5,a
-            font-size 23px
-        .Info
-            flex-direction column
+    
+    .Juan   //Contact-me Section//
+        &:after
+            width 86%
+            right 3%
+    .Info
+        flex-direction column
 
-// About Me section//
-    #About-me
+
+
+@media (max-width: 414px)
+    .Ui-designer //What-i-do Section//
+        .Keywords
+            .Prototyping, .Jquery
+                margin-left 0
+
+
+
+@media (max-width: 384px)
+    .Ui-designer //What-i-do Section//
+        .Keywords
+            .Jquery
+                margin-left .5rem
+            .Css
+                margin-left 0
+ 
+
+
+@media (max-width: 320px)
+    .Ui-designer //What-i-do Section//
+        .Keywords
+            .Css
+                margin-left .5rem
+            .Html
+                margin-left 0
+            .App-design
+                margin-left .3rem
+                
+    .Contact-me //Contact-me Section//
+        h5,a
+            font-size 25px
+            
+    .About-me
         h5
-            font-size 23px
+            font-size 22px
         p
             font-size 15px
+
+    .About-me //About-me Section//
+        .Know-more
+            margin-bottom 2em
