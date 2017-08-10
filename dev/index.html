@@ -20,6 +20,18 @@
     </head>
 
     <body>
+        <!--Menu-movil-->
+        <section id="Banner" class="Banner">
+            <img src="img/LogoBlack.svg" alt="">
+        </section>
+        <div class="Icon">
+            <div class="Lineas">
+                
+            </div>
+        </div>
+        <section class="Hamburguer">
+            
+        </section>
 
         <!-- Header  -->
 
@@ -248,20 +260,7 @@
                         </div>
                     </div>            
                 </div>
-         </section>
-
-         <!--section id="Hamburger-Menu">
-             <nav class="Menuk container fixed-top">
-                <a class="navbar-brand" href="#">Navbar</a>
-            </nav>     
-         </section>
-        <div class="Icon">
-            <div class="Hamburguer">      
-            </div>
-        </div> 
-        <div class="Menu-movil">     
-        </div-->   
-        
+         </section>     
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
         
         <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -274,6 +273,11 @@
         <script>
             $(document).ready(function() {
                 appMaster.animateScript();
+            });
+
+             $(".Icon").click(function(){
+                $(".Icon").toggleClass("active");
+                $(".Hamburguer").toggleClass("active");
             });
         </script>
         
