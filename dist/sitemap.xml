@@ -2,19 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://www.example.com/</loc>
-<<<<<<< HEAD
-        <lastmod>2017-08-10T17:00:26.383Z</lastmod>
-=======
-<<<<<<< HEAD
-        <lastmod>2017-08-10T16:39:57.727Z</lastmod>
-=======
-<<<<<<< HEAD
-        <lastmod>2017-08-10T14:49:41.278Z</lastmod>
-=======
-        <lastmod>2017-08-09T22:07:17.042Z</lastmod>
->>>>>>> fa22d9b8b8dbd166aa9bb26e9c37834e4b13991a
->>>>>>> 03924b58f7d9ef0bbe91baec22032c86eba8492a
->>>>>>> df997ade6c9908b90746d5c7e4d60a577e50099a
+        <lastmod>2017-08-11T16:22:38.107Z</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
