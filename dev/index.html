@@ -21,7 +21,7 @@
 
     <body>
         <!--Menu-movil-->
-        <section id="Banner" class="Banner">
+        <section id="Banner" class="Banner hidden-sm-up">
             <img src="img/LogoBlack.svg" alt="">
         </section>
         <div class="Icon">
@@ -34,14 +34,14 @@
         </section>
 
         <!-- Header  -->
-        <div class="diagonal">
-            <div class="Background-juan">
-                <img src="img/Logo.svg" alt="Logo">
-            </div>
-        </div>
 
-        <section id="Home" class="container header">
-
+        <section id="Home" class="header Home">
+	        <div class="diagonal">
+	            <div class="Background-juan">
+	                <img src="img/Logo.svg" alt="Logo">
+	            </div>
+	        </div>
+			<div class="container">
                <!-- original menu -->                
                     <nav class="navbar navbar-toggleable-md justify-content-center">                   
                         <ul class="nav ">
@@ -63,17 +63,18 @@
                         </ul>                        
                     </nav>
                 
-                <div class="row justify-content-center content-header">
-                    <div class="col-6 Images animated fadeInUp Juan Juan1 img-fluid">
+                <div class="row justify-content-center align-items-center content-header">
+                    <div class="col-lg-5 col-md-6 col-8 col-xl-6 Images animated fadeInUp Juan Juan1 img-fluid">
                         <img class="juan-photo img-fluid" src="img/Juan-Duotone-2.jpg" alt="Juan-Duotone">
                     </div>
-                    <div class="col-6-sm Images animated fadeInUp text-header text-white"> 
+                    <div class="col-md-6 col-9 offset-1 offset-xs-0 Images animated fadeInUp text-header text-white ml-lg-5 ml-xl-0 mt-4 mt-lg-0"> 
                         <h2>Hello, My name is Juan Carmona,</h2>
                         <h1 class="ocupation">I am a UI Designer and</h1>
                         <h1>Web Developer</h1>
                         <a class="btn btn-header hvr-grow" href="#My-work" role="button">See my work<img src="img/Arrow-Icon.svg" class="Arrow-Icon" alt="Arrow-Icon"> </a>
                     </div>
-                </div>
+                </div>			
+			</div>
 
         </section>
 
@@ -89,7 +90,7 @@
             <div class="row Cards-works mt-5 pt-5 justify-content-center align-items-center">
                 <div class="col-lg-5 col-md-10 col-12 Card-work-1">
                     <div class="Work Work-img-1 delay-1 animated fadeInRight">
-                        <img src="img/Parexton-Web.jpg" alt="Parexton-Web" class="img-fluid mt-3">
+                        <img src="img/Gatha-Project.png" alt="Gatha-App" class="img-fluid mt-3">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-10 col-12 ml-0 ml-lg-5">
@@ -106,7 +107,7 @@
             <div class="row Cards-works mt-5 pt-5 justify-content-center align-items-center">
                 <div class="col-lg-5 col-md-10 col-12 Card-work-1">
                       <div class="Work Work-img-2 delay-1 animated fadeInRight">
-                        <img src="img/Parexton-Web.jpg" alt="Parexton-Web" class="img-fluid mt-3">
+                        <img src="img/Parexton-Project.png" alt="Parexton-Web" class="img-fluid mt-3">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-10 col-12 ml-0 ml-lg-5">
@@ -123,7 +124,7 @@
             <div class="row Cards-works mt-5 pt-5 justify-content-center align-items-center">
                 <div class="col-lg-5 col-md-10 col-12 Card-work-1">
                     <div class="Work Work-img-3 delay-1 animated fadeInRight">
-                        <img src="img/Parexton-Web.jpg" alt="Parexton-Web" class="img-fluid mt-3">
+                        <img src="img/Molle-Pizza-Project.png" alt="Molle-Web" class="img-fluid mt-3">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-10 col-12 ml-0 ml-lg-5">
@@ -282,7 +283,7 @@
                 appMaster.animateScript();
             });
 
-             $(".Icon").click(function(){
+             $(".Icon, .nav-link").click(function(){
                 $(".Icon").toggleClass("active");
                 $(".Hamburguer").toggleClass("active");
             });
