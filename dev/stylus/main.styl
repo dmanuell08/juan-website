@@ -575,15 +575,15 @@ h2
         align-items center
         justify-content space-between
         img
-            width 70px
+            width 85px
 
     .Hamburguer
         height 100%
-        width 100%
+        width 101%
         position fixed
         background linear-gradient(135deg,#765eed 0%,#1113a6 100%)
         top 50%
-        left -50%
+        left -100%
         transform translate(-50%,-50%)
         z-index 2
         transition .8s
@@ -733,11 +733,16 @@ h2
     .Logo-juan
         display none
         
-    .nav-link.active
-        color #5ec0b6
-        
+    .nav-link.active  
         &:before,&:after
-            display none      
+            display none
+
+    .header
+        ul
+            li
+                a
+                    &:hover
+                        color #73de91
 
 
 @media (max-width: 767px)
@@ -748,9 +753,6 @@ h2
         h1,h2
             margin-left 2rem
             font-size 16px
-        
-
-    
     
     .Juan2    //Contact-me Section//
         &:after
@@ -760,6 +762,28 @@ h2
     .About-me //About-me Section//
         &:before, &:after
             height 8%
+
+    .Subtittle-menu,.Mail-menu //Movile-menu Section//
+        font-size 20px
+    
+    .Mail-menu
+        height 45px
+    
+    .header
+        ul
+            li
+                a
+                    font-size 20px
+    
+    .navbar
+        .nav
+            padding-top 3em
+        &:before,&:after
+            width 150px
+            height 150px
+            top -90px
+        &:before
+            top -85px
 
 
 @media (max-width: 575px)
@@ -802,8 +826,9 @@ h2
     
     .Juan   //Contact-me Section//
         &:after
-            width 86%
-            right 3%
+            width 90%
+            right 2%
+            top 2%
     .Info
         flex-direction column
 
@@ -838,6 +863,7 @@ h2
     .btn-header
         font-size 16px
         padding 20px 30px
+        margin-top 30px
 
     .Ui-designer //What-i-do Section//
         .Keywords
@@ -857,3 +883,26 @@ h2
     .About-me 
         .Know-more
             margin-bottom 2em
+            
+    .Subtittle-menu,.Mail-menu //Movile-menu Section//
+        font-size 18px
+    
+    .Mail-menu
+        height 40px
+    
+    .header
+        ul
+            li
+                a
+                    font-size 18px
+    
+    .navbar
+        margin-top 3em
+        .nav
+            padding-top 3em
+        &:before,&:after
+            width 120px
+            height 120px
+            top -75px
+        &:before
+            top -70px
