@@ -23,25 +23,25 @@ animation = all ease .8s
 	position absolute
 
 
-.nav-link.active
-    position relative
-    &:before,&:after
-        content ""
-        display block
-        position absolute
-        top 44%
-        left 46%
-        transform translate(-50%,-50%)
-        height 100%
-        width 100%
-        border 3px solid #73de91
-        border-radius .25rem
-        opacity .6
-        padding 12px 25px
-    &:before
-        top 54%
-        left 51%
-        opacity .4
+// .nav-link.active
+//     position relative
+//     &:before,&:after
+//         content ""
+//         display block
+//         position absolute
+//         top 44%
+//         left 46%
+//         transform translate(-50%,-50%)
+//         height 100%
+//         width 100%
+//         border 3px solid #73de91
+//         border-radius .25rem
+//         opacity .6
+//         padding 12px 25px
+//     &:before
+//         top 54%
+//         left 51%
+//         opacity .4
 
 .header ul
     margin-top 80px
@@ -677,7 +677,7 @@ h2
     
     .Subtittle-menu
         top 5%
-        left 5%
+        left 36px
         font-weight 400
         color #fff
         
@@ -694,22 +694,23 @@ h2
             display block
             position absolute
             height 200px
-            width 200px
+            width 180px
             border-radius .25rem
             background url("../img/Juan-Duotone-1.jpg")
-            background-position -140% -142%
+            background-position -140% -150%
             background-size 220%
             top -120px
-            left 30px
+            left 35px
             transform skewY(4deg)
         &:before
             top -115px
-            left 37px
+            left 40px
             opacity .5
         .nav
             transform skewY(4deg)
             padding-top 5em
-            padding-left 1em
+            padding-left 15px
+            padding-right 15px
 
     .header
         ul
@@ -719,7 +720,8 @@ h2
             height 90%
             justify-content space-between
             li
-                border-bottom .5px solid rgba(69,69,76,.2)
+                border-bottom .5px solid #EDEDFC
+                margin-right 0
                 &:last-child
                         border-bottom none
                 a
@@ -743,6 +745,9 @@ h2
                 a
                     &:hover
                         color #73de91
+    
+    .nav
+        padding-left 15px
 
 
 @media (max-width: 767px)
@@ -779,7 +784,7 @@ h2
         .nav
             padding-top 3em
         &:before,&:after
-            width 150px
+            width 130px
             height 150px
             top -90px
         &:before
@@ -856,7 +861,7 @@ h2
     
     .Contact-me //Contact-me Section//
         h5,a
-            font-size 22px 
+            font-size 25px 
 
 
 @media (max-width: 320px)
@@ -872,7 +877,7 @@ h2
             .Html
                 margin-left 0
             .App-design
-                margin-left .3rem
+                margin-left .2rem
                                    
     .About-me //About-me Section//
         h5
@@ -883,6 +888,10 @@ h2
     .About-me 
         .Know-more
             margin-bottom 2em
+            
+    .Contact-me //Contact-me Section//
+        h5,a
+            font-size 22px 
             
     .Subtittle-menu,.Mail-menu //Movile-menu Section//
         font-size 18px
@@ -901,7 +910,7 @@ h2
         .nav
             padding-top 3em
         &:before,&:after
-            width 120px
+            width 100px
             height 120px
             top -75px
         &:before
