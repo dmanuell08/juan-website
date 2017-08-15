@@ -21,6 +21,7 @@
 
     <body>
         <!--Menu-movil-->
+
         <section class="hidden-sm-up">
             <section id="Banner" class="Banner">
                 <img src="img/LogoBlack.svg" alt="">
@@ -58,17 +59,29 @@
             </section>
         </section>
 
-
-        <!-- Header  -->
-        <div class="diagonal">
-            <div class="Background-juan">
-                <img src="img/Logo.svg" alt="Logo">
+        <section id="Banner" class="Banner hidden-lg-up">
+            <img src="img/LogoBlack.svg" alt="">
+        </section>
+        <div class="Icon">
+            <div class="Lineas">
+                
             </div>
         </div>
 
-        <section id="Home" class="container header">
 
-               <!-- original menu -->                
+
+        <!-- Header  -->
+
+        <section id="Home" class="header Home">
+            <div class="diagonal">
+                <div class="Background-juan">
+                    <img src="img/Logo.svg" alt="Logo">
+                </div>
+            </div>
+            <div class="container">
+                <section class="Hamburguer">
+                    <p class="Subtittle-menu hidden-lg-up">MENU</p>
+                    <!-- original menu -->                
                     <nav class="navbar navbar-toggleable-md justify-content-center">                   
                         <ul class="nav">
                             <li class="nav-item hidden-sm-down">
@@ -77,29 +90,41 @@
                             <li class="nav-item hidden-sm-down">
                                 <a class="nav-link" href="#My-work">My work</a>
                             </li>
+
                             <li class="nav-item hidden-sm-down">                        
+
+                            <li class="nav-item Logo-juan">                        
+
                                 <img src="img/Logo.svg" class="logo-juan" alt="logo-juan">
                             </li>
-                            <li class="nav-item hidden-sm-down">
-                                <a class="nav-link" href="#What-i-do">What I do</a>
-                            </li>
+                            <li <a class="nav-link" href="#What-i-do">What I do</a>
+                            </l class="nav-item hidden-sm-down">
+                               i>
                             <li class="nav-item hidden-sm-down">
                                 <a class="nav-link" href="#Contact-me">Contact</a>
                             </li>
                         </ul>                        
-                    </nav>
+                    </nav> 
+                    <p class="Mail-menu hidden-lg-up">hello@juancarmona.co</p>
+                </section>
+
                 
-                <div class="row justify-content-center content-header">
-                    <div class="col-6 Images animated fadeInUp Juan Juan1 img-fluid">
-                        <img class="juan-photo img-fluid " src="img/Juan-Duotone-2.jpg" alt="Juan-Duotone">
+
+               
+
+                <div class="row justify-content-center align-items-center content-header">
+                    <div class="col-xl-6 col-lg-5 col-md-7 col-7  Images animated fadeInUp Juan Juan1 img-fluid">
+                        <img class="juan-photo img-fluid" src="img/Juan-Duotone-2.jpg" alt="Juan-Duotone">
+
                     </div>
-                    <div class="col-6-sm Images animated fadeInUp text-header text-white"> 
+                    <div class="col-xl-6 col-lg-5 col-md-7 col-9 ml-lg-3 ml-xl-0 Images animated fadeInUp text-header text-white"> 
                         <h2>Hello, My name is Juan Carmona,</h2>
                         <h1 class="ocupation">I am a UI Designer and</h1>
                         <h1>Web Developer</h1>
                         <a class="btn btn-header hvr-grow" href="#My-work" role="button">See my work<img src="img/Arrow-Icon.svg" class="Arrow-Icon" alt="Arrow-Icon"> </a>
                     </div>
-                </div>
+                </div>			
+			</div>
 
         </section>
 
@@ -112,10 +137,10 @@
             <div class="Subtitle animated fadeIn">
                 <h4>My work</h4>
             </div>
-            <div class="row Cards-works mt-5 pt-5 justify-content-center align-items-center">
+            <div class="row Cards-works mt-md-5 pt-5 justify-content-center align-items-center">
                 <div class="col-lg-5 col-md-10 col-12 Card-work-1">
                     <div class="Work Work-img-1 delay-1 animated fadeInRight">
-                        <img src="img/Parexton-Web.jpg" alt="Parexton-Web" class="img-fluid mt-3">
+                        <img src="img/Gatha-Project.png" alt="Gatha-App" class="img-fluid mt-3">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-10 col-12 ml-0 ml-lg-5">
@@ -129,10 +154,10 @@
 
                 </div>
             </div>
-            <div class="row Cards-works mt-5 pt-5 justify-content-center align-items-center">
+            <div class="row Cards-works mt-md-5 pt-5 justify-content-center align-items-center">
                 <div class="col-lg-5 col-md-10 col-12 Card-work-1">
                       <div class="Work Work-img-2 delay-1 animated fadeInRight">
-                        <img src="img/Parexton-Web.jpg" alt="Parexton-Web" class="img-fluid mt-3">
+                        <img src="img/Parexton-Project.png" alt="Parexton-Web" class="img-fluid mt-3">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-10 col-12 ml-0 ml-lg-5">
@@ -146,10 +171,10 @@
 
                 </div>
             </div>
-            <div class="row Cards-works mt-5 pt-5 justify-content-center align-items-center">
+            <div class="row Cards-works mt-md-5 pt-5 justify-content-center align-items-center">
                 <div class="col-lg-5 col-md-10 col-12 Card-work-1">
                     <div class="Work Work-img-3 delay-1 animated fadeInRight">
-                        <img src="img/Parexton-Web.jpg" alt="Parexton-Web" class="img-fluid mt-3">
+                        <img src="img/Molle-Pizza-Project.png" alt="Molle-Web" class="img-fluid mt-3">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-10 col-12 ml-0 ml-lg-5">
@@ -306,7 +331,7 @@
                 appMaster.animateScript();
             });
 
-             $(".Icon").click(function(){
+             $(".Icon, .nav-link").click(function(){
                 $(".Icon").toggleClass("active");
                 $(".Hamburguer").toggleClass("active");
             });
