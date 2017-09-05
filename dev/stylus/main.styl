@@ -104,9 +104,30 @@ animation = all ease .8s
         font-family montserrat
         font-weight 100
         color #fff
+    .See-my
+        text-align center
+        position relative
+        cursor pointer
+        a
+            text-decoration none
+        &:hover
+            .fa-angle-down
+                top 110%
+            a
+                p
+                    transform scale(1.2)  
     .See
         font-size 16px
         color #4EDE7D
+        transition .5s
+    .fa-angle-down
+        font-size 30px
+        color #4ede7d
+        position absolute
+        top 100%
+        left 50%
+        transform translate(-50%,0%)
+        transition .5s
     .Actually
         font-family 'Montserrat'
         font-size 16px
@@ -245,12 +266,8 @@ h2
         margin-bottom 0
         color #45454C
         font-family droid
-        height 60px
-        background-image url("../img/Lines-2.svg")
-        background-repeat no-repeat
-        background-position 0 65%
-        background-size 50%
-        transition animation
+        margin-bottom 2em
+
 
 .Details
     p
@@ -262,23 +279,34 @@ h2
         font-size 16px
         font-family droid
         font-weight bold
-        color #4ede7d
+        color #fff
         text-decoration none
         position relative
-        &:hover
-            color #4ede7d
-            
-    .button
-        &:before
-            content ""
-            display block
-            width 80%
-            height 6px
-            position absolute
-            top 100%
-            left 0%
-            background #4ede7d
-            border-radius .25rem
+.btn-primary
+    font-family droid
+    background green-button
+    border none
+    position relative
+    padding 10px 20px
+    &:focus
+        color #fff
+        border none
+        box-shadow none
+    &:active
+        background green-button
+        border none
+    &:after
+        content ""
+        display inline-block
+        height 100%
+        width 100%
+        background green-button
+        position absolute
+        top 15%
+        left 4%
+        z-index -1
+        border-radius .25rem
+        opacity .4
 
             
 
@@ -570,6 +598,9 @@ h2
         display flex
         align-items center
         justify-content space-between
+        -webkit-box-shadow 0px 15px 47px -14px rgba(0,0,0,0.75)
+        -moz-box-shadow 0px 15px 47px -14px rgba(0,0,0,0.75)
+        box-shadow 0px 15px 47px -14px rgba(0,0,0,0.75)
         img
             width 70px
 
@@ -707,6 +738,7 @@ h2
             padding-top 5em
             padding-left 15px
             padding-right 15px
+            align-items initial
 
     .header
         ul
@@ -749,7 +781,12 @@ h2
 
 @media (max-width: 768px)
     .diagonal//Header Section//
-        height 122%
+        height 103%
+    
+    .Info-header
+        margin-top 5em
+        h1
+            font-size 30px
         
      .container
          padding-top 5em
@@ -759,6 +796,9 @@ h2
         h1,h2
             font-size 16px
     
+    .My-work //Header Section//
+        padding-top 0
+        margin-top 0
 
     .Juan2    //Contact-me Section//
         &:after
@@ -868,7 +908,7 @@ h2
 
 @media (max-width: 384px)
     .diagonal
-        height 125%
+        height 100%
         
     .Juan1
         margin-top 1em
@@ -900,6 +940,17 @@ h2
             margin-bottom 3em
 
 @media (max-width: 320px)
+    .Home
+        height 650px
+        .container
+            padding-top 1em
+        h1
+            font-size 26px
+        .Actually
+            font-size 14px
+        .diagonal
+            height 108%
+            
 
     .Ui-designer //What-i-do Section//
         .Keywords
