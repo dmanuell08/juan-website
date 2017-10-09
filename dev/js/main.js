@@ -1,33 +1,61 @@
-var appMaster = {
-    animateScript: function() {
-       $('.scrollpoint.sp-effect1').waypoint(function(){$(this).toggleClass('active');$(this).addClass('animated fadeInLeft');},{offset:'70%'});
-       $('.scrollpoint.sp-effect2').waypoint(function(){$(this).toggleClass('active');$(this).addClass('animated fadeInRight');},{offset:'70%'});
-       $('.scrollpoint.sp-effect3').waypoint(function(){$(this).toggleClass('active');$(this).addClass('animated fadeInDown');},{offset:'70%'});
-       $('.scrollpoint.sp-effect4').waypoint(function(){$(this).toggleClass('active');$(this).addClass('animated fadeIn');},{offset:'70%'});
-       $('.scrollpoint.sp-effect5').waypoint(function(){$(this).toggleClass('active');$(this).addClass('animated fadeInUp');},{offset:'70%'});
-       $('.scrollpoint.sp-effect6').waypoint(function(){$(this).toggleClass('active');$(this).addClass('animated bounceIn');},{offset:'70%'});
-    },
-}
-
-(function($) {
-    "use strict"; // Start of use strict
-
-    // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $(".nav-link").bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr("href")).offset().top - -60)
-        }, 1250, "swing");
-        event.preventDefault();
+$(document).ready(function(){
+   $(".Icon, .nav-link").click(function(){
+      $(".Icon").toggleClass("active");
+      $(".Hamburguer").toggleClass("active");
     });
 
-    // Closes the Responsive Menu on Menu Item Click
-    $(".navbar-collapse ul li a").click(function(){ 
-            $('.navbar-toggle:visible').click();
+      $(".Slide").click(function(e){
+    	e.preventDefault();
+    	var linkHref = $(this).attr("href");
+
+    	$("html, body").animate({
+    		scrollTop: $(linkHref).offset().top
+    	}, 1000);
+    }); 
+
+    $(window).scroll(function(){
+        var posicionDeWindow = $(window).scrollTop();
+
+        if(posicionDeWindow > 600){
+            $("#fixed-nav").addClass("fixed-nav");
+            $("#Row").addClass("margen");
+            $(".logo-juan").css({"display": "none"});
+            $(".Logo_black").css({"display": "inline-block"});
+            $("#Home_section").removeClass("active");
+        }
+        else if(posicionDeWindow < 520){
+            $("#fixed-nav").removeClass("fixed-nav");
+            $("#Row").removeClass("margen");
+            $(".logo-juan").css({"display": "initial"});
+            $(".Logo_black").css({"display": "none"});
+            $("#Home_section").addClass("active");
+        }
+
+        if(posicionDeWindow > 630){
+            $(".fixed-nav").addClass("nav_visible");
+            $("#Work").addClass("active");
+        }
+
+        else if(posicionDeWindow < 630){
+            $("#Work").removeClass("active");
+            $(".fixed-nav").removeClass("nav_visible");
+        } 
+
+        if(posicionDeWindow > 2590){
+            $("#Work").removeClass("active");
+            $("#What_i_do").addClass("active");
+        }
+
+        else if(posicionDeWindow < 2590){
+            $("#What_i_do").removeClass("active");
+        } 
+
+        if(posicionDeWindow > 3750){
+        	$("#Contact_me").addClass("active");
+        	$("#What_i_do").removeClass("active");
+        } 
+        else if(posicionDeWindow < 3750){
+        	$("#Contact_me").removeClass("active");
+        }           
     });
-
-})(jQuery);
-
-
-
-
+});

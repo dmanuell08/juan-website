@@ -40,29 +40,31 @@
                     <p class="Subtittle-menu hidden-lg-up">MENU</p>
 
                     <!-- original menu -->                
-
-                    <nav class="navbar navbar-toggleable-md justify-content-center">
-                        <ul class="nav ">
-                            <li class="nav-item Logo-juan">                        
-                                <img src="img/Logo.svg" class="logo-juan img-fluid" alt="logo-juan">
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#Home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#My-work">My work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#What-i-do">What I do</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#Contact-me">Contact</a>
-                            </li>
-                        </ul>
+                        <nav id="fixed-nav" class="navbar navbar-toggleable-md justify-content-center">
+                            <ul class="nav ">
+                                <li class="nav-item Logo-juan">
+                                    <img src="img/Logo.svg" class="logo-juan img-fluid" alt="logo-juan">
+                                    <a href="#Home" class="Slide">
+                                        <img src="img/LogoBlack.svg" alt="LogoBlack" class="Logo_black img-fluid">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="Home_section" class="nav-link Slide active" href="#Home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="Work" class="nav-link Slide" href="#My-work">My work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="What_i_do" class="nav-link Slide" href="#What-i-do">What I do</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="Contact_me" class="nav-link Slide" href="#Contact-me">Contact</a>
+                                </li>
+                            </ul>
                     </nav>
                     <p class="Mail-menu hidden-lg-up">hello@juancarmona.co</p>
                 </section>     
-            <div class="row">
+            <div id="Row" class="row">
                 <div class="col-12 d-flex align-items-center Info-header">
                     <div class="Image-header mb-4">
                         
@@ -71,7 +73,7 @@
                     <h1><span>UI Designer</span> at Gatha</h1>  
                     <p class="Actually">Actually available for freelance projects</p>
                     <div class="See-my">
-                        <a href="#My-work"><p class="mt-4 mb-0 See">See my work</p></a>
+                        <a href="#My-work" class="Slide"><p class="mt-4 mb-0 See">See my work</p></a>
                        <i class="fa fa-angle-down" aria-hidden="true"></i>    
                     </div>
                 </div>
@@ -269,23 +271,10 @@
         </section>
 
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
-            <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
             <!-- Our javascript -->
-            <script type="text/javascript" src="js/main.js"></script>
+            <script type="text/javascript" src="js/all.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-
-        <script>
-            $(document).ready(function() {
-                appMaster.animateScript();
-            });
-            
-             $(".Icon, .nav-link").click(function(){
-                $(".Icon").toggleClass("active");
-                $(".Hamburguer").toggleClass("active");
-            });
-        </script>
-
     </body>
 </html>
