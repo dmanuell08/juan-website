@@ -4,14 +4,20 @@ $(document).ready(function(){
       $(".Hamburguer").toggleClass("active");
     });
 
+
+    console.log($("#What-i-do").offset().top);
+
       $(".Slide").click(function(e){
     	e.preventDefault();
     	var linkHref = $(this).attr("href");
+        console.log($(linkHref).offset().top);
 
-    	$("html, body").animate({
-    		scrollTop: $(linkHref).offset().top
-    	}, 1000);
-    }); 
+        $("html, body").animate({
+            scrollTop: $(linkHref).offset().top - 80
+        }, 1200);
+    });
+
+    
 
     $(window).scroll(function(){
         var posicionDeWindow = $(window).scrollTop();
@@ -41,20 +47,20 @@ $(document).ready(function(){
             $(".fixed-nav").removeClass("nav_visible");
         } 
 
-        if(posicionDeWindow > 2590){
+        if(posicionDeWindow > 2450){
             $("#Work").removeClass("active");
             $("#What_i_do").addClass("active");
         }
 
-        else if(posicionDeWindow < 2590){
+        else if(posicionDeWindow < 2450){
             $("#What_i_do").removeClass("active");
         } 
 
-        if(posicionDeWindow > 3750){
+        if(posicionDeWindow > 3520){
         	$("#Contact_me").addClass("active");
         	$("#What_i_do").removeClass("active");
         } 
-        else if(posicionDeWindow < 3750){
+        else if(posicionDeWindow < 3520){
         	$("#Contact_me").removeClass("active");
         }           
     });
