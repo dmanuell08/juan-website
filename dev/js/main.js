@@ -4,34 +4,28 @@ $(document).ready(function(){
       $(".Hamburguer").toggleClass("active");
     });
 
-
-    console.log($("#What-i-do").offset().top);
-
       $(".Slide").click(function(e){
     	e.preventDefault();
     	var linkHref = $(this).attr("href");
         console.log($(linkHref).offset().top);
 
         $("html, body").animate({
-            scrollTop: $(linkHref).offset().top - 80
+            scrollTop: $(linkHref).offset().top - 40
         }, 1200);
     });
 
-    
 
     $(window).scroll(function(){
         var posicionDeWindow = $(window).scrollTop();
 
         if(posicionDeWindow > 600){
             $("#fixed-nav").addClass("fixed-nav");
-            $("#Row").addClass("margen");
             $(".logo-juan").css({"display": "none"});
             $(".Logo_black").css({"display": "inline-block"});
             $("#Home_section").removeClass("active");
         }
         else if(posicionDeWindow < 520){
             $("#fixed-nav").removeClass("fixed-nav");
-            $("#Row").removeClass("margen");
             $(".logo-juan").css({"display": "initial"});
             $(".Logo_black").css({"display": "none"});
             $("#Home_section").addClass("active");
@@ -56,11 +50,11 @@ $(document).ready(function(){
             $("#What_i_do").removeClass("active");
         } 
 
-        if(posicionDeWindow > 3520){
+        if(posicionDeWindow > 3900){
         	$("#Contact_me").addClass("active");
         	$("#What_i_do").removeClass("active");
         } 
-        else if(posicionDeWindow < 3520){
+        else if(posicionDeWindow < 3900){
         	$("#Contact_me").removeClass("active");
         }           
     });
