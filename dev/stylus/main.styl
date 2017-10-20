@@ -909,7 +909,8 @@ h2
     
     .navbar
         .nav
-            padding-top 3em
+            padding-top 5em
+            padding-bottom 1em
         &:before,&:after
             width 130px
             height 150px
@@ -920,6 +921,7 @@ h2
 
         .nav-link.active
             color green
+            font-weight bold
             
     .Juan1
         margin-top 40px
@@ -942,8 +944,15 @@ h2
         margin-bottom 10px
         
 
-@media (max-width: 575px)	
-
+@media (max-width: 575px)	  
+    .navbar
+        .nav
+            padding-top 3em 
+        &:before,&:after
+            width 110px
+            height 130px
+            background-position -140% -157%
+              
     .Subtitle
         h4
             font-size 40px
