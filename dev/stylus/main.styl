@@ -13,6 +13,8 @@ animation = all ease 1s
 /* ==========================================================================
    Header Section
    ========================================================================== */
+
+
 .Home
     position relative
     height 800px
@@ -269,7 +271,7 @@ h2
     display flex
     flex-direction column
     align-items center
-    padding-top 10em
+    padding-top 5em
     h4
         font-size 50px
         font-weight bold
@@ -279,9 +281,12 @@ h2
     .img-lines-h4
         opacity 0.6
         width 185px
-        
+
+.My-work, .What-i-do, .Contact-me
+    margin-top 5em      
 .My-work
     margin-bottom 5em
+    padding-bottom 5em
            
 .Work
     text-align center
@@ -369,15 +374,15 @@ h2
    ========================================================================== */
         
 .What-i-do
-    margin-bottom 5em
-    margin-top 10em
+    margin-bottom 10em
+    padding-bottom 5em
     position relative
     .diagonal2
         background: linear-gradient(135deg, rgba(118,94,237,1) 0%, rgba(17,19,166,1) 100%)
         transform skewY(-4deg)translate(0px, -170px)
         width 100%
-        height 120%
-        top 180px
+        height 117%
+        top 102px
         position absolute
     h4
         color #fff
@@ -448,7 +453,6 @@ h2
    ========================================================================== */
             
 .Contact-me
-    margin-top 14em
     margin-bottom -5em
     h5
         font-size 30px
@@ -593,6 +597,8 @@ h2
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991px)
+    .fixed-nav
+        top 0
     .Background-juan //Header Section//
         img
             top 50%      
@@ -605,6 +611,11 @@ h2
         padding-top 20px
         h1,h2
             font-size 24px
+     .Subtitle
+         padding-top 0
+                
+    .My-work, .What-i-do, .Contact-me
+        padding-top 3em
             
     .Cards-works  //My-work Section//
         &:after
@@ -623,7 +634,6 @@ h2
 
     .Contact-me  //Contact-me Section//
         margin-bottom -8em
-        padding-top 4em
         margin-top 12em
         .container  
             padding-top 0
@@ -813,10 +823,12 @@ h2
                 &:last-child
                         border-bottom none
                 a
-                    font-weight bold
+                    font-weight 500
                     color #45454c
                     font-size 30px
                     padding .5em 0
+
+                        
                     
                     
     
@@ -905,6 +917,9 @@ h2
             background-position -140% -154%
         &:before
             top -85px
+
+        .nav-link.active
+            color green
             
     .Juan1
         margin-top 40px
@@ -913,8 +928,6 @@ h2
     .Contact-me        
         margin-top 12em
         
-    .Subtitle
-        padding-top 7em
     
     .My-work .Subtitle, .Contact-me .Subtitle
         padding-top 0
@@ -1045,6 +1058,8 @@ h2
         .diagonal
             height 114%
             
+    .My-work
+        margin-top 3.7em
 
     .Ui-designer //What-i-do Section//
         .Keywords

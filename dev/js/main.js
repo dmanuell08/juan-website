@@ -10,7 +10,7 @@ $(document).ready(function(){
         console.log($(linkHref).offset().top);
 
         $("html, body").animate({
-            scrollTop: $(linkHref).offset().top - 40
+            scrollTop: $(linkHref).offset().top - 90
         }, 1200);
     });
 
@@ -18,7 +18,7 @@ $(document).ready(function(){
     $(window).scroll(function(){
         var posicionDeWindow = $(window).scrollTop();
 
-        if(posicionDeWindow > 600){
+        if(posicionDeWindow > 570){
             $("#fixed-nav").addClass("fixed-nav");
             $(".logo-juan").css({"display": "none"});
             $(".Logo_black").css({"display": "inline-block"});
@@ -31,22 +31,22 @@ $(document).ready(function(){
             $("#Home_section").addClass("active");
         }
 
-        if(posicionDeWindow > 630){
+        if(posicionDeWindow > 600){
             $(".fixed-nav").addClass("nav_visible");
             $("#Work").addClass("active");
         }
 
-        else if(posicionDeWindow < 630){
+        else if(posicionDeWindow < 600){
             $("#Work").removeClass("active");
             $(".fixed-nav").removeClass("nav_visible");
         } 
 
-        if(posicionDeWindow > 2450){
+        if(posicionDeWindow > 2550){
             $("#Work").removeClass("active");
             $("#What_i_do").addClass("active");
         }
 
-        else if(posicionDeWindow < 2450){
+        else if(posicionDeWindow < 2550){
             $("#What_i_do").removeClass("active");
         } 
 
