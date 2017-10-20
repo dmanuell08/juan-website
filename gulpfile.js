@@ -72,7 +72,7 @@ gulp.task('Server', function(done) {
 gulp.task('Sitemap', function () {
     gulp.src('dist/**/*.html')
         .pipe(sitemap({
-            siteUrl: 'http://www.example.com',
+            siteUrl: 'https://www.juancarmona.co',
             changefreq: 'monthly',
     		priority: 0.5,
     		lastmod: Date.now()

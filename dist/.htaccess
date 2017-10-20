@@ -1,0 +1,17 @@
+RewriteEngine On
+
+#Redireccionar a https cuando tiene www
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^www\.
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#Redireccionar a https con www cuando no tiene https ni www
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule .* https://www.juancarmona.co%{REQUEST_URI} [L,R=301]
+
+#Redireccionar a www cuando tiene https
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} !^www\.
+
+RewriteRule .* https://www.juancarmona.co%{REQUEST_URI} [L,R=301]

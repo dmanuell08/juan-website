@@ -120,8 +120,7 @@ animation = all ease 1s
     border 2px solid #4EDE7D
     border-radius 50%
     position relative
-    &:after
-        content ""
+    .Img-circle
         display block
         position absolute
         top 50%
@@ -129,10 +128,16 @@ animation = all ease 1s
         transform translate(-50%,-50%)
         width 140px
         height 140px
-        background-image url("../img/Juan-Duotone-1.jpg")
         background-size 173%
         border-radius 50%
         background-position 32% 6%
+        overflow hidden
+        img
+            position absolute
+            top 0
+            width 150%
+            transform translate(-10%,0)
+            
  
 
 .Info-header
@@ -191,6 +196,7 @@ h1
     color #fff
     letter-spacing 1px
     margin-bottom 16px
+    text-align center
     strong
         font-weight 400
         color #4EDE7D
@@ -424,9 +430,6 @@ h2
                     z-index -1
                     border-radius 1rem
                     transition animation*/
-    .hvr-float-shadow
-        &:before
-            left -5%
             
 .Ui-designer-2
     margin-top 120px
@@ -434,10 +437,11 @@ h2
 .Tools
     ul
         padding-left 0
+        li
+            margin-right 1em
         img
             width 50px
             height 50px
-            margin-right .5em
             
 /* ==========================================================================
    Contact me Section
@@ -450,13 +454,14 @@ h2
         font-size 30px
         font-family montserrat
         font-weight initial
+        line-height 1.4
     p
         font-size 18px
     a
         text-decoration none
         font-size 40px
         color #00E991
-        font-weight bold
+        font-weight 500
         font-family montserrat
 
 .Info
@@ -590,10 +595,7 @@ h2
 @media (max-width: 991px)
     .Background-juan //Header Section//
         img
-            top 50%
-            
-     .container
-         padding-top 7em       
+            top 50%      
 
     .diagonal
         height 116%
@@ -863,9 +865,6 @@ h2
         margin-top 5em
         h1
             font-size 30px
-        
-     .container
-         padding-top 5em
 
     .text-white
         padding-top 0
@@ -911,8 +910,23 @@ h2
         margin-top 40px
         margin-bottom 40px
     
-    .Contact-me
-        margin-top 10em
+    .Contact-me        
+        margin-top 12em
+        
+    .Subtitle
+        padding-top 7em
+    
+    .My-work .Subtitle, .Contact-me .Subtitle
+        padding-top 0
+        
+    .What-i-do
+        margin-top 6em
+        .container
+            padding-top 0
+            margin-top 60px
+            
+    .Ui-designer .Keywords ul li
+        margin-bottom 10px
         
 
 @media (max-width: 575px)	
@@ -973,6 +987,7 @@ h2
 
     .Home
         padding-top 0
+        height 700px
         
     .Ui-designer //What-i-do Section//
         .Keywords
@@ -987,7 +1002,7 @@ h2
 
 @media (max-width: 384px)
     .diagonal
-        height 100%
+        height 110%
         
     .Juan1
         margin-top 1em
@@ -1028,7 +1043,7 @@ h2
         .Actually
             font-size 14px
         .diagonal
-            height 108%
+            height 114%
             
 
     .Ui-designer //What-i-do Section//
