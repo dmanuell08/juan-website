@@ -19,6 +19,17 @@ animation = all ease 1s
     position relative
     height 800px
     padding-top 3em
+    &:before
+        content ""
+        position absolute
+        display block
+        top 40%
+        left 50%
+        transform translate(-50%,-50%) skewY(-4deg)
+        background: linear-gradient(135deg, rgba(118,94,237,1) 0%, rgba(17,19,166,1) 100%)
+        height 115%
+        width 100%
+
 .diagonal
     background: linear-gradient(135deg, rgba(118,94,237,1) 0%, rgba(17,19,166,1) 100%)
     transform skewY(-4deg)translate(0px, -170px)
@@ -870,11 +881,15 @@ h2
 
 @media (max-width: 768px)
 
-    .diagonal//Header Section//
-        height 103%
+    .Home
+        height 80vh
+        display flex
+        align-items center
+        padding-top 0
+        margin-bottom 2em
     
     .Info-header
-        margin-top 5em
+        margin-top 0
         h1
             font-size 30px
 
@@ -1007,9 +1022,22 @@ h2
 
 @media (max-width: 414px)
 
-    .Home
-        padding-top 0
-        height 700px
+    .Home       //Header Section//
+        height 100vh
+        &:before
+            height 90%
+        .Info-header 
+            h1
+                font-size 25px
+            h3
+                font-size 21px
+        .Image-header
+            width 150px
+            height 150px
+            .Img-circle
+                width 130px
+                height 130px
+            
         
     .Ui-designer //What-i-do Section//
         .Keywords
@@ -1058,14 +1086,24 @@ h2
 @media (max-width: 320px)
     .Home
         height 650px
-        .container
-            padding-top 1em
-        h1
-            font-size 26px
+        &:before
+            height 85%
+        .Image-header
+            width 150px
+            height 150px
+            .Img-circle
+                width 130px
+                height 130px
+        .Info-header
+            h1
+                font-size 22px
+            h3
+                font-size 19px
+            .Slide
+                margin-top 16px
+
         .Actually
             font-size 14px
-        .diagonal
-            height 114%
             
     .My-work
         margin-top 3.7em
