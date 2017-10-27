@@ -7,8 +7,6 @@ $(document).ready(function(){
       $(".Slide").click(function(e){
     	e.preventDefault();
     	var linkHref = $(this).attr("href");
-        console.log($(linkHref).offset().top);
-
         $("html, body").animate({
             scrollTop: $(linkHref).offset().top - 90
         }, 1200);
