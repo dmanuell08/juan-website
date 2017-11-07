@@ -35,4 +35,10 @@ $(document).ready(function(){
             $(".fixed-nav").removeClass("nav_visible");
         }         
     });
+
+     //Lazyload//
+     $("img").lazyload({
+        threshold: 500,
+        effect: "fadeIn"
+     });
 });
