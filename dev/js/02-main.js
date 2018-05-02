@@ -25,8 +25,8 @@ $(document).ready(function(){
     //Animaciones con Scroll//
     AOS.init({
       offset: 50,
-      duration: 1200,
-      easing: 'ease-in-out',
+      duration: 1000,
+      easing: 'all cubic-bezier(0.755, 0.050, 0.855, 0.060)',
       delay: 100,
       once: true,
     }); 
