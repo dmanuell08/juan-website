@@ -1,1167 +1,333 @@
-/* =============== Varibles ================== */ 
-    
-white = #fff
-green = #4EDE7D
-grey1 = #D8E5DA
-grey2 = #74747F
-grey3 = #45454C
-montserrat = 'Montserrat', sans-serif
-droid = 'Droid Sans', sans-serif
-green-button = linear-gradient(135deg, rgba(115,222,145,1) 0%, rgba(94,192,182,1) 100%)
-animation = all ease 1s
+//Fuentes//
+montserrat = 'Montserrat', sans-serif;
+opensans = 'Open Sans', sans-serif;
+
+//Colores//
+Withe_100 = #FFFFFF
+Withe_200 = #F7FAFF
+Withe_300 = #E9EDF5
+Withe_400 = #E9EDF5
+
+Yellow_100 = #FFF5CC
+Yellow_200 = #FFEB99
+Yellow_300 = #FFDE66
+Yellow_400 = #FFD240
+Yellow_500 = #FFC31A
+
+Grey_100 = #1A1D33
+Grey_200 = #464B66
+Grey_300 = #7A7F99
+Grey_400 = #B8BBCC
+
+//Transición//
+ease-custom = all 0.5s cubic-bezier(1.000, 0.000, 0.000, 1.000)
+
+
+
+*
+	margin 0
+	padding 0
+
+.Contorno-menu
+	min-height 120px
+.Menu-container
+	background-color Withe_100	
+	transition ease-custom
+.Menu
+	display flex
+	align-items center
+	justify-content space-between
+	list-style none
+	margin-bottom 0
+.Menu-logo
+	margin 30px 0
+	transition ease-custom
+.Slide.Menu-button
+	display flex
+	align-items center
+	justify-content center
+	&:hover
+		text-decoration none
+		color Grey_100
+.Menu-button
+	background-color #FFD240
+	border none
+	cursor pointer
+	color Grey_100
+	font-family montserrat
+	font-weight 600	
+	font-size 16px
+	line-height 25px
+	height 36px
+	width 100px
+	box-shadow 0 2px 2px 0 #E6AE17
+	&:focus
+		outline Grey_100
+
+.Up-animation
+	transition ease-custom
+	&:hover
+		transition ease-custom
+		transform translateY(-5px)
+	
+
+.Header-section
+	text-align center
+.Header-row
+	justify-content center
+.Header-logo
+	margin-top 120px
+.Text-header
+	font-family montserrat
+	color Grey_300
+	line-height 32px
+	padding 0
+	margin-top 40px
+	h1,h2,h3
+		font-size 20px	
+.Keyword
+	display inline-block
+	color Grey_200
+	font-family opensans
+	font-size 16px
+	line-height 16px
+	font-style oblique
+	font-weight 500
+	padding 13px 20px
+	border-radius 2px
+	border 2px solid Yellow_300
+	margin 47px 22px 118px 0
+	
+
+.Projects
+	padding 0 55px
+.Projects-container
+	padding 0
+	padding-bottom 120px
+	text-align center
+	border-top 1px solid Withe_300 
+	border-bottom 1px solid Withe_300
+.Title
+	font-family montserrat
+	color Grey_100
+	font-size 36px
+	line-height 36px
+	font-weight 600
+.Title_projects
+	margin 80px 0
+.Row-projects
+	margin-top 120px	
+.Col_1
+	padding 0 30px 0 20px
+.Col_2
+	padding 0 20px 0 30px
+.Project-img
+	box-shadow 0 2px 4px 0 Grey_400
+	min-height 573px
+.Project-info
+	text-align left
+	margin-top 40px
+.Title_project
+	font-size 30px
+	margin-bottom 44px
+	position relative
+	&:before
+		content ""
+		display inline-block
+		position absolute
+		top 100%
+		left 0
+		bottom 0
+		right 0
+		margin-top 8px
+		height 4px
+		width 100px
+.Line_green	
+	&:before
+		background-color #80CC45
+.Line_yellow	
+	&:before
+		background-color Yellow_400
+.Line_orange
+	&:before
+			background-color #F0A566
+.Line_blue
+	&:before
+			background-color #538CF2
+.Line_purple
+	&:before
+			background-color #405EBC
+.Line_red												
+	&:before
+			background-color #CE1124
+.Service-project
+	font-family montserrat
+	color Grey_200
+	font-size 22px
+	line-height 34px
+	font-weight 500
+.Location-project
+	font-family opensans
+	color Grey_200
+	font-size 18px
+	line-height 25px
+.Description-project
+	font-family opensans
+	color Grey_300
+	font-size 17px
+	line-height 23px
+	font-weight 300
+	
+.Title_contact
+	text-align center
+	margin 80px 0 24px 0
+.Paragraph-contact
+	text-align center
+	color Grey_300
+	font-family opensans
+	font-size 20px
+	line-height 30px
+	margin-bottom 80px
+	
+.Form_input
+	color Grey_300
+	font-family opensans
+	font-size 17px
+	font-weight 500
+	line-height 23px
+	padding 14px 0 17px 24px
+	margin-bottom 24px
+	&:focus
+		border-color Yellow_500
+		box-shadow none
+.Form_button
+	width 120px
+	height 54px
+	display inline-flex
+	justify-content center
+	align-items center
+.Profile-contact
+	display inline-flex
+	align-items center	
+	border-radius 4px
+	border 1px solid #E4E7EB
+	box-shadow 0 2px 4px 0 Grey_400
+	padding 15px 30px 15px 28px
+	margin-bottom 23px
+.Juan-name_contact
+	color Grey_100
+	font-family montserrat
+	font-size 24px
+	line-height 24px
+	font-weight 600
+	margin-left 28px
+.Juan-ocupation
+	color Grey_300
+	font-family opensans
+	font-size 15px
+	line-height 17px
+	margin-left 28px
+.CV-contact
+	display inline-flex
+	align-items center
+	border 1px solid Yellow_200
+	border-radius 4px
+	background-color Yellow_100
+	box-shadow 0 2px 2px 0 Yellow_100
+	padding 12px 20px 13px 16px
+	cursor pointer		
+.Dowload-text_contact
+	color Grey_200
+	font-family opensans
+	font-size 17px
+	line-height 17px
+	margin-bottom 0
+	margin-right 16px
+.Dowload-icon_contact
+	font-size 30px
+	color Yellow_300
+.Prefer-email_contact
+	color Grey_400
+	font-family opensans
+	font-size 17px
+	line-height 24px
+	margin 40px 0 16px 0
+.Mail-contact
+	color Grey_100
+	font-family montserrat
+	font-size 24px
+	line-height 24px
+	font-weight 500
+	transition ease-custom
+	display inline-block
+	position relative
+	&:before
+		content ""
+		display inline-block
+		position absolute
+		top 100%
+		left 0
+		bottom 0
+		right 0
+		margin-top 8px
+		height 4px
+		width 100px
+		background-color Yellow_400
+	&:hover
+		color Grey_100
+		text-decoration none
+		transition ease-custom
+		transform translateY(-5px)
+
+.Like-mywork_contact
+	color Grey_400
+	font-family opensans
+	font-size 17px
+	line-height 24px
+	margin-top 52px
+
+.Redes
+	i
+		font-size 36px
+		line-height 37px
+		margin-right 24px
+.fa-facebook
+	color #3B5998
+.fa-instagram
+	color #E95950
+.fa-linkedin
+	color #007BB5
+.fa-dribbble-square
+	color #EA4C89
+.More-details_contact
+	color Grey_300
+	font-family opensans
+	font-size 14px
+	line-height 21px
+.More-details_section
+	text-align center
+	margin-top 148px
+.Copyright
+	margin-top 32px
+	text-align center
+	background-color #E9EDF5
+	padding 32px 0
+.Copyright-text
+	margin-bottom 0
+	
+
+
+	
+	
+	
+	
+
+	
+	
+	
+		
+	
 
-/* ==========================================================================
-   Header Section
-   ========================================================================== */
 
 
-.Home
-    position relative
-    height 800px
-    padding-top 3em
-    &:before
-        content ""
-        position absolute
-        display block
-        top 40%
-        left 50%
-        transform translate(-50%,-50%) skewY(-4deg)
-        background: linear-gradient(135deg, rgba(118,94,237,1) 0%, rgba(17,19,166,1) 100%)
-        height 115%
-        width 100%
 
-.diagonal
-    background: linear-gradient(135deg, rgba(118,94,237,1) 0%, rgba(17,19,166,1) 100%)
-    transform skewY(-4deg)translate(0px, -170px)
-    width 100%
-    height 111%
-    position absolute
-
-
-  .nav-link.active
-      position relative
-      font-weight 400
-      transition all .5s
-      &:before,&:after
-          content ""
-          display block
-          position absolute
-          top 44%
-          left 46%
-          transform translate(-50%,-50%)
-          height 100%
-          width 100%
-          border 3px solid #73de91
-          border-radius .25rem
-          opacity .6
-          padding 12px 25px
-          transition all .5s
-      &:before
-          top 54%
-          left 51%
-          opacity .4
-    
-.navbar ul
-    li
-        margin-right 2em
-        transition .5s
-        img
-            width 126px
-            transition .5s
-            margin-right 2em
-            margin-top 1em
-        
-.Hamburguer
-    min-height 133px
-    
-
-.Logo_black
-    display none
-    margin 2em 1em
-
-
-.fixed-nav
-    background #fff
-    position fixed
-    z-index 1
-    width 100%
-    height 90px
-    top -100%
-    left 0
-    -webkit-box-shadow 0px 15px 47px -14px rgba(0,0,0,0.75)
-    -moz-box-shadow 0px 15px 47px -14px rgba(0,0,0,0.75)
-    box-shadow 0px 15px 47px -14px rgba(0,0,0,0.2)    
-    transition animation  
-    ul
-        li
-            transition animation
-            img
-                width 75px
-                transition animation
-                margin-right 1em
-                margin-top 2em
-        .nav-link
-            color #45454c
-    
-.nav_visible
-    top 0%
-
-
-            
-.header ul li a:hover
-    color #4EDE7D
-
-.nav
-    align-items center
-            
-
-.nav-link
-    color white
-    font-family 'Montserrat', sans-serif
-    font-weight 300
-    font-size 16px
-    &:focus
-        color white
-    
-.Info-header
-    flex-direction column
-    margin-top 5em
-    
-.Image-header
-    width 160px
-    height 160px
-    border 2px solid #4EDE7D
-    border-radius 50%
-    position relative
-    .Img-circle
-        display block
-        position absolute
-        top 50%
-        left 50%
-        transform translate(-50%,-50%)
-        width 140px
-        height 140px
-        background-size 173%
-        border-radius 50%
-        background-position 32% 6%
-        overflow hidden
-        img
-            position absolute
-            top 0
-            width 150%
-            transform translate(-10%,0)
-            
- 
-
-.Info-header
-    h3, p
-        font-size 26px
-        font-family montserrat
-        font-weight 200
-        color #fff
-        transition all .5s
-    h3
-        margin-bottom 10px
-    .Slide
-        font-size 18px
-        display inline-block
-        color green
-        text-align center
-        position relative
-        cursor pointer
-        text-decoration none
-        margin-top 36px
-        transition all .5s
-        &:hover
-            font-weight 400
-            transition all .5s
-            transform scale(1.2) 
-            .fa-angle-down
-                top 110%
-                transition all .5s
-                     
-    .See
-        font-size 16px
-        color #4EDE7D
-        transition .5s
-    .fa-angle-down
-        font-size 30px
-        color #4ede7d
-        position absolute
-        top 100%
-        left 50%
-        transform translate(-50%,0%)
-        transition .5s
-    .Actually
-        font-family 'Montserrat'
-        font-size 16px
-    
-
-.ocupation
-    margin-top 3%
-    margin-bottom 3%
-              
-
-    
-h1
-    font-family 'Montserrat'
-    font-size 36px
-    color #fff
-    letter-spacing 1px
-    margin-bottom 16px
-    text-align center
-    strong
-        font-weight 400
-        color #4EDE7D
-
-    
-             
-h2
-    font-family 'Montserrat'
-    font-weight 100
-    font-size 28px
-       
-
-.animated
-    transition (all 0.2s)
-
-.animating
-    transition (all 0.6s)
-
-.delay1
-    animation-delay(0.1s)
-
-.delay2
-    animation-delay(0.2s)
-
-.delay3
-    animation-delay(0.3s)
-
-.delay4
-    animation-delay(0.4s)
-
-.delay5
-    animation-delay(0.8s)
-
-.delay6
-    animation-delay(0.9s)
-
-.delay7
-    animation-delay(1s)
-            
-/* ==========================================================================
-   My work Section
-   ========================================================================== */
-   
-.Juan
-    img
-        border-radius .25rem
-    &:after
-        content ""
-        border-radius .25rem
-        display inline-block
-        height 100%
-        width 79%
-        background-size cover
-        position absolute
-        top 3%
-        right 15%
-        z-index -1
-        opacity .4
-        
-        
-.Juan2
-    &:after
-        width 87%
-        top 2%
-        right 8%
-        background-image url("../img/Juan-Duotone-2.jpg")
-            
-
-.Subtitle
-    display flex
-    flex-direction column
-    align-items center
-    padding-top 5em
-    h4
-        font-size 50px
-        font-weight bold
-        color grey3
-        font-family droid
-        
-    .img-lines-h4
-        opacity 0.6
-        width 185px
-
-.My-work, .What-i-do, .Contact-me
-    margin-top 5em      
-.My-work
-    margin-bottom 5em
-    padding-bottom 5em
-           
-.Work
-    text-align center
-    transition animation
-    border-radius 3%
-    
-.Cards-works
-    position relative
-    &:after
-        content ""
-        height 100%
-        display inline-block
-        width 100%
-        background-image url("../img/Lines.svg")
-        background-position center
-        background-repeat no-repeat
-        transform skewY(-2deg)translate(-50%,-50%)
-        top 50%
-        left 50%
-        position absolute
-        opacity .1
-        z-index -1
-
-.Details
-    color grey3
-    padding-left 10px
-    min-height 240px
-    h5
-        font-size 30px
-        font-family droid
-        font-weight bold
-
-.Details
-    h2
-        font-size 20px
-        margin-bottom 0
-        color #45454C
-        font-family droid
-        margin-bottom 2em
-
-
-.Details
-    p
-        font-family montserrat
-        color #7B7B87
-        font-size 17px
-        margin-top 10px
-    a
-        font-size 16px
-        font-family droid
-        font-weight bold
-        color #fff
-        text-decoration none
-        position relative
-.btn-primary
-    font-family droid
-    background green-button
-    border none
-    position relative
-    padding 10px 20px
-    &:focus
-        color #fff
-        border none
-        box-shadow none
-    &:active
-        background green-button
-        border none
-    &:after
-        content ""
-        display inline-block
-        height 100%
-        width 100%
-        background green-button
-        position absolute
-        top 15%
-        left 4%
-        z-index -1
-        border-radius .25rem
-        opacity .4
-
-            
-
-/* ==========================================================================
-   What i do Section
-   ========================================================================== */
-        
-.What-i-do
-    margin-bottom 10em
-    padding-bottom 5em
-    position relative
-    .diagonal2
-        background: linear-gradient(135deg, rgba(118,94,237,1) 0%, rgba(17,19,166,1) 100%)
-        transform skewY(-4deg)translate(0px, -170px)
-        width 100%
-        height 117%
-        top 102px
-        position absolute
-    h4
-        color #fff
-    p
-        width 360px
-        color #fff
-    .container
-        margin-top 120px
-        
-.Ui-designer
-    h3
-        color #ffff
-        font-family droid
-        font-size 30px
-    p
-        font-size 16px
-        color #D8E5DA
-        strong
-            color #73DE91
-            font-weight bold
-    .Keywords
-        ul
-            padding-left 0
-            font-family montserrat
-            font-size 16px
-            li
-                display inline-block
-                border 1px solid #fff
-                border-radius 1rem
-                margin-left .5rem
-                padding 5px 15px
-                color #fff
-                position relative
-                overflow hidden
-                &:first-child
-                    margin-left 0
-                /*&:hover
-                    &:after
-                        transform translateX(0%)
-                &:after
-                    content ""
-                    height 100%
-                    width 100%
-                    position absolute
-                    display inline-block
-                    background green-button
-                    left 0
-                    top 0
-                    transform translateX(100%)
-                    z-index -1
-                    border-radius 1rem
-                    transition animation*/
-            
-.Ui-designer-2
-    margin-top 120px
-            
-.Tools
-    ul
-        padding-left 0
-        li
-            margin-right 1em
-        img
-            width 50px
-            height 50px
-            
-/* ==========================================================================
-   Contact me Section
-   ========================================================================== */
-            
-.Contact-me
-    margin-bottom -5em
-    h5
-        font-size 30px
-        font-family montserrat
-        font-weight initial
-        line-height 1.4
-    p
-        font-size 18px
-    a
-        text-decoration none
-        font-size 40px
-        color #00E991
-        font-weight 500
-        font-family montserrat
-
-.Info
-    width 400px
-        
-.Info
-    ul
-        width 115px
-        padding-left 0
-        li
-            display inline-block
-            img
-                width 45px
-
-.Contacto
-    position relative
-    &:after
-        content ""
-        display block
-        position absolute
-        width 120%
-        height 100%
-        background-image url("../img/Lines.svg")
-        background-repeat no-repeat
-        background-position center
-        top 50%
-        left 50%
-        transform skewY(-2deg) translate(-50%,-50%)
-        z-index -1
-        opacity .1
-
-/* ==========================================================================
-   About me Section
-   ========================================================================== */
-            
-.About-me
-    color #fff
-    position relative
-    overflow hidden
-    .diagonal3
-        background linear-gradient(135deg, rgba(118,94,237,1) 0%, rgba(17,19,166,1) 100%)
-        transform skewY(-4deg)translate(0px,75px)
-        width 100%
-        height 878px
-        position absolute
-        z-index -1
-    .container
-        padding-top 8em
-        padding-bottom 2em
-    h5
-        font-size 30px
-        font-weight 500
-        font-family droid
-    p
-        font-size 16px
-        font-family montserrat
-        font-weight 300
-        strong
-            color #00e991
-            cursor pointer
-            background-image url('../img/Lines.svg')
-            background-repeat no-repeat
-            background-position center 138%
-            
-    &:after, &:before
-        content ""
-        width 100%
-        height 15%
-        display block
-        position absolute
-        top 50%
-        left 50%
-        transform translate(-50%,-50%)
-        opacity .1
-        background-repeat no-repeat
-        background-position center
-        background-image url("../img/Lines.svg")
-    &:before
-        top 44%
-        left 0%
-    &:after
-        top 75%
-        left 102%
-               
-.know-more-about
-    padding-top 150px
-    padding-bottom 100px
-    
-.logo-juan-footer
-    width 187px
-    float right
-        
-          
-
-//==============================Media Query================================================//
-
-// Large devices //
-@media (max-width: 1199px)  
-    .diagonal //Header Section//
-        height 117%
-        
-    .Juan   //Contact-me Section//
-        &:after
-            width 94%
-            right 1%
-            top 2%
-    .Juan2
-        &:after
-            width 93%
-            right 0%
-    
-    .Contact-me
-        h5,a
-            font-size 35px
-    
-    .Contacto
-        &:after
-            width 100%
-        
-
-    .About-me //About-me Section//
-        &:before, &:after
-            height 11%
-        &:before
-            left -10%
-        &:after
-            left 110%
-
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991px)
-    .fixed-nav
-        top 0
-    .Background-juan //Header Section//
-        img
-            top 50%      
-
-    .diagonal
-        height 116%
-        
-    .text-white
-        padding-left 15px
-        padding-top 20px
-        h1,h2
-            font-size 24px
-     .Subtitle
-         padding-top 0
-                
-    .My-work, .What-i-do, .Contact-me
-        padding-top 3em
-            
-    .Cards-works  //My-work Section//
-        &:after
-            background-position center 30%
-
-    .Ui-designer //What-i-do Section//
-        h3,p
-            margin-bottom 1.5rem
-    
-    .What-i-do
-        .diagonal2
-            height 110%
-        .container
-            padding-top 3em
-   
-
-    .Contact-me  //Contact-me Section//
-        margin-bottom -8em
-        margin-top 12em
-        .container  
-            padding-top 0
-        
-    .Juan2    
-        &:after
-            width 83%
-            right 11%
-    
-    .Contacto
-        &:after
-            background-position center 20%
-            width 100%
-
-    .text-lg-right
-        img
-            margin-bottom 3em
-    
-    .About-me //About-me Section//
-        &:before
-            top 30%
-        &:after
-            top 88%
-
-    .Banner
-        width 100%
-        height 70px
-        background-color #fff
-        position fixed
-        z-index 1
-        padding 5px 20px
-        display flex
-        align-items center
-        justify-content space-between
-        -webkit-box-shadow 0px 15px 47px -14px rgba(0,0,0,0.75)
-        -moz-box-shadow 0px 15px 47px -14px rgba(0,0,0,0.75)
-        box-shadow 0px 15px 47px -14px rgba(0,0,0,0.75)
-        img
-            width 70px
-
-    .Hamburguer
-        height 100%
-        width 101%
-        position fixed
-        background linear-gradient(135deg,#765eed 0%,#1113a6 100%)
-        top 50%
-        left -100%
-        transform translate(-50%,-50%)
-        z-index 2
-        transition .8s
-        display flex
-        align-items center
-        &:before
-            content ""
-            display block
-            width 100%
-            height 300px
-            background url("../img/Logo.svg")
-            background-position center
-            background-repeat no-repeat
-            background-size cover
-            opacity .04
-            position absolute
-            top 0
-    .Hamburguer.active
-        left 50%
-
-
-    .Icon
-        width 50px
-        height 50px
-        position fixed
-        right 0
-        margin 10px 20px
-        cursor pointer
-        z-index 3
-        span
-            display block
-            width 40px
-            height 6px
-            position absolute
-            background-repeat no-repeat
-            top 50%
-            left 50%
-            transform translate(-50%,-50%)
-            transition .8s
-            &:nth-child(1)
-                transform translate(-50%,-50%) translateY(-10px)
-                background-image url("../img/Menu-Line-1.svg")
-            &:nth-child(4)
-                transform translate(-50%,-50%) translateY(10px)
-                background-image url("../img/Menu-Line-1.svg")
-            &:nth-child(2),&:nth-child(3)
-                background-image url("../img/Menu-Line-2.svg")
-
-    
-    .Icon.active
-        span
-            &:nth-child(1)
-                transform translate(-50%,-50%) translateY(-20px)
-                opacity 0
-            &:nth-child(4)
-                transform translate(-50%,-50%) translateY(20px)
-                opacity 0
-            &:nth-child(2)
-                transform translate(-50%,-50%) rotate(45deg)
-            &:nth-child(3)
-                transform translate(-50%,-50%) rotate(-45deg)
-        
-                
- 
-    
-    .Subtittle-menu, .Mail-menu
-        position absolute
-        font-family montserrat
-        font-size 30px
-        
-    .Mail-menu
-        top 90%
-        left 50%
-        transform translate(-50%,0%)
-        color #73DE91
-        height 60px
-        &:before
-            content ""
-            position absolute
-            bottom 0
-            display block
-            width 100%
-            height 30px
-            background url("../img/Lines.svg")
-            background-size 45%
-            background-repeat no-repeat
-            background-position center 96%
-            opacity .3    
-                
-        
-    
-    .Subtittle-menu
-        top 5%
-        left 36px
-        font-weight 400
-        color #fff
-        
-    .navbar
-        width 100%
-        height 60%
-        background-color #fff
-        transform skewY(-4deg)
-        position relative
-        margin-top 5em
-        &:before,&:after
-            content ""
-            display block
-            position absolute
-            height 200px
-            width 180px
-            border-radius .25rem
-            background url("../img/Juan-Duotone-1.jpg")
-            background-position -140% -150%
-            background-size 220%
-            top -120px
-            left 35px
-            transform skewY(4deg)
-        &:before
-            top -115px
-            left 40px
-            opacity .5
-        .nav
-            transform skewY(4deg)
-            padding-top 5em
-            padding-left 15px
-            padding-right 15px
-            align-items initial
-
-    .header
-        ul
-            display flex
-            flex-direction column
-            margin-top 0
-            height 90%
-            justify-content space-between
-            li
-                border-bottom .5px solid #EDEDFC
-                margin-right 0
-                margin-left 0
-                &:last-child
-                        border-bottom none
-                a
-                    font-weight 500
-                    color #45454c
-                    font-size 30px
-                    padding .5em 0
-
-                        
-                    
-                    
-    
-    .Logo-juan
-        display none
-        
-    .nav-link.active  
-        &:before,&:after
-            display none
-
-    .header
-        ul
-            li
-                a
-                    &:hover
-                        color #73de91
-    
-    .nav
-        padding-left 15px
-        
-    .logo-juan-footer
-        float none
-        margin-left auto
-        margin-right auto
-        left 0
-        right 0
-        display block
-        
-    .Know-more
-        text-align center
-        
-    .footer-br
-        display none
-        
-    .Hip-hop-link
-        margin-right 10px
-        margin-left 5px
-
-
-@media (max-width: 768px)
-
-    .Home
-        height 80vh
-        display flex
-        align-items center
-        padding-top 0
-        margin-bottom 2em
-    
-    .Info-header
-        margin-top 0
-        h1
-            font-size 30px
-
-    .text-white
-        padding-top 0
-        h1,h2
-            font-size 16px
-    
-    .My-work //Header Section//
-        margin-top 0
-
-    .Juan2    //Contact-me Section//
-        &:after
-            width 84%
-            right 12%
-            
-    .About-me //About-me Section//
-        &:before, &:after
-            height 8%
-
-    .Subtittle-menu,.Mail-menu //Movile-menu Section//
-        font-size 20px
-    
-    .Mail-menu
-        height 45px
-    
-    .header
-        ul
-            li
-                a
-                    font-size 20px
-    
-    .navbar
-        .nav
-            padding-top 5em
-            padding-bottom 1em
-        &:before,&:after
-            width 130px
-            height 150px
-            top -90px
-            background-position -140% -154%
-        &:before
-            top -85px
-
-        .nav-link.active
-            color green
-            font-weight bold
-            
-    .Juan1
-        margin-top 40px
-        margin-bottom 40px
-    
-    .Contact-me        
-        margin-top 12em
-        
-    
-    .My-work .Subtitle, .Contact-me .Subtitle
-        padding-top 0
-        
-    .What-i-do
-        margin-top 6em
-        .container
-            padding-top 0
-            margin-top 60px
-            
-    .Ui-designer .Keywords ul li
-        margin-bottom 10px
-        
-
-@media (max-width: 575px)	  
-    .navbar
-        .nav
-            padding-top 3em 
-        &:before,&:after
-            width 110px
-            height 130px
-            background-position -140% -157%
-              
-    .Subtitle
-        h4
-            font-size 40px
-            background-position center 80%
-
-    .Juan   //Contact-me Section//
-
-    .Contact-me
-        h5,a
-            font-size 30px
-            
-    .Contacto
-        &:after
-            width 100%
-    
-    .Info
-        width auto
-            
-    .About-me //About-me Section//
-        p
-            margin-bottom 2em
-            font-size 16px
-        .Know-more
-            margin-bottom 6em
-        h5
-            font-size 25px    
-            
-    .know-more-about
-        padding-bottom 0
-
-            
-@media (max-width: 420px)
-    .text-white
-        a
-            margin-left 0
-            
-    .What-i-do //What-i-do Section//
-        p
-            width auto
-            
-    .Info
-        flex-direction column
-        
-    .juan-photo
-        max-width 260px
-        justify-content center
-        -webkit-clip-path inset(0% 0% 10% 0% round .25rem)
-        
-    .logo-juan-footer
-        width 150px
-            
-
-@media (max-width: 414px)
-
-    .Home       //Header Section//
-        height 100vh
-        &:before
-            height 90%
-        .Info-header 
-            h1
-                font-size 25px
-            h3
-                font-size 21px
-        .Image-header
-            width 150px
-            height 150px
-            .Img-circle
-                width 130px
-                height 130px
-            
-        
-    .Ui-designer //What-i-do Section//
-        .Keywords
-            .Prototyping, .Jquery
-                margin-left 0
-                
-    .Juan2  //Contact-me Section//
-        &:after
-            width 91%
-            right 1%
-
-
-@media (max-width: 384px)
-    .diagonal
-        height 110%
-        
-    .Juan1
-        margin-top 1em
-        &:after
-            width 92%
-            right 0%
-            
-    .text-white
-        margin-top -1em
-        h1,h2
-            font-size 15px
-
-    .Ui-designer //What-i-do Section//
-        .Keywords
-            .Jquery
-                margin-left .5rem
-            .Css
-                margin-left 0
-    
-    .Contact-me //Contact-me Section//
-        h5,a
-            font-size 25px 
-    
-    .About-me
-        h5
-            font-size 22px
-            
-        .Know-more
-            margin-bottom 3em
-
-@media (max-width: 320px)
-    .Home
-        height 650px
-        &:before
-            height 85%
-        .Image-header
-            width 150px
-            height 150px
-            .Img-circle
-                width 130px
-                height 130px
-        .Info-header
-            h1
-                font-size 22px
-            h3
-                font-size 19px
-            .Slide
-                margin-top 16px
-
-        .Actually
-            font-size 14px
-            
-    .My-work
-        margin-top 3.7em
-
-    .Ui-designer //What-i-do Section//
-        .Keywords
-            .Css
-                margin-left .5rem
-            .Html
-                margin-left 0
-            .App-design
-                margin-left .2rem
-                                   
-    .About-me //About-me Section//
-        h5
-            font-size 22px
-        p
-            font-size 15px
-
-    .About-me 
-        .Know-more
-            margin-bottom 2em
-            
-    .Contact-me //Contact-me Section//
-        h5,a
-            font-size 22px 
-            
-    .Subtittle-menu,.Mail-menu //Movile-menu Section//
-        font-size 18px
-    
-    .Mail-menu
-        height 40px
-    
-    .header
-        ul
-            li
-                a
-                    font-size 18px
-    
-    .navbar
-        margin-top 3em
-        .nav
-            padding-top 3em
-        &:before,&:after
-            width 100px
-            height 120px
-            top -75px
-            background-position -140% -159%
-        &:before
-            top -70px
-            
-    .Juan1
-        margin-right 60px
-        
-    .Juan1  //Contact-me Section//
-        &:after
-            width 110%
-            right -20%
-            top 3%
-            /*-webkit-clip-path inset(0% 0% 10% 0% round .25rem)*/
-                    
