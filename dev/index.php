@@ -135,21 +135,9 @@
                 <h3 class="Title Title_contact">Contact</h3>
                 <p class="Paragraph-contact">Do you want to design your new brand or to build your company website?<br>I am available to work hand in hand with you, let’s talk about it.</p>
                 <div class="row">
+
                     <div class="col-6 Form">
-                        <form action="" method="POST" enctype="multipart/form-data">
-                            <input type="hidden" name="action" value="submit">
-                            <input required type="text" name="nombre" value="" class="form-control Form_input" id="nombre" placeholder="Your name">
-                            <input required type="email" name="email" value="" class="form-control Form_input" id="email" placeholder="Email">
-                            <select id="servicio" class="form-control Form_input form-control-lg" name="servicio">
-                                <option value="Branding" >Branding</option>
-                                <option value="Web Design" >Web Design</option>
-                                <option value="App Design" >App Design</option>
-                                <option value="Social Marketing" >Social Marketing</option>
-                            </select>
-                            <textarea required type="text" name="mensaje" rows="4" cols="50" class="form-control Form_area" id="mensaje" placeholder="Message"></textarea>
-                            <button class="Menu-button Form_button Up-animation">Send</button>
-                            
-                        </form>
+                      <?php require 'contact-form.php'; ?> 
                     </div>
                     <div class="col-5 offset-1">
                         <section class="Profile-contact">
