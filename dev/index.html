@@ -61,7 +61,8 @@
                 <h3 class="Title Title_projects">Projects</h3> 
                 <div class="row">
                     <div class="col-6 Col_1" data-aos="fade-up" data-aos-offset="10"> <!--Gatha-->
-                        <img src="img/Gatha-App-Screens.jpg" alt="Gatha App" class="Project-img img-fluid">
+                        <div class="Project-img Gatha-project">
+                        </div>
                         <article class="Project-info">
                             <h4 class="Title Title_project Line_green">Gatha</h4>
                             <h5 class="Service-project">App Design &amp; Web Development</h5>
@@ -70,7 +71,8 @@
                         </article>
                     </div>
                     <div class="col-6 Col_2" data-aos="fade-up"> <!--JC Branding-->
-                        <img src="img/JC-Branding-Project.jpg" alt="Juan Carmona Bdranding" class="Project-img img-fluid">
+                        <div class="Project-img JC-project">
+                        </div>
                         <article class="Project-info">
                             <h4 class="Title Title_project Line_yellow">Juan Carmona</h4>
                             <h5 class="Service-project">Branding Identity</h5>
@@ -81,7 +83,8 @@
                 </div>                 
                 <div class="row Row-projects">
                     <div class="col-6 Col_1" data-aos="fade-up"> <!--Sin Fronteras-->
-                        <img src="img/Foundation-Logo-Project.jpg" alt="Sin fronteras branding" class="Project-img img-fluid">
+                        <div class="Project-img SF-project">
+                        </div>
                         <article class="Project-info">
                             <h4 class="Title Title_project Line_orange">Sin Fronteras Fundación</h4>
                             <h5 class="Service-project">Branding Identity</h5>
@@ -90,7 +93,8 @@
                         </article>
                     </div>
                     <div class="col-6 Col_2" data-aos="fade-up"> <!--DCM-->
-                        <img src="img/DCM-Web-Design-Project.jpg" alt="DCM website" class="Project-img img-fluid">
+                        <div class="Project-img DCM-project">
+                        </div>
                         <article class="Project-info">
                             <h4 class="Title Title_project Line_blue">DCM Servicios y Consultoría</h4>
                             <h5 class="Service-project">Web Design &amp; Development</h5>
@@ -101,7 +105,8 @@
                 </div>
                 <div class="row Row-projects">
                     <div class="col-6 Col_1" data-aos="fade-up"> <!--Best One-->
-                        <img src="img/Best-One-Web-Design-Project.jpg" alt="Bes One Web Design" class="Project-img img-fluid">
+                        <div class="Project-img BO-project">
+                        </div>
                         <article class="Project-info">
                             <h4 class="Title Title_project Line_purple">Best One</h4>
                             <h5 class="Service-project">Web Design</h5>
@@ -110,7 +115,8 @@
                         </article>
                     </div>
                     <div class="col-6 Col_2" data-aos="fade-up"> <!--Molle Pizza-->
-                        <img src="img/Molle-Pizza-Web-Design-Project.jpg" alt="Molle Pizza Web Design" class="Project-img img-fluid">
+                        <div class="Project-img MP-project">
+                        </div>
                         <article class="Project-info">
                             <h4 class="Title Title_project Line_red">Molle Pizza</h4>
                             <h5 class="Service-project">Web Design</h5>
@@ -134,10 +140,13 @@
                             <input type="hidden" name="action" value="submit">
                             <input required type="text" name="nombre" value="" class="form-control Form_input" id="nombre" placeholder="Your name">
                             <input required type="email" name="email" value="" class="form-control Form_input" id="email" placeholder="Email">
-                            <select id="servicio" class="form-control Form_input form-control-lg pt-2" name="servicio">
-                                <option value="Project" >Project</option>
+                            <select id="servicio" class="form-control Form_input form-control-lg" name="servicio">
+                                <option value="Branding" >Branding</option>
+                                <option value="Web Design" >Web Design</option>
+                                <option value="App Design" >App Design</option>
+                                <option value="Social Marketing" >Social Marketing</option>
                             </select>
-                            <textarea required type="text" name="mensaje" rows="4" cols="50" class="form-control Form_input" id="mensaje" placeholder="Message"></textarea>
+                            <textarea required type="text" name="mensaje" rows="4" cols="50" class="form-control Form_area" id="mensaje" placeholder="Message"></textarea>
                             <button class="Menu-button Form_button Up-animation">Send</button>
                             
                         </form>
@@ -149,12 +158,11 @@
                             alt="Juan carmona logo" class="Profile-contact_img">
                             <div class="">
                                 <h4 class="Juan-name_contact">Juan carmona</h4>
-                                <h2 class="Juan-ocupation">Freelance Graphic &amp; Website Designer</h2>
+                                <h1 class="Juan-ocupation">Freelance Graphic &amp; Website Designer</h1>
                             </div>
                         </section>
-                            <div class="CV-contact Up-animation">
-                                <p class="Dowload-text_contact">Download my Resume</p><i class="fas fa-file-pdf Dowload-icon_contact"></i>
-                            </div> 
+                            <a href="" class="CV-contact">Download my Resume
+                            </a> 
                             <address class="mb-0">
                                 <p class="Prefer-email_contact">Do you prefer email? You can also contact me at:</p>
                                 <a href="mailto:hello@juancarmona.co" class="Mail-contact">hello@juancarmona.co</a>
@@ -162,10 +170,10 @@
                             <div class="Social-contact">
                                 <p class="Like-mywork_contact">If you like my work, follow me at:</p>
                                 <div class="Redes">
-                                    <a href="https://www.facebook.com/juancarmona.design/" target="_blank"><i class="fab fa-facebook Up-animation"></i></a>
-                                    <a href="https://www.instagram.com/juancarmona.design/" target="_blank"><i class="fab fa-instagram Up-animation"></i></a>
-                                    <a href="https://www.linkedin.com/in/juancarmona-design/" target="_blank"><i class="fab fa-linkedin Up-animation"></i></a>
-                                    <a href="https://dribbble.com/juancarmona" target="_blank"><i class="fab fa-dribbble-square Up-animation"></i></a>
+                                    <a href="https://www.facebook.com/juancarmona.design/" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/juancarmona.design/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/juancarmona-design/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://dribbble.com/juancarmona" target="_blank"><i class="fab fa-dribbble-square"></i></a>
                                 </div>
                             </div>                      
                     </div>

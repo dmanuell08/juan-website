@@ -4,11 +4,13 @@ $(document).ready(function(){
 			//Menu//
 	        var posicionDeWindow = $(window).scrollTop();
 	        if(posicionDeWindow > 50){
-	            $(".Menu-logo").css({"margin": "10px 0"});
+	            $(".Menu-logo").css({"margin": "15px 0"});
+	            $(".Menu-logo").css({"width": "60px"});
 	            $(".Menu-container").css({"box-shadow": "0 2px 4px 0 #E9EDF5"});
 	        }
 	        else if(posicionDeWindow < 50){
 				$(".Menu-logo").css({"margin": "30px 0"});
+				$(".Menu-logo").css({"width": "86px"});
 				$(".Menu-container").css({"box-shadow": "none"});
 	        }         
     });
