@@ -9,6 +9,7 @@
     <input required type="text" name="nombre" value="" class="form-control Form_input" id="nombre" placeholder="Your name">
     <input required type="email" name="email" value="" class="form-control Form_input" id="email" placeholder="Email">
     <select id="servicio" class="form-control Form_input form-control-lg" name="servicio">
+        <option selected="true" disabled="disabled">Project</option>
         <option value="Branding" >Branding</option>
         <option value="Web Design" >Web Design</option>
         <option value="App Design" >App Design</option>
