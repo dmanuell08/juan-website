@@ -57,74 +57,105 @@
 
         <!--Projects-->
         <div class="Projects">
-            <div class="container-fluid Projects-container">
+            <div class="Projects-container">
                 <h3 class="Title Title_projects">Projects</h3> 
-                <div class="row">
-                    <div class="col-6 Col_1" data-aos="fade-up" data-aos-offset="10"> <!--Gatha-->
+                <div class="row Row-projects"> <!--Gatha-->
+                    <div class="col-8 Col_1" data-aos="fade-up"> 
                         <div class="Project-img Gatha-project">
                         </div>
-                        <article class="Project-info">
+                    </div>
+                    <div class="col-4 Col_2">
+                        <article class="Project-info" data-aos="fade-down"> 
                             <h4 class="Title Title_project Line_green">Gatha</h4>
                             <h5 class="Service-project">App Design &amp; Web Development</h5>
                             <address class="Location-project">Fort Lauderdale, United States.</address>
-                            <small class="Description-project">I’ve been working as the UI/UX Designer &amp; Web Developer at Gatha since 2016.</small>
+                            <p class="Description-project">Gatha is an amazing startup with the mission of making sharing location easier.
+                            </p>
+                            <p class="Description-project">I am currently working as UI/UX Designer at Gatha. At my work there I am responsible of the App UI Design and the Web Design &amp; Development.</p>
                         </article>
                     </div>
-                    <div class="col-6 Col_2" data-aos="fade-up"> <!--JC Branding-->
-                        <div class="Project-img JC-project">
-                        </div>
-                        <article class="Project-info">
+                </div> 
+                <div class="row Row-projects Row-projects_inverse"> <!--JC Branding-->
+                    <div class="col-4 Col_2 Col_2-inverse">
+                        <article class="Project-info" data-aos="fade-down"> 
                             <h4 class="Title Title_project Line_yellow">Juan Carmona</h4>
                             <h5 class="Service-project">Branding Identity</h5>
                             <address class="Location-project">Made with passion at Medellín, Colombia.</address>
-                            <small class="Description-project">This is my very own branding project, decided to shared here to show a little about my Branding Work.</small>
-                        </article>                        
+                            <p class="Description-project">This is my personal branding project, I decided to share it here as an example of my Branding Skills.
+                            </p>
+                        </article>
+                    </div>                    
+                    <div class="col-8 Col_1 Col_1-inverse" data-aos="fade-up"> 
+                        <div class="Project-img JC-project">
+                        </div>
                     </div>
-                </div>                 
-                <div class="row Row-projects">
-                    <div class="col-6 Col_1" data-aos="fade-up"> <!--Sin Fronteras-->
+                </div> 
+                <div class="row Row-projects"> <!--Sin Fronteras-->
+                    <div class="col-8 Col_1" data-aos="fade-up"> 
                         <div class="Project-img SF-project">
                         </div>
-                        <article class="Project-info">
+                    </div>
+                    <div class="col-4 Col_2">
+                        <article class="Project-info" data-aos="fade-down"> 
                             <h4 class="Title Title_project Line_orange">Sin Fronteras Fundación</h4>
                             <h5 class="Service-project">Branding Identity</h5>
                             <address class="Location-project">Medellín, Colombia.</address>
-                            <small class="Description-project">Redesign of the “Sin Fronteras Fundación” Logotype. We decided to help them to build a very new Brand Identity.</small>
+                            <p class="Description-project">Sin Fronteras is a Foundation created to educate and support low-income children and families from Medellín City.
+                            </p>
+                            <p class="Description-project">I worked in redesigning their Brand Identity so they can have better visual impact and achieve their goals as foundation.</p>
                         </article>
                     </div>
-                    <div class="col-6 Col_2" data-aos="fade-up"> <!--DCM-->
-                        <div class="Project-img DCM-project">
-                        </div>
-                        <article class="Project-info">
+                </div> 
+                <div class="row Row-projects Row-projects_inverse"> <!--DCM-->
+                    <div class="col-5 Col_2 Col_2-inverse Col-dcm">
+                        <article class="Project-info" data-aos="fade-down"> 
                             <h4 class="Title Title_project Line_blue">DCM Servicios y Consultoría</h4>
                             <h5 class="Service-project">Web Design &amp; Development</h5>
                             <address class="Location-project">Ríonegro, Colombia.</address>
-                            <small class="Description-project">I worked with DCM to build a new Branding and also their Website Design and Development.</small>
-                        </article>                        
-                    </div>  
+                            <p class="Description-project">DCM is a Medellín based company providing work at height training courses and SSH Consultancy.
+                            </p>
+                            <p class="Description-project">I worked along with DCM to make their new Logotype and Website Design and Development. Their website has a special feature where students can check their certifications.
+                            </p>
+                        </article>
+                    </div>                    
+                    <div class="col-7 Col_1 Col_1-inverse" data-aos="fade-up"> 
+                        <div class="Project-img DCM-project">
+                        </div>
+                    </div>
                 </div>
-                <div class="row Row-projects">
-                    <div class="col-6 Col_1" data-aos="fade-up"> <!--Best One-->
+                <div class="row Row-projects"> <!--BO Project-->
+                    <div class="col-8 Col_1" data-aos="fade-up"> 
                         <div class="Project-img BO-project">
                         </div>
-                        <article class="Project-info">
+                    </div>
+                    <div class="col-4 Col_2">
+                        <article class="Project-info" data-aos="fade-down"> 
                             <h4 class="Title Title_project Line_purple">Best One</h4>
                             <h5 class="Service-project">Web Design</h5>
                             <address class="Location-project">Cali, Colombia.</address>
-                            <small class="Description-project">At this project I colaborated with a Web Development Agency to design the Best One Website. </small>
+                            <p class="Description-project">Best One is a phone repairing company.
+                            </p>
+                            <p class="Description-project">At this project I colaborated with a Web Development Agency to design the Best One Website.</p>
                         </article>
                     </div>
-                    <div class="col-6 Col_2" data-aos="fade-up"> <!--Molle Pizza-->
-                        <div class="Project-img MP-project">
-                        </div>
-                        <article class="Project-info">
+                </div>                                                                          
+                <div class="row Row-projects Row-projects_inverse"> <!--MP Project-->
+                    <div class="col-4 Col_2 Col_2-inverse">
+                        <article class="Project-info" data-aos="fade-down"> 
                             <h4 class="Title Title_project Line_red">Molle Pizza</h4>
                             <h5 class="Service-project">Web Design</h5>
                             <address class="Location-project">Cali, Colombia.</address>
-                            <small class="Description-project">Web Design Project I made hand in hand with an agency to give a new look &amp; feel to Molle Pizza at Cali (Colombia).</small>
-                        </article>                        
-                    </div>                                                         
-                </div>
+                            <p class="Description-project">Molle Pizza is a pizza delivery restaurant.
+                            </p>
+                            <p class="Description-project">I made their new Web Design hand in hand with an agency to give a new look &amp; feel and help users to understand their pizza menu.
+                            </p>
+                        </article>
+                    </div>                    
+                    <div class="col-8 Col_1 Col_1-inverse" data-aos="fade-up"> 
+                        <div class="Project-img MP-project">
+                        </div>
+                    </div>
+                </div>                                      
             </div>
         </div>                
         <!--Projects-->
