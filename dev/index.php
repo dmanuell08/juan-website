@@ -71,7 +71,7 @@
                             <address class="Location-project">Fort Lauderdale, United States.</address>
                             <p class="Description-project">Gatha is an amazing startup with the mission of making sharing location easier.
                             </p>
-                            <p class="Description-project">I am currently working as UI/UX Designer at Gatha. At my work there I am responsible of the App UI Design and the Web Design &amp; Development.</p>
+                            <p class="Description-project mb-0">I am currently working as UI/UX Designer at Gatha. At my work there I am responsible of the App UI Design and the Web Design &amp; Development.</p>
                         </article>
                     </div>
                 </div> 
@@ -81,7 +81,7 @@
                             <h4 class="Title Title_project Line_yellow">Juan Carmona</h4>
                             <h5 class="Service-project">Branding Identity</h5>
                             <address class="Location-project">Made with passion at Medellín, Colombia.</address>
-                            <p class="Description-project">This is my personal branding project, I decided to share it here as an example of my Branding Skills.
+                            <p class="Description-project mb-0">This is my personal branding project, I decided to share it here as an example of my Branding Skills.
                             </p>
                         </article>
                     </div>                    
@@ -102,7 +102,7 @@
                             <address class="Location-project">Medellín, Colombia.</address>
                             <p class="Description-project">Sin Fronteras is a Foundation created to educate and support low-income children and families from Medellín City.
                             </p>
-                            <p class="Description-project">I worked in redesigning their Brand Identity so they can have better visual impact and achieve their goals as foundation.</p>
+                            <p class="Description-project mb-0">I worked in redesigning their Brand Identity so they can have better visual impact and achieve their goals as foundation.</p>
                         </article>
                     </div>
                 </div> 
@@ -114,7 +114,7 @@
                             <address class="Location-project">Ríonegro, Colombia.</address>
                             <p class="Description-project">DCM is a Medellín based company providing work at height training courses and SSH Consultancy.
                             </p>
-                            <p class="Description-project">I worked along with DCM to make their new Logotype and Website Design and Development. Their website has a special feature where students can check their certifications.
+                            <p class="Description-project mb-0">I worked along with DCM to make their new Logotype and Website Design and Development. Their website has a special feature where students can check their certifications.
                             </p>
                         </article>
                     </div>                    
@@ -135,7 +135,7 @@
                             <address class="Location-project">Cali, Colombia.</address>
                             <p class="Description-project">Best One is a phone repairing company.
                             </p>
-                            <p class="Description-project">At this project I colaborated with a Web Development Agency to design the Best One Website.</p>
+                            <p class="Description-project mb-0">At this project I colaborated with a Web Development Agency to design the Best One Website.</p>
                         </article>
                     </div>
                 </div>                                                                          
@@ -147,7 +147,7 @@
                             <address class="Location-project">Cali, Colombia.</address>
                             <p class="Description-project">Molle Pizza is a pizza delivery restaurant.
                             </p>
-                            <p class="Description-project">I made their new Web Design hand in hand with an agency to give a new look &amp; feel and help users to understand their pizza menu.
+                            <p class="Description-project mb-0">I made their new Web Design hand in hand with an agency to give a new look &amp; feel and help users to understand their pizza menu.
                             </p>
                         </article>
                     </div>                    
