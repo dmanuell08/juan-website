@@ -39,7 +39,7 @@
                         srcset="img/Juan-Carmona-Design-Studio.png 1x, img/Juan-Carmona-Design-Studio@2x.png 2x" 
                         alt="Juan carmona logo" class="Header-logo">
                     </section>
-                    <section class="col-8 Text-header">
+                    <section class="col-md-8 col-12 Text-header">
                         <h2 data-aos="fade-up" data-aos-delay="200">Hello, my name is Juan Carmona. </h2>
                         <h1 data-aos="fade-up" data-aos-delay="300">I am a Freelance Graphic &amp; Web Designer based in Medellín, Colombia.</h1>
                         <h3 class="mb-0" data-aos="fade-up" data-aos-delay="400">I work with some talented partners to offer professional services focused in:</h3>
@@ -47,7 +47,7 @@
                     <section class="Services">
                         <h2 class="Keyword" data-aos="fade-right" data-aos-delay="500">Web Design &amp; Development</h2>
                         <h2 class="Keyword" data-aos="zoom-out" data-aos-delay="600">App Design</h2>
-                        <h2 class="Keyword" data-aos="fade-left" data-aos-delay="700">Branding &amp; Marketing</h2>
+                        <h2 class="Keyword Keyword-last" data-aos="fade-left" data-aos-delay="700">Branding &amp; Marketing</h2>
                     </section>
 
                 </div>
@@ -60,11 +60,11 @@
             <div class="Projects-container">
                 <h3 class="Title Title_projects">Projects</h3> 
                 <div class="row Row-projects"> <!--Gatha-->
-                    <div class="col-8 Col_1" data-aos="fade-up"> 
+                    <div class="col-xl-8 col-12 Col_1" data-aos="fade-up"> 
                         <div class="Project-img Gatha-project">
                         </div>
                     </div>
-                    <div class="col-4 Col_2">
+                    <div class="col-xl-4 col-lg-8 col-md-10 col-12 Col_2">
                         <article class="Project-info" data-aos="fade-down"> 
                             <h4 class="Title Title_project Line_green">Gatha</h4>
                             <h5 class="Service-project">App Design &amp; Web Development</h5>
@@ -76,7 +76,7 @@
                     </div>
                 </div> 
                 <div class="row Row-projects Row-projects_inverse"> <!--JC Branding-->
-                    <div class="col-4 Col_2 Col_2-inverse">
+                    <div class="col-xl-4 col-lg-8 col-md-10 col-12 Col_2 Col_2-inverse">
                         <article class="Project-info" data-aos="fade-down"> 
                             <h4 class="Title Title_project Line_yellow">Juan Carmona</h4>
                             <h5 class="Service-project">Branding Identity</h5>
@@ -85,17 +85,17 @@
                             </p>
                         </article>
                     </div>                    
-                    <div class="col-8 Col_1 Col_1-inverse" data-aos="fade-up"> 
+                    <div class="col-xl-8 col-12 Col_1 Col_1-inverse order-first order-xl-last" data-aos="fade-up"> 
                         <div class="Project-img JC-project">
                         </div>
                     </div>
                 </div> 
                 <div class="row Row-projects"> <!--Sin Fronteras-->
-                    <div class="col-8 Col_1" data-aos="fade-up"> 
+                    <div class="col-xl-8 col-12 Col_1" data-aos="fade-up"> 
                         <div class="Project-img SF-project">
                         </div>
                     </div>
-                    <div class="col-4 Col_2">
+                    <div class="col-xl-4 col-lg-8 col-md-10 col-12 Col_2">
                         <article class="Project-info" data-aos="fade-down"> 
                             <h4 class="Title Title_project Line_orange">Sin Fronteras Fundación</h4>
                             <h5 class="Service-project">Branding Identity</h5>
@@ -107,7 +107,7 @@
                     </div>
                 </div> 
                 <div class="row Row-projects Row-projects_inverse"> <!--DCM-->
-                    <div class="col-5 Col_2 Col_2-inverse Col-dcm">
+                    <div class="col-xl-5 col-lg-8 col-md-10 col-12 Col_2 Col_2-inverse Col-dcm">
                         <article class="Project-info" data-aos="fade-down"> 
                             <h4 class="Title Title_project Line_blue">DCM Servicios y Consultoría</h4>
                             <h5 class="Service-project">Web Design &amp; Development</h5>
@@ -118,17 +118,17 @@
                             </p>
                         </article>
                     </div>                    
-                    <div class="col-7 Col_1 Col_1-inverse" data-aos="fade-up"> 
+                    <div class="col-xl-7 col-12 Col_1 Col_1-inverse order-first order-xl-last" data-aos="fade-up"> 
                         <div class="Project-img DCM-project">
                         </div>
                     </div>
                 </div>
                 <div class="row Row-projects"> <!--BO Project-->
-                    <div class="col-8 Col_1" data-aos="fade-up"> 
+                    <div class="col-xl-8 col-12 Col_1" data-aos="fade-up"> 
                         <div class="Project-img BO-project">
                         </div>
                     </div>
-                    <div class="col-4 Col_2">
+                    <div class="col-xl-4 col-lg-8 col-md-10 col-12 Col_2">
                         <article class="Project-info" data-aos="fade-down"> 
                             <h4 class="Title Title_project Line_purple">Best One</h4>
                             <h5 class="Service-project">Web Design</h5>
@@ -140,7 +140,7 @@
                     </div>
                 </div>                                                                          
                 <div class="row Row-projects Row-projects_inverse"> <!--MP Project-->
-                    <div class="col-4 Col_2 Col_2-inverse">
+                    <div class="col-xl-4 col-lg-8 col-md-10 col-12 Col_2 Col_2-inverse">
                         <article class="Project-info" data-aos="fade-down"> 
                             <h4 class="Title Title_project Line_red">Molle Pizza</h4>
                             <h5 class="Service-project">Web Design</h5>
@@ -151,7 +151,7 @@
                             </p>
                         </article>
                     </div>                    
-                    <div class="col-8 Col_1 Col_1-inverse" data-aos="fade-up"> 
+                    <div class="col-xl-8 col-12 Col_1 Col_1-inverse order-first order-xl-last" data-aos="fade-up"> 
                         <div class="Project-img MP-project">
                         </div>
                     </div>
@@ -167,10 +167,10 @@
                 <p class="Paragraph-contact">Do you want to design your new brand or to build your company website?<br>I am available to work hand in hand with you, let’s talk about it.</p>
                 <div class="row">
 
-                    <div class="col-6 Form">
+                    <div class="col-lg-6 col-12 Form">
                       <?php require 'contact-form.php'; ?> 
                     </div>
-                    <div class="col-5 offset-1">
+                    <div class="col-lg-5 col-12 offset-0 offset-lg-1 order-first order-lg-last">
                         <section class="Profile-contact">
                             <img src="img/Juan-Carmona-Photo.png"
                             srcset="img/Juan-Carmona-Photo.png 1x, img/Juan-Carmona-Photo@2x.png 2x" 
