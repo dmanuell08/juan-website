@@ -12,7 +12,13 @@ $(document).ready(function(){
 				$(".Menu-logo").css({"margin": "30px 0"});
 				$(".Menu-logo").css({"width": "86px"});
 				$(".Menu-container").css({"box-shadow": "none"});
-	        }         
+	        }
+	        if(posicionDeWindow > 500){
+	        	$(".Menu-container").addClass("Menu-visible");
+	        } 
+	        else if (posicionDeWindow < 480){
+	        	$(".Menu-container").removeClass("Menu-visible");
+	        }   
     });
     //Menu//
     //Menu//

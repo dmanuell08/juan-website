@@ -20,7 +20,7 @@ Grey_300 = #7A7F99
 Grey_400 = #B8BBCC
 
 //Transición//
-ease-custom = all 0.5s cubic-bezier(1.000, 0.000, 0.000, 1.000)
+ease-custom = all 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955)
 
 
 
@@ -33,6 +33,9 @@ ease-custom = all 0.5s cubic-bezier(1.000, 0.000, 0.000, 1.000)
 .Menu-container
 	background-color Withe_100	
 	transition ease-custom
+.Menu-visible 
+		transform translateY(0)
+		transition ease-custom
 .Menu
 	display flex
 	align-items center
@@ -262,7 +265,6 @@ select.Form_input
 	border-radius 4px
 	border 1px solid #E4E7EB
 	padding 15px 30px 15px 28px
-	margin-bottom 23px
 .Juan-name_contact
 	color Grey_100
 	font-family montserrat
@@ -378,7 +380,7 @@ select.Form_input
 		padding 0
 		overflow hidden
 	.Project-info
-		margin-top 32px
+		margin-top 24px
 	.Row-projects
 		margin-right 0
 		margin-left 0
@@ -387,48 +389,110 @@ select.Form_input
 		
 @media (max-width:767.98px)
 	.Menu-container
-		padding 0 10px
+		padding 0 15px
+		transform translateY(-100px)
+		transition ease-custom
+	.Menu-visible 
+		transform translateY(0)
+		transition ease-custom
 	.Contorno-menu
-		min-height 90px
+		min-height 0
+	.Menu-logo
+		width 58px !important
+		margin 17px 0px !important
+	.Menu-button
+		height 30px
+		width 84px
+		font-size 14px
 	.Header-row
 		margin-right 0
 		margin-left 0
 		overflow hidden
-	.Header-logo
-		margin-top 60px
-		height 150px
+		flex-direction column
+		align-items center
+	.Header-logo_2
+		height 80px
+		margin-top 64px
 	.Text-header
+		margin-top 25px
 		h1,h2,h3
-			font-size 17px
-			margin-bottom 16px
+			font-size 15px
+			margin-bottom 8px
+		h1
+			margin-bottom 32px
 	.Services
-		margin 25px 0
+		margin 19px 0 32px 0
 	.Keyword
-		display block
-		margin 25px 0
-		font-size 15px
+		margin 0
+		border none
+	.Header-button
+		margin-bottom 64px
+	.Title
+		font-size 30px
+	.Title_projects
+		margin 35px 0 56px 0
+	.Title_contact
+		margin 40px 0
 	.Projects
 		padding 0
+	.Row-projects_inverse
+		margin 80px 0
+	.Molle-row
+		margin-bottom 64px
 	.Project-img
 		height 247px
 	.Project-info
 		padding 0 15px 0 15px
 	.Title_project
-		font-size 25px
+		font-size 30px
+		line-height 31px
 	.Service-project
 		font-size 20px
 	.Location-project
 		font-size 17px
+		line-height 23px
 	.Description-project
 		font-size 16px
+		line-height 22px
+	.Paragraph-contact
+		text-align left
+		font-size 15px
+		line-height 22px
+		margin-bottom 30px
+	.br
+		margin-bottom 24px
 	.Form
-		margin-top 60px
+		margin-top 0
+	.Form_button
+		height 54px
+		width 120px
+		font-size 17px
 	.Profile-contact
 		padding 15px
+		width 100%
 	.Juan-name_contact
-		font-size 21px
+		font-size 20px
+		margin-left 11px
+		margin-bottom 0
 	.Juan-ocupation
-		font-size 14px
+		font-size 13px
+		margin-left 11px
+	.Profile-contact_img
+		height 54px
+	.Prefer-email_contact
+		font-size 15px
+		margin 25px 0
+	.Mail-contact
+		margin-bottom 27px
+	.Like-mywork_contact
+		margin-top 0
+	.Social-contact
+		flex-direction column
+		align-items center
+		width 100%
+		margin-top 64px
+	.More-details_section
+		margin 48px 0 75px 0	
 	
 
 	
