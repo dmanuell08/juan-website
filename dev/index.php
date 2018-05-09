@@ -118,8 +118,8 @@
                         <article class="Project-info" data-aos="fade-down"> 
                             <h4 class="Title Title_project Line_blue">DCM Servicios y Consultoría</h4>
                             <h5 class="Service-project">Web Design &amp; Development</h5>
-                            <address class="Location-project">Ríonegro, Colombia.</address>
-                            <p class="Description-project">DCM is a Medellín based company providing work at height training courses and SSH Consultancy.
+                            <address class="Location-project">Medellín, Colombia.</address>
+                            <p class="Description-project">DCM is a Medellín based company specialized in work at height training courses and SSH Consultancy.
                             </p>
                             <p class="Description-project mb-0">I worked along with DCM to make their new Logotype and Website Design and Development. Their website has a special feature where students can check their certifications.
                             </p>
@@ -171,7 +171,8 @@
         <footer class="Contact-container" id="Contact-section">
             <div class="container">
                 <h3 class="Title Title_contact">Contact</h3>
-                <p class="Paragraph-contact">Do you want to design your new brand or to build your company website?<br class="br">I am available to work hand in hand with you, let’s talk about it.</p>
+                <p class="Paragraph-contact">Do you want to design your new brand or to build your company website?</p>
+                <p class="Paragraph-contact">I am available to work hand in hand with you, let’s talk about it.</p>
                 <div class="row">
 
                     <div class="col-lg-6 col-12 Form">
