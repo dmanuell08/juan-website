@@ -1,16 +1,39 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <title>Juan Carmona - Design studio - Freelance Graphic and Web Designer</title>
+        <meta name="description" content="I am a Freelance Graphic and Web Designer based in Medellín, Colombia. I work remotely helping businesses with: Web Design & Development, App Design, Branding and Social Marketing.">
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Open+Sans:300,400,500" rel="stylesheet">
-
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-        <title>Juan Carmona - Design studio</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108399305-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-108399305-1');
+        </script>
+        <script type="application/ld+json">
+           {
+             "@context": "http://schema.org/",
+             "type": "Person",
+             "ContactPoint": {
+               "type": "ContactPoint",
+               "contactType": "Customer service",
+               "email": "hello@juancarmona.co",
+               "url": "https://www.juancarmona.co"
+             },
+             "description": "I am a Freelance Graphic and Web Designer, I work along with Professionals, Agencies and Companies at projects like Branding and Graphic Design, Responsive Websites and User Interfaces and also Web Development.",
+             "image": "https://www.juancarmona.co/img/juan-profile.jpg",
+             "jobTitle": "Graphic and Web Designer",
+             "name": "Juan Carmona",
+             "url": "https://www.juancarmona.co/",
+             "makesOffer": "Branding, Graphic Design, Responsive Web Design and Development, App Design, Social Marketing."
+           }
+       </script>
     </head>
     <body>
         <!--Menu-->
@@ -21,7 +44,7 @@
                       <li class="Menu-item Item_1"><a href="#Header-section" class="Slide">
                         <img src="img/juancarmona-icon.png"
                         srcset="img/juancarmona-icon.png 1x, img/juancarmona-icon@2x.png 2x" 
-                        alt="Juan carmona logo" class="Menu-logo">
+                        alt="Juan Carmona Icon" class="Menu-logo">
                       </a></li>
                       <li class="Menu-item Item_2"><a href="#Contact-section" class="Menu-button Slide Up-animation">Contact</a></li>
                     </ul>
@@ -40,7 +63,7 @@
                         alt="Juan carmona logo" class="Header-logo d-none d-md-block">
                         <img src="img/juancarmona-icon.png"
                         srcset="img/juancarmona-icon.png 1x, img/juancarmona-icon@2x.png 2x" 
-                        alt="Juan carmona logo" class="Header-logo Header-logo_2 d-md-none d-block">
+                        alt="Juan Carmona Logo" class="Header-logo Header-logo_2 d-md-none d-block">
                     </section>
                     <section class="col-md-8 col-12 Text-header">
                         <h2 data-aos="fade-up" data-aos-delay="200">Hello, my name is Juan Carmona. </h2>
@@ -176,20 +199,20 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-12 Form">
-                      <?php require 'contact-form.php'; ?> 
+                      <?php require 'contact-form.php'; ?>
                     </div>
                     <div class="col-lg-5 col-12 offset-0 offset-lg-1 order-first order-lg-last">
                         <section class="Profile-contact">
                             <img src="img/Juan-Carmona-Photo.png"
                             srcset="img/Juan-Carmona-Photo.png 1x, img/Juan-Carmona-Photo@2x.png 2x" 
-                            alt="Juan carmona logo" class="Profile-contact_img">
+                            alt="Juan carmona profile picture" class="Profile-contact_img">
                             <div class="">
                                 <h4 class="Juan-name_contact">Juan carmona</h4>
                                 <h1 class="Juan-ocupation">Freelance Graphic &amp; Website Designer</h1>
                             </div>
                         </section>
                             <address class="mb-0">
-                                <p class="Prefer-email_contact">Do you prefer email? You can contact me at:</p>
+                                <p class="Prefer-email_contact">You can contact me at:</p>
                                 <a href="mailto:hello@juancarmona.co" class="Mail-contact">hello@juancarmona.co</a>
                                 <p class="Prefer-email_contact">Or fill in the form below.</p>
                             </address> 
@@ -223,9 +246,10 @@
                 </div>            
             
         </footer>
-        <!--Contact-->                
+        <!--Contact-->
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">              
     
-
         <!-- Our css -->
         <link rel="stylesheet" href="css/main.css">            
         <!-- Fontawesome -->
