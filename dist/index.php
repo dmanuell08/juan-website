@@ -199,6 +199,7 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-12 Form">
+                        <p class="Prefer-email_contact d-lg-none d-flex">Or fill in the form below.</p>
                       <?php require 'contact-form.php'; ?>
                     </div>
                     <div class="col-lg-5 col-12 offset-0 offset-lg-1 order-first order-lg-last">
@@ -214,7 +215,6 @@
                             <address class="mb-0">
                                 <p class="Prefer-email_contact">You can contact me at:</p>
                                 <a href="mailto:hello@juancarmona.co" class="Mail-contact">hello@juancarmona.co</a>
-                                <p class="Prefer-email_contact">Or fill in the form below.</p>
                             </address> 
                             <div class="Social-contact d-none d-md-block">
                                 <p class="Like-mywork_contact">If you like my work, follow me at:</p>
