@@ -60,7 +60,7 @@
                     <section class="col-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
                         <img src="img/Juan-Carmona-Design-Studio.png"
                         srcset="img/Juan-Carmona-Design-Studio.png 1x, img/Juan-Carmona-Design-Studio@2x.png 2x" 
-                        alt="Juan carmona logo" class="Header-logo d-none d-md-block">
+                        alt="Juan Carmona logo" class="Header-logo d-none d-md-block">
                         <img src="img/juancarmona-icon.png"
                         srcset="img/juancarmona-icon.png 1x, img/juancarmona-icon@2x.png 2x" 
                         alt="Juan Carmona Logo" class="Header-logo Header-logo_2 d-md-none d-block">
@@ -144,7 +144,7 @@
                             <address class="Location-project">Medellín, Colombia.</address>
                             <p class="Description-project">DCM is a Medellín based company specialized in work at height training courses and SSH Consultancy.
                             </p>
-                            <p class="Description-project mb-0">I worked along with DCM to make their new Logotype and Website Design and Development. Their website has a special feature where students can check their certifications.
+                            <p class="Description-project mb-0">I worked along with DCM to make their new Logotype and Web Design and Development. Their website has a special feature where students can check their certifications.
                             </p>
                         </article>
                     </div>                    
@@ -206,10 +206,10 @@
                         <section class="Profile-contact">
                             <img src="img/Juan-Carmona-Photo.png"
                             srcset="img/Juan-Carmona-Photo.png 1x, img/Juan-Carmona-Photo@2x.png 2x" 
-                            alt="Juan carmona profile picture" class="Profile-contact_img">
+                            alt="Juan Carmona profile picture" class="Profile-contact_img">
                             <div class="">
-                                <h4 class="Juan-name_contact">Juan carmona</h4>
-                                <h1 class="Juan-ocupation">Freelance Graphic &amp; Website Designer</h1>
+                                <h4 class="Juan-name_contact">Juan Carmona</h4>
+                                <h1 class="Juan-ocupation">Freelance Graphic &amp; Web Designer</h1>
                             </div>
                         </section>
                             <address class="mb-0">
