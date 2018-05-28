@@ -17,23 +17,29 @@
           gtag('config', 'UA-108399305-1');
         </script>
         <script type="application/ld+json">
-           {
-             "@context": "http://schema.org/",
-             "type": "Person",
-             "ContactPoint": {
-               "type": "ContactPoint",
-               "contactType": "Customer service",
-               "email": "hello@juancarmona.co",
-               "url": "https://www.juancarmona.co"
-             },
-             "description": "I am a Freelance Graphic and Web Designer, I work along with Professionals, Agencies and Companies at projects like Branding and Graphic Design, Responsive Websites and User Interfaces and also Web Development.",
-             "image": "https://www.juancarmona.co/img/juan-profile.jpg",
-             "jobTitle": "Graphic and Web Designer",
-             "name": "Juan Carmona",
-             "url": "https://www.juancarmona.co/",
-             "makesOffer": "Branding, Graphic Design, Responsive Web Design and Development, App Design, Social Marketing."
-           }
-       </script>
+                   {
+                     "@context": "http://schema.org/",
+                     "@type": "Organization",
+                     "name": "Juan Carmona - Design Studio",
+                     "description": "I am a Freelance Graphic and Web Designer, I work along with Professionals, Agencies and Companies at projects like Branding and Graphic Design, Responsive Websites and User Interfaces and also Web Development.",
+                     "makesOffer": "Branding, Graphic Design, Responsive Web Design and Development, App Design, Social Marketing.", 
+                     "image": "https://www.juancarmona.co/img/juan-profile.jpg",
+                     "logo": "https://www.juancarmona.co/img/Juan-Carmona-Design-Studio.png",
+                     "url": "https://www.juancarmona.co/",
+                        "contactPoint": [{
+                          "@type": "ContactPoint",
+                          "telephone": "+57-314-665-1606",
+                          "contactType": "customer service"
+                        }],
+                        
+                       "sameAs": [
+                          "https://www.facebook.com/juancarmona.design/",
+                          "https://www.instagram.com/juancarmona.design/",
+                          "https://www.linkedin.com/in/juancarmona-design/"
+                        ]                
+                       
+                   }
+        </script>
     </head>
     <body>
         <!--Menu-->
