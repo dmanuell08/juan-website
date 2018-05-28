@@ -9,37 +9,33 @@
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Open+Sans:300,400,500" rel="stylesheet">
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108399305-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'UA-108399305-1');
-        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118457722-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-118457722-1');
+		</script>
         <script type="application/ld+json">
-                   {
-                     "@context": "http://schema.org/",
-                     "@type": "Organization",
-                     "name": "Juan Carmona - Design Studio",
-                     "description": "I am a Freelance Graphic and Web Designer, I work along with Professionals, Agencies and Companies at projects like Branding and Graphic Design, Responsive Websites and User Interfaces and also Web Development.",
-                     "makesOffer": "Branding, Graphic Design, Responsive Web Design and Development, App Design, Social Marketing.", 
-                     "image": "https://www.juancarmona.co/img/juan-profile.jpg",
-                     "logo": "https://www.juancarmona.co/img/Juan-Carmona-Design-Studio.png",
-                     "url": "https://www.juancarmona.co/",
-                        "contactPoint": [{
-                          "@type": "ContactPoint",
-                          "telephone": "+57-314-665-1606",
-                          "contactType": "customer service"
-                        }],
-                        
-                       "sameAs": [
-                          "https://www.facebook.com/juancarmona.design/",
-                          "https://www.instagram.com/juancarmona.design/",
-                          "https://www.linkedin.com/in/juancarmona-design/"
-                        ]                
-                       
-                   }
-        </script>
+          {
+            "@context": "http://schema.org/",
+            "@type": "Organization",
+            "name": "Juan Carmona - Design Studio",
+            "description": "I am a Freelance Graphic and Web Designer, I work along with Professionals, Agencies and Companies at projects like Branding and Graphic Design, Responsive Websites and User Interfaces and also Web Development.",
+            "makesOffer": "Branding, Graphic Design, Responsive Web Design and Development, App Design, Social Marketing.",
+            "image": "https://www.juancarmona.co/img/juan-profile.jpg",
+            "logo": "https://www.juancarmona.co/img/Juan-Carmona-Design-Studio.png",
+            "url": "https://www.juancarmona.co/",
+            "email": "hello@juancarmona.co",
+              "sameAs": [
+                 "https://www.facebook.com/juancarmona.design/",
+                 "https://www.instagram.com/juancarmona.design/",
+                 "https://www.linkedin.com/in/juancarmona-design/"
+               ]                
+          }
+      </script>
     </head>
     <body>
         <!--Menu-->
