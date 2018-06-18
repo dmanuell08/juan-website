@@ -30,8 +30,8 @@
             "url": "https://www.juancarmona.co/",
             "email": "hello@juancarmona.co",
               "sameAs": [
-                 "https://www.facebook.com/juancarmona.design/",
-                 "https://www.instagram.com/juancarmona.design/",
+                 "https://https://www.facebook.com/juancarmona.co/",
+                 "https://www.instagram.com/juancarmona.co/",
                  "https://www.linkedin.com/in/juancarmona-design/"
                ]                
           }
@@ -221,8 +221,8 @@
                             <div class="Social-contact d-none d-md-block">
                                 <p class="Like-mywork_contact">If you like my work, follow me at:</p>
                                 <div class="Redes">
-                                    <a href="https://www.facebook.com/juancarmona.design/" target="_blank"><i class="fab fa-facebook"></i></a>
-                                    <a href="https://www.instagram.com/juancarmona.design/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/juancarmona.co/" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/juancarmona.co/" target="_blank"><i class="fab fa-instagram"></i></a>
                                     <a href="https://www.linkedin.com/in/juancarmona-design/" target="_blank"><i class="fab fa-linkedin"></i></a>
                                     <a href="https://dribbble.com/juancarmona" target="_blank"><i class="fab fa-dribbble-square"></i></a>
                                 </div>
