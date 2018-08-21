@@ -11,7 +11,7 @@
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118457722-1"></script>
-		<script>
+<!-- 		<script>
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
@@ -35,237 +35,125 @@
                  "https://www.linkedin.com/in/juancarmona-design/"
                ]                
           }
-      </script>
+      </script> -->
     </head>
     <body>
-        <!--Menu-->
-        <div class="Contorno-menu">
-            <nav class="Menu-container fixed-top">
-                <div class="container px-0">
-                    <ul class="Menu">
-                      <li class="Menu-item Item_1"><a href="#Header-section" class="Slide">
-                        <img src="img/juancarmona-icon.png"
-                        srcset="img/juancarmona-icon.png 1x, img/juancarmona-icon@2x.png 2x" 
-                        alt="Juan Carmona Icon" class="Menu-logo">
-                      </a></li>
-                      <li class="Menu-item Item_2"><a href="#Contact-section" class="Menu-button Slide Up-animation">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>     
-        </div>
-        <!--Menu-->
-
-        <!--Header-->
-        <div class="Header-section" id="Header-section">
-            <div class="container">
-                <div class="row Header-row">
-                    <section class="col-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                        <img src="img/Juan-Carmona-Design-Studio.png"
-                        srcset="img/Juan-Carmona-Design-Studio.png 1x, img/Juan-Carmona-Design-Studio@2x.png 2x" 
-                        alt="Juan Carmona logo" class="Header-logo d-none d-md-block">
-                        <img src="img/juancarmona-icon.png"
-                        srcset="img/juancarmona-icon.png 1x, img/juancarmona-icon@2x.png 2x" 
-                        alt="Juan Carmona Logo" class="Header-logo Header-logo_2 d-md-none d-block">
-                    </section>
-                    <section class="col-md-8 col-12 Text-header">
-                        <h2 data-aos="fade-up" data-aos-delay="200">Hello, my name is Juan Carmona. </h2>
-                        <h1 data-aos="fade-up" data-aos-delay="300">I am a Freelance Graphic &amp; Web Designer based in Medellín, Colombia.</h1>
-                        <h3 class="mb-0" data-aos="fade-up" data-aos-delay="400">I work with some talented partners to offer professional services focused in:</h3>
-                    </section>
-                    <section class="Services d-none d-md-block">
-                        <h2 class="Keyword" data-aos="fade-right" data-aos-delay="500">Web Design &amp; Development</h2>
-                        <h2 class="Keyword" data-aos="zoom-out" data-aos-delay="600">App Design</h2>
-                        <h2 class="Keyword Keyword-last" data-aos="fade-left" data-aos-delay="700">Branding &amp; Marketing</h2>
-                    </section>
-                    <section class="Services Services-movile d-block d-md-none">
-                        <h2 class="Keyword" data-aos="zoom-out">Web Design & Development,<br> App Design and Branding</h2>
-                    </section>
-                    <a href="#Contact-section" class="Menu-button Header-button Slide Up-animation d-flex d-md-none">Contact</a>
-
-                </div>
+        <!-- Home header -->
+        <div id="Home-header" class="Home-header">
+            <div class="Mouse-icon-container">       
+               <span class="Mouse-icon_home"></span>                
             </div>
-        </div>
-        <!--Header-->
-
-        <!--Projects-->
-        <div class="Projects">
-            <div class="Projects-container">
-                <h3 class="Title Title_projects">Projects</h3> 
-                <div class="row Row-projects"> <!--Gatha-->
-                    <div class="col-xl-8 col-12 Col_1" data-aos="fade-up"> 
-                        <div class="Project-img Gatha-project">
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-8 col-md-10 col-12 Col_2">
-                        <article class="Project-info" data-aos="fade-down"> 
-                            <h4 class="Title Title_project Line_green">Gatha</h4>
-                            <h5 class="Service-project">App Design &amp; Web Development</h5>
-                            <address class="Location-project">Fort Lauderdale, United States.</address>
-                            <p class="Description-project">Gatha is an amazing startup with the mission of making sharing location easier.
-                            </p>
-                            <p class="Description-project mb-0">I am currently working as UI/UX Designer at Gatha. At my work there I am responsible of the App UI Design and the Web Design &amp; Development.</p>
-                        </article>
-                    </div>
-                </div> 
-                <div class="row Row-projects Row-projects_inverse"> <!--JC Branding-->
-                    <div class="col-xl-4 col-lg-8 col-md-10 col-12 Col_2 Col_2-inverse">
-                        <article class="Project-info" data-aos="fade-down"> 
-                            <h4 class="Title Title_project Line_yellow">Juan Carmona</h4>
-                            <h5 class="Service-project">Branding Identity</h5>
-                            <address class="Location-project">Made with passion at Medellín, Colombia.</address>
-                            <p class="Description-project mb-0">This is my personal branding project, I decided to share it here as an example of my Branding Skills.
-                            </p>
-                        </article>
-                    </div>                    
-                    <div class="col-xl-8 col-12 Col_1 Col_1-inverse order-first order-xl-last" data-aos="fade-up"> 
-                        <div class="Project-img JC-project">
-                        </div>
-                    </div>
-                </div> 
-                <div class="row Row-projects"> <!--Sin Fronteras-->
-                    <div class="col-xl-8 col-12 Col_1" data-aos="fade-up"> 
-                        <div class="Project-img SF-project">
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-8 col-md-10 col-12 Col_2">
-                        <article class="Project-info" data-aos="fade-down"> 
-                            <h4 class="Title Title_project Line_orange">Sin Fronteras Fundación</h4>
-                            <h5 class="Service-project">Branding Identity</h5>
-                            <address class="Location-project">Medellín, Colombia.</address>
-                            <p class="Description-project">Sin Fronteras is a Foundation created to educate and support low-income children and families from Medellín City.
-                            </p>
-                            <p class="Description-project mb-0">I worked in redesigning their Brand Identity so they can have better visual impact and achieve their goals as foundation.</p>
-                        </article>
-                    </div>
-                </div> 
-                <div class="row Row-projects Row-projects_inverse"> <!--DCM-->
-                    <div class="col-xl-5 col-lg-8 col-md-10 col-12 Col_2 Col_2-inverse Col-dcm">
-                        <article class="Project-info" data-aos="fade-down"> 
-                            <h4 class="Title Title_project Line_blue">DCM Servicios y Consultoría</h4>
-                            <h5 class="Service-project">Web Design &amp; Development</h5>
-                            <address class="Location-project">Medellín, Colombia.</address>
-                            <p class="Description-project">DCM is a Medellín based company specialized in work at height training courses and SSH Consultancy.
-                            </p>
-                            <p class="Description-project mb-0">I worked along with DCM to make their new Logotype and Web Design and Development. Their website has a special feature where students can check their certifications.
-                            </p>
-                        </article>
-                    </div>                    
-                    <div class="col-xl-7 col-12 Col_1 Col_1-inverse order-first order-xl-last" data-aos="fade-up"> 
-                        <div class="Project-img DCM-project">
-                        </div>
-                    </div>
-                </div>
-                <div class="row Row-projects"> <!--BO Project-->
-                    <div class="col-xl-8 col-12 Col_1" data-aos="fade-up"> 
-                        <div class="Project-img BO-project">
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-8 col-md-10 col-12 Col_2">
-                        <article class="Project-info" data-aos="fade-down"> 
-                            <h4 class="Title Title_project Line_purple">Best One</h4>
-                            <h5 class="Service-project">Web Design</h5>
-                            <address class="Location-project">Cali, Colombia.</address>
-                            <p class="Description-project">Best One is a phone repairing company.
-                            </p>
-                            <p class="Description-project mb-0">At this project I colaborated with a Web Development Agency to design the Best One Website.</p>
-                        </article>
-                    </div>
-                </div>                                                                          
-                <div class="row Row-projects Row-projects_inverse Molle-row"> <!--MP Project-->
-                    <div class="col-xl-4 col-lg-8 col-md-10 col-12 Col_2 Col_2-inverse">
-                        <article class="Project-info" data-aos="fade-down"> 
-                            <h4 class="Title Title_project Line_red">Molle Pizza</h4>
-                            <h5 class="Service-project">Web Design</h5>
-                            <address class="Location-project">Cali, Colombia.</address>
-                            <p class="Description-project">Molle Pizza is a pizza delivery restaurant.
-                            </p>
-                            <p class="Description-project mb-0">I made their new Web Design hand in hand with an agency to give a new look &amp; feel and help users to understand their pizza menu.
-                            </p>
-                        </article>
-                    </div>                    
-                    <div class="col-xl-8 col-12 Col_1 Col_1-inverse order-first order-xl-last" data-aos="fade-up"> 
-                        <div class="Project-img MP-project">
-                        </div>
-                    </div>
-                </div>                                      
-            </div>
-        </div>                
-        <!--Projects-->
- 
-        <!--Contact-->
-        <footer class="Contact-container" id="Contact-section">
-            <div class="container">
-                <h3 class="Title Title_contact">Contact</h3>
-                <p class="Paragraph-contact">Do you want to design your new brand or to build your company website?</p>
-                <p class="Paragraph-contact">I am available to work hand in hand with you, let’s talk about it.</p>
-                <div class="row">
-
-                    <div class="col-lg-6 col-12 Form">
-                        <p class="Prefer-email_contact d-lg-none d-flex">Or fill in the form below.</p>
-                      <?php require 'contact-form.php'; ?>
-                    </div>
-                    <div class="col-lg-5 col-12 offset-0 offset-lg-1 order-first order-lg-last">
-                        <section class="Profile-contact">
-                            <img src="img/Juan-Carmona-Photo.png"
-                            srcset="img/Juan-Carmona-Photo.png 1x, img/Juan-Carmona-Photo@2x.png 2x" 
-                            alt="Juan Carmona profile picture" class="Profile-contact_img">
-                            <div class="">
-                                <h4 class="Juan-name_contact">Juan Carmona</h4>
-                                <h1 class="Juan-ocupation">Freelance Graphic &amp; Web Designer</h1>
-                            </div>
-                        </section>
-                            <address class="mb-0">
-                                <p class="Prefer-email_contact">You can contact me at:</p>
-                                <a href="mailto:hello@juancarmona.co" class="Mail-contact">hello@juancarmona.co</a>
-                            </address> 
-                            <div class="Social-contact d-none d-md-block">
-                                <p class="Like-mywork_contact">If you like my work, follow me at:</p>
-                                <div class="Redes">
-                                    <a href="https://www.facebook.com/juancarmona.co/" target="_blank"><i class="fab fa-facebook"></i></a>
-                                    <a href="https://www.instagram.com/juancarmona.co/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                    <a href="https://www.linkedin.com/in/juancarmona-design/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                    <a href="https://dribbble.com/juancarmona" target="_blank"><i class="fab fa-dribbble-square"></i></a>
+            <!-- Main Menu -->
+            <nav id="Menu" class="Menu-container">
+                <a href="">
+                        <img src="img/juancarmona-icon.png" alt="" class="Menu-logo">
+                    </a>
+                <ul class="Menu-list">
+                    <li class="Menu-item Menu-item_active"><a href="" class="Page_active">Home</a></li>
+                    <li class="Menu-item"><a href="">Projects</a></li>
+                    <li class="Menu-item"><a href="">About Me</a></li>
+                    <li class="Menu-item"><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Main Menu -->
+            <!-- Slider header -->
+            <div id="Home-slider" class="Home-slider">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+                  </ol>                    
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="Slide-item Slide-1">
+                            <div class="container">
+                                <div class="row Row-slide">
+                                    <div class="col-xl-4 Text-slide">
+                                        <div class="Smoothness">
+                                           <h1 class="Title animated fadeInUp delay-2s"><span>App Design</span></h1> 
+                                        </div>                            
+                                        <p class="Parrafo animated fadeInUp delay-3s">UI/UX Design for Apps at your hands, let me help you with your bussines goals and make functional and appearing.</p>
+                                        <div class="Btn-container">
+                                            <button class="Btn animated fadeInUp delay-4s"><a href="">See Projects</a></button>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-xl-8 Images-slide">
+                                        <img src="img/Phone.png" alt="" class="img-fluid animated fadeInUp">
+                                        <img src="img/Phone.png" alt="" class="img-fluid animated fadeInDown">
+                                        
+                                    </div>
                                 </div>
-                            </div>                      
+                            </div>
+                        </div>    
                     </div>
-                    <div class="Social-contact d-md-none d-flex">
-                        <p class="Like-mywork_contact">If you like my work, follow me at:</p>
-                        <div class="Redes">
-                            <a href="https://www.facebook.com/juancarmona.design/" target="_blank"><i class="fab fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/juancarmona.design/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/juancarmona-design/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://dribbble.com/juancarmona" target="_blank"><i class="fab fa-dribbble-square"></i></a>
-                        </div>
-                    </div>                     
-                </div>
-                <div class="More-details_section">
-                    <small class="More-details_contact">More details about my projects are coming soon, stay tuned :)</small>
-                </div>
+                    <div class="carousel-item">
+                        <div class="Slide-item Slide-1">
+                            <div class="container">
+                                <div class="row Row-slide">
+                                    <div class="col-xl-8 Images-slide">
+                                        <img src="img/Phone.png" alt="" class="img-fluid animated fadeInUp">
+                                        <img src="img/Phone.png" alt="" class="img-fluid animated fadeInDown">
+                                        
+                                    </div>
+                                    <div class="col-xl-4 Text-slide">
+                                        <div class="Smoothness">
+                                           <h1 class="Title"><span>App Design</span></h1> 
+                                        </div>                            
+                                        <p class="Parrafo">UI/UX Design for Apps at your hands, let me help you with your bussines goals and make functional and appearing.</p>
+                                        <div class="Btn-container">
+                                            <button class="Btn"><a href="">
+                                            See Projects</a></button>
+                                        </div>
+                                        
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>                        
             </div>
-                <div class="Copyright">
-                    <p class="Copyright-text">Copyright © 2018 - Juan Carmona Design Studio</p>
-                    
-                </div>            
-            
-        </footer>
-        <!--Contact-->
+            <!-- Slider header -->
+        </div>
+        <!-- Home header -->
+        <div class="container">
+            <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, minus cum vero fugit, quos ex architecto laborum voluptatem? Maiores odit saepe ut sequi placeat non cumque autem molestias sed soluta praesentium sapiente, voluptas dolores nemo animi iste? Obcaecati error ipsam ratione voluptatum, dignissimos hic ab vel ducimus doloribus at natus sunt reprehenderit laboriosam dolor esse enim alias ex. Quod non, incidunt commodi illo nostrum, tempore nobis, ullam nemo fugit eius voluptate, ex reprehenderit magni officiis quidem quo. Quod iure, iste! Ducimus fugit magni omnis nulla sit vel optio minima pariatur dolore quam, ex accusantium, fuga hic a, sequi nihil distinctio incidunt iusto facere, quos dolores. Fuga fugit a quas, facilis facere sapiente iure. Nihil odio maxime aut qui explicabo, saepe obcaecati sapiente, voluptates dolorem quibusdam! Mollitia nulla libero fuga velit obcaecati quod rerum quisquam, fugit praesentium animi perspiciatis rem dolores blanditiis recusandae. Id, necessitatibus provident tenetur officiis nobis quod iure quas voluptatum, ex dolores laboriosam enim accusantium perferendis praesentium omnis corporis. Enim nemo quia eum dignissimos earum unde, repellat cumque, ducimus tenetur, rerum eligendi ipsum aut. Sit similique inventore fugit eius in commodi, voluptatem perferendis, velit ad odit blanditiis dolores tenetur, at natus aut, repellat beatae ipsa adipisci dolore rem.</span>
+            <span>Ea ipsum iusto quaerat eveniet dicta laboriosam illo officiis voluptates aliquid sapiente a porro velit corporis quisquam commodi quam atque, ducimus, magni qui explicabo! Possimus provident vero, mollitia dignissimos quisquam iure commodi reiciendis voluptatem quaerat ab. Beatae laboriosam quia neque quas iusto quo consequatur itaque harum saepe quisquam. Perspiciatis inventore reiciendis ab sed hic, aperiam quidem! Nam nisi omnis alias sequi, aut reiciendis quisquam doloremque maiores assumenda ratione, ad suscipit excepturi aspernatur labore fugit. Nostrum id ullam, voluptates ut? Reiciendis temporibus iste, consequuntur veritatis aliquid dignissimos amet dolor in consequatur quod, nisi alias quis maxime illum exercitationem laboriosam accusantium aspernatur, culpa quam distinctio commodi deleniti. Qui omnis sed ullam velit odio eaque ducimus eius nobis molestiae, a harum deleniti, rerum rem debitis, minus nam fugit. Quidem architecto, quod, ea eius sequi tempora deserunt fugit omnis ducimus qui necessitatibus. Aliquam voluptatum, dolore unde aut nesciunt natus quo laborum mollitia quis dicta enim quod commodi facilis repellendus cum assumenda, incidunt qui hic a, quaerat itaque. Repellat atque illo et modi doloribus itaque corporis nesciunt saepe non. Ipsa magni, ut vel minima architecto facilis expedita rerum molestias, nam eaque sapiente officiis officia corporis ad. Et molestias sapiente eius illum, eum, architecto earum neque!</span>
+            <span>Maiores, possimus voluptate earum ullam temporibus neque ea. Illum optio quae ipsam, accusamus mollitia odio qui, illo! Consectetur sunt consequuntur eveniet saepe, facere molestias odit enim praesentium ut illo? Tempore impedit natus provident, nostrum laudantium deserunt, et sint saepe, illum est voluptate laborum corrupti nobis velit consequatur recusandae aliquam modi dolorum qui? Ab minus, vero excepturi eaque animi quam unde sed! Ipsum natus eligendi esse laborum quisquam totam dolorem atque eum obcaecati similique assumenda dignissimos, consectetur veniam porro perspiciatis, qui quod, laudantium tenetur architecto rem vitae sunt a molestias. Laboriosam harum ad nulla ducimus ratione reiciendis esse, ullam quisquam reprehenderit praesentium alias fugiat facilis iusto expedita recusandae laudantium soluta, sapiente, dolores fugit tenetur. Eum ipsum quo quia tempore doloremque excepturi voluptates iste, fugiat recusandae aut perferendis dicta rem, culpa alias nesciunt hic dolore, voluptas odit ad laborum. Natus, dolorum, eveniet. Est, laudantium tempore non omnis odit nulla error velit, magnam illo, totam quibusdam nemo pariatur hic. Voluptas soluta corporis unde sit numquam, quaerat, non amet quasi quos quas atque eligendi tempora aliquid eum explicabo enim laborum deleniti obcaecati facilis dolorem illo. Dolorum ad autem quia cumque rem eaque nulla consequuntur ex veniam reprehenderit natus voluptate dolore, reiciendis! Adipisci, corrupti, perferendis!</span></p>
+        </div>
+
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">              
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+        <!-- Slick Slider css -->
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <!-- Slick Slider css -->
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> 
+        <!-- AOS css -->
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">  
+        <!-- Animate css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">                                  
     
         <!-- Our css -->
         <link rel="stylesheet" href="css/main.css">            
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-        <!-- AOS css -->
-        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- AOS javascript -->
         <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         <!-- Our javascript -->
         <script type="text/javascript" src="js/all.js"></script>    
     </body>
