@@ -46,7 +46,7 @@
             <!-- Main Menu -->
             <nav id="Menu" class="Menu-container">
                 <a href="">
-                        <img src="img/juancarmona-icon.png" alt="" class="Menu-logo">
+                        <img src="img/Logo.svg" alt="Logo juan carmona" class="Menu-logo">
                     </a>
                 <ul class="Menu-list">
                     <li class="Menu-item Menu-item_active"><a href="" class="Page_active">Home</a></li>
@@ -63,24 +63,35 @@
                     <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleFade" data-slide-to="1"></li>
                   </ol>                    
-                  <div class="carousel-inner">
+                  <div class="carousel-inner" style="overflow: none !important">
                     <div class="carousel-item active">
                         <div class="Slide-item Slide-1">
                             <div class="container">
                                 <div class="row Row-slide">
+                                    <div class="Circles-bg">
+                                        <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-1 animated fadeIn">
+                                        <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-2 animated fadeIn">
+                                        <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-3 animated fadeIn">
+                                        <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Circle-4 animated fadeIn">
+                                        <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
+                                    </div>
                                     <div class="col-xl-4 Text-slide">
                                         <div class="Smoothness">
-                                           <h1 class="Title animated fadeInUp delay-2s"><span>App Design</span></h1> 
+                                           <h1 class="Title animated fadeInUp"><span>App Design</span></h1> 
                                         </div>                            
-                                        <p class="Parrafo animated fadeInUp delay-3s">UI/UX Design for Apps at your hands, let me help you with your bussines goals and make functional and appearing.</p>
+                                        <p class="Parrafo animated fadeInUp">UI/UX Design for Apps at your hands, let me help you with your bussines goals and make functional and appearing.</p>
                                         <div class="Btn-container">
-                                            <button class="Btn animated fadeInUp delay-4s"><a href="">See Projects</a></button>
+                                            <button class="Btn animated fadeInUp">
+                                                <span class="Btn-circle Btn-circle1"></span>
+                                                <span class="Btn-circle Btn-circle2"></span>
+                                                <a href="">See Projects</a>
+                                            </button>
                                         </div>
                                         
                                     </div>
                                     <div class="col-xl-8 Images-slide">
-                                        <img src="img/Phone.png" alt="" class="img-fluid animated fadeInUp">
-                                        <img src="img/Phone.png" alt="" class="img-fluid animated fadeInDown">
+                                        <img src="img/Phone-2.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-2">
+                                        <img src="img/Phone-1.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-1">
                                         
                                     </div>
                                 </div>
@@ -88,21 +99,21 @@
                         </div>    
                     </div>
                     <div class="carousel-item">
-                        <div class="Slide-item Slide-1">
+                        <div class="Slide-item Slide-2">
                             <div class="container">
                                 <div class="row Row-slide">
                                     <div class="col-xl-8 Images-slide">
-                                        <img src="img/Phone.png" alt="" class="img-fluid animated fadeInUp">
-                                        <img src="img/Phone.png" alt="" class="img-fluid animated fadeInDown">
+                                        <img src="img/Phone-2.svg" alt="" class="img-fluid animated fadeIn">
+                                        <img src="img/Phone-1.svg" alt="" class="img-fluid animated fadeIn">
                                         
                                     </div>
                                     <div class="col-xl-4 Text-slide">
                                         <div class="Smoothness">
-                                           <h1 class="Title"><span>App Design</span></h1> 
+                                           <h1 class="Title animated fadeInUp"><span>App Design</span></h1> 
                                         </div>                            
-                                        <p class="Parrafo">UI/UX Design for Apps at your hands, let me help you with your bussines goals and make functional and appearing.</p>
+                                        <p class="Parrafo animated fadeInUp">UI/UX Design for Apps at your hands, let me help you with your bussines goals and make functional and appearing.</p>
                                         <div class="Btn-container">
-                                            <button class="Btn"><a href="">
+                                            <button class="Btn animated fadeInUp"><a href="">
                                             See Projects</a></button>
                                         </div>
                                         
@@ -154,6 +165,9 @@
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <!-- Move elements on mouse  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/utils/Draggable.min.js"></script>        
         <!-- Our javascript -->
         <script type="text/javascript" src="js/all.js"></script>    
     </body>

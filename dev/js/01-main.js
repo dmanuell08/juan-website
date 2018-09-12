@@ -19,6 +19,12 @@ $(document).ready(function(){
 	        	$(".Menu-container").removeClass("Menu-visible");
 	        }   
     });
+	var zero = 0
+    $(window).scroll(function(){
+    	$(".Menu-container").toggleClass("hide",$(window).scrollTop()
+    		> zero);
+    		zero = $(window).scrollTop();
+    });
     //Menu//
     //Menu//
 	$(".Slide").click(function(e){
@@ -44,6 +50,23 @@ $(document).ready(function(){
 	  pause: true,
 	  interval: false
 	});
+
+	//Move elements on mouse//
+	$("#Home-header").mousemove(function(e) {
+	  parallaxIt(e, ".Phone-1", -40);
+	  parallaxIt(e, ".Phone-2", -20);
+	});
+
+	function parallaxIt(e, target, movement) {
+	  var $this = $("#Home-header");
+	  var relX = e.pageX - $this.offset().left;
+	  var relY = e.pageY - $this.offset().top;
+
+	  TweenMax.to(target, 1, {
+	    x: (relX - $this.width() / 3) / $this.width() * movement,
+	    y: (relY - $this.height() / 3) / $this.height() * movement
+	  });
+	}
 
 
 
