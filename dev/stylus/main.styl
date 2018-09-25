@@ -28,6 +28,9 @@ Animation_1 = 600ms all cubic-bezier(.785,.135,.15,.86)
 	margin 0
 	padding 0
 
+body
+	background-color Grey_100
+
 body, a
 	font-family opensans
 	font-size 17px
@@ -39,7 +42,11 @@ body, a
 
 h1,h2,h3,h4,h5,p
 	margin 0
-
+	
+ul
+	list-style none
+	margin 0
+	
 button
 	background-color transparent
 	border none
@@ -50,149 +57,78 @@ button
 .Smoothness
 	position relative
 
-.Btn-container
-	margin-left 8px
-
 .Btn
-	position relative
-	padding 16px 24px
+	height 40px
+	width 144px
 	cursor pointer
 	animation-delay 1.4s
+	border-radius 20px
+	background linear-gradient(223.67deg, #FFDE66 0%, #FFD240 100%)
+	box-shadow 0 4px 12px 0 #FFE099
+	display flex
+	justify-content center
+	align-items center
 	a
-		font-size 20px
-		line-height 20px
-		font-weight bold
+		font-size 12px
+		line-height 12px
+		font-weight 500
+		letter-spacing 0.4px
 		font-family montserrat
 		color Grey_100
 		&:focus
 			outline none	
-	.Btn-circle
-		content ""
-		display block
-		position absolute
-		width 66px
-		height 66px
-		border-radius 50%
-		border 2px solid #FFEB99
-		top 50%
-		left 30px
-		transform translate(-50%,-50%)
-		z-index -1
-		transition 400ms all cubic-bezier(0.785, 0.135, 0.150, 0.860)
-	.Btn-circle2
-		width 46px
-		height 46px
-	&:hover
-		.Btn-circle1
-			width 100%
-			height 100%
-			left 50%
-			border-radius 25px
-			background-color Yellow_400 
-			border 2px solid Yellow_400
-		.Btn-circle2
-			opacity 0		
 			
 
 .Title
 	font-family montserrat
-	font-size 40px
-	line-height 62px
-	color Grey_100
+	font-size 36px
+	line-height 56px
+	color Withe_100
 	font-weight bold
-	margin-bottom 43px
+	margin-bottom 32px
 	animation-delay 1s
-	span
-		position relative
-		&:before
-			content ""
-			display block
-			position absolute
-			bottom 0
-			left 58%
-			right 50%
-			width 120px
-			height 16px
-			background-color #FFF5CC
-			z-index -1
 
 .Parrafo
-	line-height 27px
-	margin-bottom 47px
+	line-height 24px
+	margin-bottom 32px
 	animation-delay 1.2s
+	font-size 16px
+	min-width 370px
 
 .Home-header
-	height 720px
+	height 80vh
 	position relative
-	margin-top 83px
-	margin-bottom 120px
-	display flex
-	justify-content center
-	align-items center
+	margin-top 120px
+	padding-bottom 40px
+	overflow hidden
 
-.Mouse-icon-container
+.Social-icon_container
 	position absolute
-	bottom -90px
-	left 50%
-	right 50%
-
-.Mouse-icon_home
+	top 50%
+	left 4%
+	transform translate(-50%,-50%) 
+	z-index 1
+.Social-icon
 	display block
-	width 50px
-	height 80px
-	border 4px solid #D7DBE0
-	border-radius 25px
-	position relative
-	transform scale(.5)
-	&:before
-		content ""
-		display block
-		position absolute
-		border 4px solid #D7DBE0
-		border-radius 50%	
-		top 3px
-		left 40%
-		right 50%
-		height 10px
-		width 8px
-		animation-name Mouse-scroll
-		animation-duration 4s
-		animation-timing-function cubic-bezier(0.785, 0.135, 0.150, 0.860)
-		animation-iteration-count infinite
-
-@keyframes Mouse-scroll{
-	0%{
-		transform: translateY(15px);
-	}
-	50%{
-		transform: translateY(40px);
-	}
-	100%{
-		transform: translateY(15px);
-	}
-}
+	margin-bottom 32px
 	
 	
 .Menu-container
 	display flex
 	justify-content space-between
 	align-items center
-	padding 40px 64px 0
+	padding 0 64px
 	position fixed
 	width 100%
+	height 120px
 	top 0
 	transition all 1s ease-in-out
+	z-index 100
+	transition Animation_1	
 
 .Menu-container.hide
 	top -100%
 	transition all 1s ease-in-out
-
-#Menu
-	background-color #fff
-	z-index 100
-	transition Animation_1
-
-
 
 .Menu-logo
 	width 62px
@@ -209,53 +145,60 @@ button
 	position relative
 	a
 		font-size 16px
-		line-height 19px
-		color #464B66
+		line-height 22px
+		color #7A7F99
 		position relative
-
-.Page_active
-	font-weight 600
-	&:before
-		content ""
-		display block
-		position absolute
-		bottom 3px
-		right -7px
-		height 4px
-		width 40px
-		background-color #FFEB99
-		z-index -1
+	.Page_active
+		font-weight 600
+		color #fff
+		&:before
+			content ""
+			display block
+			position absolute
+			top 50%
+			left 50%
+			transform translate(-50%,14px)
+			height 3px
+			width 85%
+			border-radius 1px
+			background-color #FFEB99
+			z-index -1
 
 .Menu-item
 	&:before
 		content ""
 		display block
 		position absolute
-		bottom 3px
-		right -7px
-		height 4px
+		top 50%
+		left 50%
+		transform translate(-50%,14px)
+		height 3px
 		width 0
 		background-color #FFEB99
 		z-index -1
 		transition all .65s cubic-bezier(0.845, 0.000, 0.165, 1.000)
 	&:hover
 		&:before
-			width 40px
+			width 85%
 
 .Menu-item.Menu-item_active
 	&:before
 		display none
-
+.Home-slider
+	position relative
 .carousel-fade
 	.carousel-item
 		transition 1s all
 		transition-duration 2s
+.carousel-inner
+	overflow initial !important
 
 .carousel-control-next
 	right -200px
-
+	display none
 .carousel-control-prev
 	left -200px
+	display none
 
 .Row-slide
 	position relative
@@ -264,7 +207,6 @@ button
 	position absolute
 	width 120%
 	height 90%
-	overflow hidden
 
 .Circle-item
 	position absolute
@@ -296,9 +238,10 @@ button
 	top 70%
 	left 50%
 	animation-delay 1.3s
-	
-	
+.carousel-inner
+	min-height 650px
 .Slide-item
+	min-height 650px
 	&:focus
 		outline none
 
@@ -308,6 +251,7 @@ button
 	justify-content center
 
 .Images-slide
+	position relative
 	img
 		float right
 		display inline-block
@@ -317,6 +261,7 @@ button
 		margin-top 80px
 		animation-delay 2.2s
 
+
 .slick-dots
 	width auto
 	bottom 90px
@@ -324,14 +269,52 @@ button
 
 .carousel-indicators
 	margin 0
-	justify-content flex-start
+	display inline-table
+	top 50%
+	left 95%
+	transform translate(-50%,-50%)	
 	li
 		width 64px
 		height 4px
-		background-color #EDF0F5
+		background-color transparent !important
+		margin-bottom 32px
+		p
+			font-size 16px
+			line-height 20px
+			font-weight 300px
+			color #464B66
+			position relative
+			max-width 57px
+			overflow hidden
+			transition all 1.2s cubic-bezier(0.845, 0.000, 0.165, 1.000)
+			&:before,&:after
+				content ""
+				display inline-block
+				position absolute
+				top 50%
+				left 50%
+				transform translate(-50%,-50%)
+				height 3px
+				width 32px
+				border-radius 1px
+				margin-left 13px
+				background-color #464B66
+				transition all 1.2s cubic-bezier(0.845, 0.000, 0.165, 1.000)
+			&:after
+				background-color #FFD240
+				left 113%
 	.active
+		p
+			color #FFD240
+			transition all 1.2s cubic-bezier(0.845, 0.000, 0.165, 1.000)
+			&:after
+				transition all 1.2s cubic-bezier(0.845, 0.000, 0.165, 1.000)
+				left 50%
+				
+
 		
-		background-color Yellow_200
+.carousel-indicators li
+	text-indent initial
 
 .slick-dots 
 	li.slick-active 
@@ -339,3 +322,147 @@ button
 			&:before
 				opacity 1
 				background-color Yellow_200
+
+
+#Home-about
+	padding 158px 0 126px 0
+	position relative
+	overflow hidden
+	&:before
+		content ""
+		display block
+		position absolute
+		height 100%
+		width 50%
+		top 50%
+		left 0
+		transform translate(-21%,-50%)
+		background-color #FFDE66
+		border-radius 16px
+		transition all 1000ms cubic-bezier(0.215, 0.610, 0.355, 1.000)
+.Title-about
+	font-size 32px
+.Parrafo-group
+	max-width 400px
+	display inline-block
+.Circles-bg_about
+	position absolute
+	height 100%
+	width 100%
+	top 50%
+	left 50%
+	transform translate(-50%,-50%)
+
+.Circle-1_about, .Circle-2_about
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translate(0%,-50%);
+.Circle-2_about
+	left: 100%;
+	transform: translate(-100%,-50%);	
+	
+
+.List-about_home
+	display inline-block
+	vertical-align top
+	margin-left 100px
+	li
+		margin-bottom 32px
+		img
+			margin-right 30px
+	
+#Home-projets
+	text-align center
+	padding-top 85px
+	background-color #FAFCFF
+	.row
+		align-items center
+	p:nth-of-type(3)
+		margin-bottom 85px
+.Gatha-project_container,.BO-project_container
+	background-color #FFFFFF
+.Parrafo-projects
+	margin-bottom 0
+.Subtitle
+	font-size 32px
+	line-height 50px
+.Project-container
+	padding 135px 0
+	position relative
+	overflow hidden
+.Col-project_description
+	text-align left
+.Title-project
+	margin-bottom 16px
+.Title-project_type
+	font-family montserrat
+	font-size 16px
+	line-height 25px
+	margin-bottom 32px
+.Title-project_gatha
+	color #80CC45
+.Title-project_dcm
+	color #538CF2
+.Title-project_bo
+	color #405EBC
+.Title-project_molle
+	color #E51328
+.Parrafo-project
+	max-width 420px
+.Btn-Projects
+	background none
+	box-shadow none
+	justify-content initial
+	margin-top -8px
+	position relative
+	a
+		font-size 14px
+	&:before
+		content ""
+		display block
+		position absolute
+		top 50%
+		left 90%
+		transform translate(-50%,-50%)
+		width 24px
+		height 3px
+		z-index -1
+		transition Animation_1
+	&:hover
+		&:before
+			left 70%
+			transition Animation_1
+			width 48px
+			
+.Btn-Projects_1
+	&:before
+		background-color #80CC45
+.Btn-Projects_2
+	&:before
+		background-color #538CF2
+.Btn-Projects_3
+	&:before
+		background-color #405EBC
+.Btn-Projects_4
+	&:before
+		background-color #E51328
+		
+.Gatha-circles_bg
+	position absolute
+	width 100%
+	height 100%
+	.Gatha-circle_5
+		width 361px
+.Mockup-project
+	width 100%
+	height 440px
+	background-size cover
+.Mockup-gatha
+	background-image url("../img/Gatha.jpg")
+.Mockup-dcm
+	background-image url("../img/DCM.jpg")
+.Mockup-bo
+	background-image url("../img/Best-One.jpg")
+.Mockup-molle
+	background-image url("../img/Molle-Pizza.jpg")

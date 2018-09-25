@@ -4,13 +4,12 @@ $(document).ready(function(){
 			//Menu//
 	        var posicionDeWindow = $(window).scrollTop();
 	        if(posicionDeWindow > 50){
-	            $("#Menu").css({"padding": "15px 64px"});
-	            $(".Menu-logo").css({"width": "62px"});
-	            $(".Menu-container").css({"box-shadow": "0 2px 4px 0 #E9EDF5"});
+	            $("#Menu").css({"height": "80px"});
+	            $(".Menu-container").css({"background-color": "#1A1D33"});
 	        }
 	        else if(posicionDeWindow < 50){
-				$("#Menu").css({"padding": "40px 64px 0"});
-				$(".Menu-container").css({"box-shadow": "none"});
+				$("#Menu").css({"height": "120px"});
+				$(".Menu-container").css({"background-color": "none"});
 	        }
 	        if(posicionDeWindow > 500){
 	        	$(".Menu-container").addClass("Menu-visible");

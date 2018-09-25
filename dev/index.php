@@ -6,6 +6,10 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <!-- Our css -->
+        <link rel="stylesheet" href="css/main.css">               
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Open+Sans:300,400,500" rel="stylesheet">
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -39,10 +43,7 @@
     </head>
     <body>
         <!-- Home header -->
-        <div id="Home-header" class="Home-header">
-            <div class="Mouse-icon-container">       
-               <span class="Mouse-icon_home"></span>                
-            </div>
+        <section id="Home-header" class="Home-header">
             <!-- Main Menu -->
             <nav id="Menu" class="Menu-container">
                 <a href="">
@@ -58,38 +59,43 @@
             <!-- Main Menu -->
             <!-- Slider header -->
             <div id="Home-slider" class="Home-slider">
+	        	<!-- Social Icons -->
+					<div class="Social-icon_container">       
+		               	<img src="img/Website-Icon.png" alt="Instagram Icon" class="Social-icon Social-icon_1">
+		               	<img src="img/Website-Icon.png" alt="Linkedin Icon" class="Social-icon Social-icon_2">
+		               	<img src="img/Website-Icon.png" alt="Dribbble Icon" class="Social-icon Social-icon_3">
+		            </div>            	
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                   <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+	                    <li data-target="#carouselExampleFade" data-slide-to="0" class="active"><p>01</p></li>
+	                    <li data-target="#carouselExampleFade" data-slide-to="1"><p>02</p></li>
+	                    <li data-target="#carouselExampleFade" data-slide-to="2"><p>03</p></li>
                   </ol>                    
-                  <div class="carousel-inner" style="overflow: none !important">
+                  <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="Slide-item Slide-1">
                             <div class="container">
                                 <div class="row Row-slide">
                                     <div class="Circles-bg">
-                                        <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-1 animated fadeIn">
-                                        <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-2 animated fadeIn">
-                                        <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-3 animated fadeIn">
-                                        <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Circle-4 animated fadeIn">
-                                        <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-1 animated fadeIn">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-2 animated fadeIn">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-3 animated fadeIn">
+                                              <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Circle-4 animated fadeIn">
+                                              <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
                                     </div>
                                     <div class="col-xl-4 Text-slide">
                                         <div class="Smoothness">
                                            <h1 class="Title animated fadeInUp"><span>App Design</span></h1> 
                                         </div>                            
-                                        <p class="Parrafo animated fadeInUp">UI/UX Design for Apps at your hands, let me help you with your bussines goals and make functional and appearing.</p>
+                                        <p class="Parrafo animated fadeInUp">UI/UX Design for Apps Service, ideal for startups. I can help you design a user-friendly yet delightful App for your users.</p>
                                         <div class="Btn-container">
                                             <button class="Btn animated fadeInUp">
-                                                <span class="Btn-circle Btn-circle1"></span>
-                                                <span class="Btn-circle Btn-circle2"></span>
-                                                <a href="">See Projects</a>
+                                                <a href="">SEE PROJECTS</a>
                                             </button>
                                         </div>
                                         
                                     </div>
-                                    <div class="col-xl-8 Images-slide">
+                                    <div class="col-xl-8 Images-slide fadeInLeft">
                                         <img src="img/Phone-2.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-2">
                                         <img src="img/Phone-1.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-1">
                                         
@@ -114,7 +120,7 @@
                                         <p class="Parrafo animated fadeInUp">UI/UX Design for Apps at your hands, let me help you with your bussines goals and make functional and appearing.</p>
                                         <div class="Btn-container">
                                             <button class="Btn animated fadeInUp"><a href="">
-                                            See Projects</a></button>
+                                            SEE PROJECTS</a></button>
                                         </div>
                                         
                                     </div>                                    
@@ -122,6 +128,38 @@
                             </div>
                         </div>    
                     </div>
+                    <div class="carousel-item">
+                        <div class="Slide-item Slide-3">
+                            <div class="container">
+                                <div class="row Row-slide">
+                                    <div class="Circles-bg">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-1 animated fadeIn">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-2 animated fadeIn">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-3 animated fadeIn">
+                                              <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Circle-4 animated fadeIn">
+                                              <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
+                                    </div>
+                                    <div class="col-xl-4 Text-slide">
+                                        <div class="Smoothness">
+                                           <h1 class="Title animated fadeInUp"><span>App Design</span></h1> 
+                                        </div>                            
+                                        <p class="Parrafo animated fadeInUp">UI/UX Design for Apps Service, ideal for startups. I can help you design a user-friendly yet delightful App for your users.</p>
+                                        <div class="Btn-container">
+                                            <button class="Btn animated fadeInUp">
+                                                <a href="">SEE PROJECTS</a>
+                                            </button>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-xl-8 Images-slide fadeInLeft">
+                                        <img src="img/Phone-2.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-2">
+                                        <img src="img/Phone-1.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-1">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>                                        
                   </div>
                   <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -134,27 +172,145 @@
                 </div>                        
             </div>
             <!-- Slider header -->
-        </div>
+        </section>
         <!-- Home header -->
-        <div class="container">
-            <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, minus cum vero fugit, quos ex architecto laborum voluptatem? Maiores odit saepe ut sequi placeat non cumque autem molestias sed soluta praesentium sapiente, voluptas dolores nemo animi iste? Obcaecati error ipsam ratione voluptatum, dignissimos hic ab vel ducimus doloribus at natus sunt reprehenderit laboriosam dolor esse enim alias ex. Quod non, incidunt commodi illo nostrum, tempore nobis, ullam nemo fugit eius voluptate, ex reprehenderit magni officiis quidem quo. Quod iure, iste! Ducimus fugit magni omnis nulla sit vel optio minima pariatur dolore quam, ex accusantium, fuga hic a, sequi nihil distinctio incidunt iusto facere, quos dolores. Fuga fugit a quas, facilis facere sapiente iure. Nihil odio maxime aut qui explicabo, saepe obcaecati sapiente, voluptates dolorem quibusdam! Mollitia nulla libero fuga velit obcaecati quod rerum quisquam, fugit praesentium animi perspiciatis rem dolores blanditiis recusandae. Id, necessitatibus provident tenetur officiis nobis quod iure quas voluptatum, ex dolores laboriosam enim accusantium perferendis praesentium omnis corporis. Enim nemo quia eum dignissimos earum unde, repellat cumque, ducimus tenetur, rerum eligendi ipsum aut. Sit similique inventore fugit eius in commodi, voluptatem perferendis, velit ad odit blanditiis dolores tenetur, at natus aut, repellat beatae ipsa adipisci dolore rem.</span>
-            <span>Ea ipsum iusto quaerat eveniet dicta laboriosam illo officiis voluptates aliquid sapiente a porro velit corporis quisquam commodi quam atque, ducimus, magni qui explicabo! Possimus provident vero, mollitia dignissimos quisquam iure commodi reiciendis voluptatem quaerat ab. Beatae laboriosam quia neque quas iusto quo consequatur itaque harum saepe quisquam. Perspiciatis inventore reiciendis ab sed hic, aperiam quidem! Nam nisi omnis alias sequi, aut reiciendis quisquam doloremque maiores assumenda ratione, ad suscipit excepturi aspernatur labore fugit. Nostrum id ullam, voluptates ut? Reiciendis temporibus iste, consequuntur veritatis aliquid dignissimos amet dolor in consequatur quod, nisi alias quis maxime illum exercitationem laboriosam accusantium aspernatur, culpa quam distinctio commodi deleniti. Qui omnis sed ullam velit odio eaque ducimus eius nobis molestiae, a harum deleniti, rerum rem debitis, minus nam fugit. Quidem architecto, quod, ea eius sequi tempora deserunt fugit omnis ducimus qui necessitatibus. Aliquam voluptatum, dolore unde aut nesciunt natus quo laborum mollitia quis dicta enim quod commodi facilis repellendus cum assumenda, incidunt qui hic a, quaerat itaque. Repellat atque illo et modi doloribus itaque corporis nesciunt saepe non. Ipsa magni, ut vel minima architecto facilis expedita rerum molestias, nam eaque sapiente officiis officia corporis ad. Et molestias sapiente eius illum, eum, architecto earum neque!</span>
-            <span>Maiores, possimus voluptate earum ullam temporibus neque ea. Illum optio quae ipsam, accusamus mollitia odio qui, illo! Consectetur sunt consequuntur eveniet saepe, facere molestias odit enim praesentium ut illo? Tempore impedit natus provident, nostrum laudantium deserunt, et sint saepe, illum est voluptate laborum corrupti nobis velit consequatur recusandae aliquam modi dolorum qui? Ab minus, vero excepturi eaque animi quam unde sed! Ipsum natus eligendi esse laborum quisquam totam dolorem atque eum obcaecati similique assumenda dignissimos, consectetur veniam porro perspiciatis, qui quod, laudantium tenetur architecto rem vitae sunt a molestias. Laboriosam harum ad nulla ducimus ratione reiciendis esse, ullam quisquam reprehenderit praesentium alias fugiat facilis iusto expedita recusandae laudantium soluta, sapiente, dolores fugit tenetur. Eum ipsum quo quia tempore doloremque excepturi voluptates iste, fugiat recusandae aut perferendis dicta rem, culpa alias nesciunt hic dolore, voluptas odit ad laborum. Natus, dolorum, eveniet. Est, laudantium tempore non omnis odit nulla error velit, magnam illo, totam quibusdam nemo pariatur hic. Voluptas soluta corporis unde sit numquam, quaerat, non amet quasi quos quas atque eligendi tempora aliquid eum explicabo enim laborum deleniti obcaecati facilis dolorem illo. Dolorum ad autem quia cumque rem eaque nulla consequuntur ex veniam reprehenderit natus voluptate dolore, reiciendis! Adipisci, corrupti, perferendis!</span></p>
-        </div>
+        <!-- Home About -->
+        <section id="Home-about">
+            <div class="Circles-bg_about">
+                  <img src="img/Waves-Left.svg" alt="" class="img-fluid Circle-1_about">
+            </div>
+            <div class="container Home-about_container">
+                <div class="row">
+                    <div class="col-4">
+                              <img src="img/Juan-Carmona-Profile.png" 
+                              srcset="img/Juan-Carmona-Profile.png 1x,
+                              img/Juan-Carmona-Profile@2x.png 2x"
+                              alt="Juan Profile "
+                              class="img-fluid">      
+                    </div>
+                    <div class="col-8">
+                        <h1 class="Title Title-about">About me</h1>
+                        <div class="Home-about_description">
+                                    <div class="Parrafo-group">
+                                          <p class="Parrafo Parrafo-about_home">Hello! My name is Juan Carmona. Welcome to my space in the internet :)</p>
+                                          <p class="Parrafo Parrafo-about_home">It’s been 4 years since I started this endless journey to become a Great Designer. During that time I’ve worked in giving design solutions to companies from Colombia, Argentina and USA.</p>
+                                    </div>
+                                    <ul class="List-about_home">
+                                          <li><img src="img/Rocket-Icon.svg" alt="Rocket Icon">Self-Starter</li>
+                                          <li><img src="img/Book-Icon.svg" alt="Book Icon">Non-Stop Learning</li>
+                                          <li><img src="img/Solutions-Icon.svg" alt="Solutions Icon">Solutions Seeker</li>
+                                    </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home About -->
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
-        <!-- Slick Slider css -->
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-        <!-- Slick Slider css -->
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> 
+        <!-- Home Projects -->
+        <section id="Home-projets">
+              <h2 class="Title Subtitle">Projects</h2>
+              <p class="Parrafo Parrafo-projects">I am working in Graphic Design, UI/UX Design and Web Development. </p>
+              <p class="Parrafo Parrafo-projects">I believe there is always a better version of everything, so I never stop learning.</p>
+              <p class="Parrafo Parrafo-projects">See some of the projects I’ve recently worked on: </p>
+              <!-- Gatha Project -->
+              <div class="Project-container Gatha-project_container">
+                        <div class="Gatha-circles_bg">
+                                  <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Gatha-circle_1 animated fadeIn">
+                                  <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Gatha-circle_2 animated fadeIn">
+                                  <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Gatha-circle_3 animated fadeIn">
+                                  <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Gatha-circle_4 animated fadeIn">
+                                  <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Gatha-circle_5 animated fadeIn">
+                        </div>
+                        <div class="container">
+                              <div class="row">
+                                    <div class="col-4 Col-project_description">
+                                            <h3 class="Title Title-project">Gatha</h3>
+                                            <h2 class=" Title-project_type Title-project_gatha">UI/UX DESIGN</h2>
+                                            <p class="Parrafo Parrafo-project">Gatha is a Startup with the mission of making location sharing easier for family and friends.</p>
+                                            <p class="Parrafo Parrafo-project">I worked with the Gatha Team as UI/UX Designer and Web Developer. Sketch, Invision, Adobe Illustrator and Adobe Photoshop are some of the tools we’ve used to build a Prototype and a Wordpress Website.</p>
+                                          <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_1">
+                                                       <a href="">SEE PROJECTS</a>
+                                          </button>
+                                    </div>
+                                    <div class="col-7 offset-1">
+                                                <div class="Mockup-project Mockup-gatha">
+                                                      
+                                                </div>
+                                    </div>
+                               </div>
+                        </div>
+              </div>
+              <!-- DCM Project -->
+              <div class="Project-container Dcm-project_container">
+                        <div class="container">
+                              <div class="row">
+                                      <div class="col-7">
+                                          <div class="Mockup-project Mockup-dcm">
+                                                
+                                          </div>
+                                      </div>
+                                    <div class="offset-1 col-4 Col-project_description">
+                                            <h3 class="Title Title-project">DCM</h3>
+                                            <h2 class=" Title-project_type Title-project_dcm">WEB DESIGN & DEVELOPMENT</h2>
+                                            <p class="Parrafo Parrafo-project">DCM is a company specialized in work at height training courses and SSH Consultancy.</p>
+                                            <p class="Parrafo Parrafo-project">I worked along with DCM to make their new Logotype and Web Design/Development. The most challenging part of the project was to create a certifications check system for DCM students.</p>
+                                          <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_2">
+                                                       <a href="">SEE PROJECTS</a>
+                                          </button>
+                                    </div>
+                              </div>                                                                   
+                        </div>
+              </div>
+              <!-- Best One Project -->
+              <div class="Project-container BO-project_container">
+                        <div class="container">
+                              <div class="row">
+                                    <div class="col-4 Col-project_description">
+                                            <h3 class="Title Title-project">Best One</h3>
+                                            <h2 class=" Title-project_type Title-project_bo">WEB DESIGN</h2>
+                                            <p class="Parrafo Parrafo-project">Best One is a phone repairing company at Cali, Colombia.</p>
+                                            <p class="Parrafo Parrafo-project">I collaborated with a Web Development Agency to design the Best One Website. Our mission was to make the website user-friendly and show the wide range of solutions the company has for their users.</p>
+                                          <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_3">
+                                                       <a href="">SEE PROJECTS</a>
+                                          </button>
+                                    </div>
+                                    <div class="col-7 offset-1">
+                                                <div class="Mockup-project Mockup-bo">
+                                                      
+                                                </div>
+                                    </div>
+                               </div>
+                        </div>
+              </div>
+              <!-- Molle Project -->
+              <div class="Project-container Molle-project_container">
+                        <div class="container">
+                              <div class="row">
+                                      <div class="col-7">
+                                          <div class="Mockup-project Mockup-molle">
+                                                
+                                          </div>
+                                      </div>
+                                    <div class="offset-1 col-4 Col-project_description">
+                                            <h3 class="Title Title-project">Molle Pizza</h3>
+                                            <h2 class=" Title-project_type Title-project_molle">WEB DESIGN</h2>
+                                            <p class="Parrafo Parrafo-project">Molle Pizza is a pizza delivery restaurant.</p>
+                                            <p class="Parrafo Parrafo-project">I’ve used Adobe Illustrator to make their new Web Design. Hired by a Web Agency, I was given the task to bring a new look & feel and a better User flow for the pizza menu.</p>
+                                          <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_4">
+                                                       <a href="">SEE PROJECTS</a>
+                                          </button>
+                                    </div>
+                              </div>                                                                   
+                        </div>
+              </div>                                                                        
+        </section>
+        <!-- Home Projects -->
         <!-- AOS css -->
-        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">  
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         <!-- Animate css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">                                  
-    
-        <!-- Our css -->
-        <link rel="stylesheet" href="css/main.css">            
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">                                       
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
         <!-- AOS javascript -->
