@@ -5,11 +5,9 @@ $(document).ready(function(){
 	        var posicionDeWindow = $(window).scrollTop();
 	        if(posicionDeWindow > 50){
 	            $("#Menu").css({"height": "80px"});
-	            $(".Menu-container").css({"background-color": "#1A1D33"});
 	        }
 	        else if(posicionDeWindow < 50){
 				$("#Menu").css({"height": "120px"});
-				$(".Menu-container").css({"background-color": "none"});
 	        }
 	        if(posicionDeWindow > 500){
 	        	$(".Menu-container").addClass("Menu-visible");
@@ -43,11 +41,10 @@ $(document).ready(function(){
       once: true,
     }); 
 
-
     //Carousel Bootstrap//
     $('.carousel').carousel({
-	  pause: true,
-	  interval: false
+	  pause: false,
+	  interval: 8000
 	});
 
 	//Move elements on mouse//
@@ -67,6 +64,22 @@ $(document).ready(function(){
 	  });
 	}
 
+//Carousel Bootstrap Touch//
+$(".carousel").on("touchstart", function(event){
+        var xClick = event.originalEvent.touches[0].pageX;
+    $(this).one("touchmove", function(event){
+        var xMove = event.originalEvent.touches[0].pageX;
+        if( Math.floor(xClick - xMove) > 5 ){
+            $(this).carousel('next');
+        }
+        else if( Math.floor(xClick - xMove) < -5 ){
+            $(this).carousel('prev');
+        }
+    });
+    $(".carousel").on("touchend", function(){
+            $(this).off("touchmove");
+    });
+});
 
 
 });
