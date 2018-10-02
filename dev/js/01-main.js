@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	$(window).scroll(function(){
-
 			//Menu//
 	        var posicionDeWindow = $(window).scrollTop();
 	        if(posicionDeWindow > 50){
@@ -9,12 +8,6 @@ $(document).ready(function(){
 	        else if(posicionDeWindow < 50){
 				$("#Menu").css({"height": "120px"});
 	        }
-	        if(posicionDeWindow > 500){
-	        	$(".Menu-container").addClass("Menu-visible");
-	        } 
-	        else if (posicionDeWindow < 480){
-	        	$(".Menu-container").removeClass("Menu-visible");
-	        }   
     });
 	var zero = 0
     $(window).scroll(function(){
@@ -43,7 +36,7 @@ $(document).ready(function(){
 
     //Carousel Bootstrap//
     $('.carousel').carousel({
-	  pause: false,
+	  pause: "hover",
 	  interval: 8000
 	});
 

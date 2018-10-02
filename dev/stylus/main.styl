@@ -64,14 +64,14 @@ button
 	animation-delay 1.4s
 	border-radius 20px
 	background linear-gradient(223.67deg, #FFDE66 0%, #FFD240 100%)
-	box-shadow 0 4px 12px 0 #FFE099
+	box-shadow 0 4px 8px 0 rgba(255,179,0,0.4)
 	display flex
 	justify-content center
 	align-items center
 	a
 		font-size 12px
 		line-height 12px
-		font-weight 500
+		font-weight bold
 		letter-spacing 0.4px
 		font-family montserrat
 		color Grey_100
@@ -157,13 +157,13 @@ button
 			content ""
 			display block
 			position absolute
-			top 50%
+			top 12px
 			left 50%
 			transform translate(-50%,14px)
 			height 3px
 			width 85%
 			border-radius 1px
-			background-color #FFEB99
+			background-color #FFDE66
 			z-index -1
 
 .Menu-item
@@ -189,6 +189,11 @@ button
 .Home-slider
 	position relative
 	overflow hidden
+	.Social-icon_container
+		a
+			display block
+			i
+				color #FFD240
 	&:before
 		content ""
 		display block
@@ -204,7 +209,6 @@ button
 	.carousel-fade
 		.carousel-item
 			transition 1s all
-			transition-duration 2s
 			height  650px
 	.carousel-inner
 		min-height 650px
@@ -287,7 +291,7 @@ button
 		width 64px
 		height 4px
 		background-color transparent !important
-		margin-bottom 32px
+		margin-bottom 45px
 		p
 			font-size 16px
 			line-height 20px
@@ -352,6 +356,9 @@ button
 	width 270px
 .Title-about
 	font-size 32px
+.Home-about_description
+	display flex
+	justify-content space-between
 .Parrafo-group
 	max-width 400px
 	display inline-block
@@ -366,7 +373,7 @@ button
 		width 80px
 		height 4px
 		border-radius 1px
-		background-color #FFD240
+		background-color #FFDE66
 .Circle-bg_section
 	position absolute
 	height 100%
@@ -380,6 +387,7 @@ button
 	left: 0;
 	transform: translate(0%,-50%);
 	opacity .2
+	animation animate-bg3 6s linear infinite
 .Circle-2_about
 	left: 100%;
 	transform: translate(-100%,-50%);	
@@ -387,7 +395,6 @@ button
 .List-about_home
 	display inline-block
 	vertical-align top
-	margin-left 100px
 	color #FFDE66
 	li
 		margin-bottom 32px
@@ -421,7 +428,7 @@ button
 		width 80px
 		height 4px
 		border-radius 1px
-		background-color #FFD240
+		background-color #FFDE66
 		margin-top 24px
 .Subtitle
 	font-size 32px
@@ -432,6 +439,42 @@ button
 	overflow hidden
 .Gatha-project_container
 	margin-top 111px
+	&:before
+		content ""
+		display block
+		position absolute
+		height 600px
+		width 785px
+		border-radius 385px 6px  6px 385px
+		top 51%
+		left 100%
+		transform translate(-85%,-50%)
+		background linear-gradient(138.5deg, #36394D 0%, #101224 100%)
+.Dcm-project_container,.Molle-project_container
+	&:before
+		content ""
+		display block
+		position absolute
+		height 600px
+		width 785px
+		border-radius 6px 385px 385px 6px
+		top 51%
+		left -5%
+		transform translate(0%,-50%)
+		background linear-gradient(138.5deg, #36394D 0%, #101224 100%)
+.BO-project_container
+	margin-top 111px
+	&:before
+		content ""
+		display block
+		position absolute
+		height 600px
+		width 785px
+		border-radius 385px 6px  6px 385px
+		top 51%
+		left 100%
+		transform translate(-85%,-50%)
+		background linear-gradient(138.5deg, #36394D 0%, #101224 100%)			
 .Col-project_description
 	text-align left
 .Title-project
@@ -448,7 +491,7 @@ button
 .Title-project_bo
 	color #405EBC
 .Title-project_molle
-	color #E51328
+	color #FF3347
 .Parrafo-project
 	max-width 420px
 .Btn-Projects
@@ -478,8 +521,7 @@ button
 		a
 			&:before
 				transition Animation_1
-				width 100%
-			
+				width 100%		
 .Btn-Projects_1
 	a
 		color #80CC45
@@ -497,41 +539,156 @@ button
 			background-color #405EBC
 .Btn-Projects_4
 	a
-		color #E51328	
+		color #FF3347	
 		&:before
-			background-color #E51328
+			background-color #FF3347
 		
-.Gatha-circles_bg
+.Project-shape_bg
 	position absolute
 	width 100%
 	height 100%
+.Shape-item
+	position absolute
+	animation animate-bg linear infinite
 .Gatha-circle_1
 	left 11%
 	top 60%
-	transform scale(.6)
-	animation-delay 1s
+	animation-duration 4s
 .Gatha-circle_2
 	left 9%
 	top 20%
-	animation-delay 1.2s
+	animation-duration 6s
 .Gatha-circle_3
 	left 90%
-	top -10%
-	transform scale(1.5)	
-	animation-delay 1.4s
+	top -10%	
+	animation-duration 8s
 .Gatha-circle_4
 	left 78%
 	top 55%
-	transform scale(1.5)
-	animation-delay 1.6s
+	animation-duration 10s
 .Gatha-circle_5
 	width 361px
-	top 15%
-	animation-delay 1.8s
+	top -5%
+	left 40%
+	animation-duration 12s
+
+.Dcm-shape_1
+	top 10%
+	left 10%
+	animation animate-bg2 3s linear infinite
+.Dcm-shape_2
+	top calc(30% + 80px)
+	left 18%
+	animation-duration 5s
+.Dcm-shape_3
+	top calc(-5% + 30px)
+	left 38%
+	animation-duration 7s
+.Dcm-shape_4
+	top 2%
+	left 80%
+	animation animate-bg2 9s linear infinite
+.Dcm-shape_5
+	top 70%
+	left 80%					
+	animation animate-bg2 11s linear infinite
+
+.BO-shape_1
+	top 0%
+	left 10%					
+	animation animate-bg2 4s linear infinite	
+.BO-shape_2
+	top 70%
+	left 10%					
+	animation animate-bg2 6s linear infinite
+.BO-shape_3
+	top -7%
+	left 42%					
+	animation animate-bg2 8s linear infinite
+.BO-shape_4
+	top -5%
+	left 85%					
+	animation animate-bg2 10s linear infinite
+.BO-shape_5
+	top 50%
+	left 85%					
+	animation animate-bg 12s linear infinite
+
+.Molle-shape_1
+	top 0%
+	left 10%					
+	animation animate-bg2 4s linear infinite
+.Molle-shape_2
+	top 55%
+	left 17%					
+	animation animate-bg 6s linear infinite	
+.Molle-shape_3
+	top -3%
+	left 51%					
+	animation animate-bg 8s linear infinite	
+.Molle-shape_4
+	top 0%
+	left 80%					
+	animation animate-bg2 10s linear infinite
+.Molle-shape_5
+	top 60%
+	left 85%
+	width 32px		
+	animation animate-bg2 12s linear infinite				
+
+@keyframes animate-bg{
+	0%{
+			transform scale(0) translateY(0)
+			opacity 0
+	}
+		50%{
+			opacity 1
+	}
+	100%{
+			transform scale(1) translateY(-100px)
+			opacity 0
+	}
+}
+@keyframes animate-bg2{
+	0%{
+			transform scale(0) translateY(0) rotate(0deg)
+			opacity 0
+	}
+		50%{
+			opacity 1
+	}
+	100%{
+			transform scale(1) translateY(-100px) rotate(360deg)
+			opacity 0
+	}
+}
+@keyframes animate-bg3{
+	0%{
+			opacity 0
+	}
+		50%{
+			opacity .4
+	}
+	100%{
+			opacity 0
+	}
+}
+@keyframes animate-bg4{
+	0%{
+			opacity 0
+	}
+		50%{
+			opacity 1
+	}
+	100%{
+			opacity 0
+	}
+}
 .Mockup-project
 	width 100%
 	height 440px
 	background-size cover
+	position relative
 .Mockup-gatha
 	background-image url("../img/Gatha.jpg")
 .Mockup-dcm
@@ -540,6 +697,12 @@ button
 	background-image url("../img/Best-One.jpg")
 .Mockup-molle
 	background-image url("../img/Molle-Pizza.jpg")
+.Mockup-phone_project
+	position absolute
+	top 50%
+	left 50%
+	transform translate(-50%,-50%)
+	
 
 #Home-services
 	text-align center
@@ -589,7 +752,7 @@ button
 		background linear-gradient(224.52deg, #36394D 0%, #101224 100%)
 		transition all 1000ms cubic-bezier(0.215, 0.610, 0.355, 1.000)	
 	.carousel-item
-		transition-duration 2s
+		transition-duration 1s
 .Testimonials-slider_container
 	margin-top 85px
 	padding-top 100px
@@ -617,10 +780,7 @@ button
 				transition all 1.2s cubic-bezier(0.845, 0.000, 0.165, 1.000)
 				width 32px
 		.active
-			margin-left 8px
 			transition all 1.2s cubic-bezier(0.845, 0.000, 0.165, 1.000)
-			p
-				font-size 24px
 			img
 				opacity 1
 				width 42px
@@ -634,16 +794,15 @@ button
 	border-radius 16px
 	box-shadow 0 2px 24px 0 rgba(0,0,0,0.24)
 	padding 52px 65px 62px 135px
-	animation-delay 1.1s
-	animation-duration 2s
+	animation-delay 1
 .Testimonial-img
 	position absolute
 	top 50%
 	left 0%
 	transform translate(-50%,-50%) 
+	overflow hidden
 	img
-		animation-delay 1.3s
-		animation-duration 2s
+		animation-delay 1.1s
 		width 222px
 .Testimonial-description
 	text-align left
@@ -653,13 +812,11 @@ button
 	color #FFDE66
 	font-family montserrat
 	margin-bottom 24px
-	animation-delay 1.7s
-	animation-duration 2s
+	animation-delay 1.2s
 .Parrafo-section_testimonial
 	max-width 470px
 	color #B8BBCC
-	animation-delay 1.9s
-	animation-duration 2s
+	animation-delay 1.3s
 .Parrafo-section_testimonial--overflow
 	overflow hidden
 .Testimonial-linkedin
@@ -667,23 +824,27 @@ button
 	line-height 14px
 	color #7A7F99
 	font-weight 500
-	animation-delay 2s
-	animation-duration 2.1s
+	animation-delay 1.4s
 	i
 		margin-left 8px
 		font-size 12px
 		color #538CF2
-		animation-delay 2.3s
-		animation-duration 2s
+		animation-delay 1.5s
 .Circle-1_testimonial
 	opacity 1
 	top 50%
 	left 0%
 	transform translate(-50%,-50%)
 	z-index -1
+	animation animate-bg4 4s linear infinite
 	img
-		animation-delay 1.5s
-		animation-duration 2s
+		transform scale(0)
+		transition all 1.2s cubic-bezier(0.845, 0.000, 0.165, 1.000)
+#Home-testimonials
+	.carousel-item.active
+		img
+			transform scale(1)	
+			transition all 1.2s cubic-bezier(0.845, 0.000, 0.165, 1.000)
 
 #Home-letswork
 	text-align center
@@ -754,6 +915,10 @@ button
 .Copyright-content
 	display flex
 	justify-content space-between
+	span
+		color #B8BBCC
+		font-size 14px
+		line-height 19px
 
 
 		

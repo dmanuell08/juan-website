@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="298px" viewBox="0 0 360 298" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>FC28FB85-0D56-4A73-8CEB-31B5C5E61365</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="144.004411%" y1="96.4852802%" x2="31.0083356%" y2="-47.4576364%" id="linearGradient-1">
+            <stop stop-color="#2E71E6" offset="0%"></stop>
+            <stop stop-color="#538CF2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Large" transform="translate(-416.000000, -2181.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Project-2" transform="translate(0.000000, 1820.000000)">
+                <g id="Project-Image" transform="translate(382.000000, 82.000000)">
+                    <path d="M394,286.836747 L394,358.382998 C394,360.688128 392.945222,362.91387 391.149082,364.397422 L137.376882,574.487525 C134.485857,576.869148 130.347789,576.869148 127.456764,574.487525 L36.8343787,499.582608 C35.0394789,498.098642 34,495.891506 34,493.562395 L34,421.183817 C34,414.597969 41.6501349,410.968476 46.7511896,415.134248 L127.494803,481.070869 C130.347789,483.414451 134.485857,483.414451 137.338843,481.070869 L381.267417,280.78387 C386.345317,276.60404 394,280.236842 394,286.836747" id="Check-Icon-Left"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

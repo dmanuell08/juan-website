@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>D4082F62-0340-4DC2-ABC6-3DE0D5615742</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="22.5524693%" y1="20.6219116%" x2="73.2429722%" y2="75.1348033%" id="linearGradient-1">
+            <stop stop-color="#668CFF" offset="0%"></stop>
+            <stop stop-color="#2952CC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Large" transform="translate(-231.000000, -3099.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Project-3" transform="translate(0.000000, 2520.000000)">
+                <g id="Background">
+                    <path d="M231,584.229811 L231,579 C248.332479,579.353476 262.265235,593.475192 262.268166,610.847247 C262.268166,610.89852 262.266687,610.949451 262.263768,611 L257.029916,611 C257.026995,610.949451 257.025515,610.89852 257.025515,610.847247 C257.025515,603.48451 254.048001,596.845929 249.210638,592.017927 C244.520087,587.340641 238.11761,584.402722 231,584.229811 Z" id="Wave-Shape-Medium-Left" transform="translate(246.634083, 595.000000) scale(-1, -1) translate(-246.634083, -595.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

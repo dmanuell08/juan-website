@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="32px" viewBox="0 0 30 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>0E4E459A-DC5B-4631-A778-0CA18FAE0A87</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="20.1426743%" y1="18.0304026%" x2="77.4436083%" y2="79.6521943%" id="linearGradient-1">
+            <stop stop-color="#80AEFF" offset="0%"></stop>
+            <stop stop-color="#3978E6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Large" transform="translate(-1666.000000, -1963.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Project-2" transform="translate(0.000000, 1820.000000)">
+                <g id="Background">
+                    <path d="M1679.55494,174.377853 L1666.58889,160.826736 C1665.84897,160.053435 1665.84897,158.834688 1666.58889,158.061387 L1679.55494,144.51027 C1680.31857,143.712183 1681.58459,143.68425 1682.38267,144.44788 C1682.40393,144.468215 1682.42473,144.489017 1682.44506,144.51027 L1695.41111,158.061387 C1696.15103,158.834688 1696.15103,160.053435 1695.41111,160.826736 L1682.44506,174.377853 C1681.68143,175.17594 1680.41541,175.203873 1679.61733,174.440243 C1679.59607,174.419908 1679.57527,174.399106 1679.55494,174.377853 Z" id="Rhombus-Icon"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

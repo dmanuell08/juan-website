@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>2DC05BEB-8585-4497-B7AC-9F53C7F8AB9B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="131" height="134"></rect>
+        <linearGradient x1="22.5524693%" y1="20.6219116%" x2="73.2429722%" y2="75.1348033%" id="linearGradient-3">
+            <stop stop-color="#668CFF" offset="0%"></stop>
+            <stop stop-color="#2952CC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Large" transform="translate(-1640.000000, -2972.000000)">
+            <g id="Project-3" transform="translate(0.000000, 2520.000000)">
+                <g id="Project-Image" transform="translate(847.000000, 70.000000)">
+                    <g id="3-Waves-Icon" transform="translate(793.000000, 376.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Rectangle-4" fill-rule="nonzero"></g>
+                        <path d="M107.212034,131.683014 C107.212034,102.632655 95.4057058,76.4395252 76.224774,57.3901975 C57.0477655,38.3618036 30.6540619,26.6295909 1.37632846,26.6295909 C-4.33680669,26.6295909 -9,22.0061284 -9,16.3067627 C-9,10.6151864 -4.33680669,6 1.37632846,6 C71.3222666,6 127.98823,62.2643795 128,131.683014 C128,137.37459 123.356913,142 117.610431,142 C111.858064,142 107.212034,137.37459 107.212034,131.683014" id="Fill-1" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        <path d="M64.3931043,130.70639 C64.3931043,113.253296 57.3486226,97.5267443 45.919633,86.0856717 C34.4677922,74.6460578 18.7461854,67.6013211 1.30490643,67.6013211 C-4.3879527,67.6013211 -9,62.9925103 -9,57.3077106 C-9,51.6088108 -4.3879527,47 1.30490643,47 C47.5299113,47 85,84.4709591 85,130.70639 C85,136.392648 80.3952456,141 74.693635,141 C69.0075826,141 64.3931043,136.392648 64.3931043,130.70639" id="Fill-4" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                        <path d="M25.2453769,135.627235 C25.2076528,120.246946 12.7552708,107.783261 -2.60872562,107.75435 C-8.35846612,107.75435 -13,103.110421 -13,97.3815852 C-13,91.6468693 -8.35846612,87 -2.60872562,87 C24.2429937,87 45.9813829,108.762813 46,135.627235 C46,141.354601 41.3584661,146 35.6136249,146 C29.8927898,146 25.2453769,141.354601 25.2453769,135.627235" id="Fill-6" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

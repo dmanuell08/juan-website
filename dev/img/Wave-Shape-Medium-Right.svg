@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>BAEE8161-AB30-43B5-A8BB-C24F1CD90CB9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="22.5524693%" y1="20.6219116%" x2="73.2429722%" y2="75.1348033%" id="linearGradient-1">
+            <stop stop-color="#668CFF" offset="0%"></stop>
+            <stop stop-color="#2952CC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Large" transform="translate(-1561.000000, -2561.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Project-3" transform="translate(0.000000, 2520.000000)">
+                <g id="Background">
+                    <path d="M1561,46.2298106 L1561,41 C1578.33248,41.353476 1592.26524,55.4751919 1592.26817,72.8472471 C1592.26817,72.8985196 1592.26669,72.9494508 1592.26377,73 L1587.02992,73 C1587.027,72.9494508 1587.02551,72.8985196 1587.02551,72.8472471 C1587.02551,65.4845097 1584.048,58.8459294 1579.21064,54.0179271 C1574.52009,49.3406409 1568.11761,46.4027225 1561,46.2298106 Z" id="Wave-Shape-Medium-Right"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

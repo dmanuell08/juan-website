@@ -62,9 +62,9 @@
             <div id="Home-slider" class="Home-slider">
 	        	<!-- Social Icons -->
 					<div class="Social-icon_container">       
-		               	<img src="img/Website-Icon.png" alt="Instagram Icon" class="Social-icon Social-icon_1">
-		               	<img src="img/Website-Icon.png" alt="Linkedin Icon" class="Social-icon Social-icon_2">
-		               	<img src="img/Website-Icon.png" alt="Dribbble Icon" class="Social-icon Social-icon_3">
+                    <a href="https://www.instagram.com/juancarmona.co/"><i class="fab fa-instagram Social-icon Social-icon_1"></i></a>
+                    <a href="https://www.linkedin.com/in/juancarmona-design/"><i class="fab fa-linkedin-in Social-icon Social-icon_2"></i></a>
+                    <a href="https://dribbble.com/juancarmona"><i class="fab fa-dribbble Social-icon Social-icon_3"></i></a>
 		            </div>            	
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                   <ol class="carousel-indicators">
@@ -74,6 +74,37 @@
                   </ol>                    
                   <div class="carousel-inner animated fadeIn">
                     <div class="carousel-item active">
+                        <div class="Slide-item Slide-1">
+                            <div class="container">
+                                <div class="row Row-slide">
+                                    <div class="Circles-bg">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-1 animated fadeIn">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-2 animated fadeIn">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-3 animated fadeIn">
+                                              <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Circle-4 animated fadeIn">
+                                              <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
+                                    </div>
+                                    <div class="col-xl-4 Text-slide">
+                                        <div class="Smoothness">
+                                           <h1 class="Title animated fadeInUp"><span>App Design</span></h1> 
+                                        </div>                            
+                                        <p class="Parrafo animated fadeInUp">UI/UX Design for Apps Service, ideal for startups. I can help you design a User-Friendly and Delightful App for your Users.</p>
+                                        <div class="Btn-container">
+                                            <button class="Btn animated fadeInUp">
+                                                <a href="">SEE PROJECTS</a>
+                                            </button>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-xl-8 Images-slide">
+                                        <img src="img/Phone-2.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-2">
+                                        <img src="img/Phone-1.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>                    
+                    <div class="carousel-item">
                         <div class="Slide-item Slide-2">
                             <div class="container">
                                 <div class="row Row-slide">
@@ -97,38 +128,6 @@
                             </div>
                         </div>    
                     </div>                    
-                    <div class="carousel-item">
-                        <div class="Slide-item Slide-1">
-                            <div class="container">
-                                <div class="row Row-slide">
-                                    <div class="Circles-bg">
-                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-1 animated fadeIn">
-                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-2 animated fadeIn">
-                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-3 animated fadeIn">
-                                              <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Circle-4 animated fadeIn">
-                                              <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
-                                    </div>
-                                    <div class="col-xl-4 Text-slide">
-                                        <div class="Smoothness">
-                                           <h1 class="Title animated fadeInUp"><span>App Design</span></h1> 
-                                        </div>                            
-                                        <p class="Parrafo animated fadeInUp">UI/UX Design for Apps Service, ideal for startups. I can help you design a user-friendly yet delightful App for your users.</p>
-                                        <div class="Btn-container">
-                                            <button class="Btn animated fadeInUp">
-                                                <a href="">SEE PROJECTS</a>
-                                            </button>
-                                        </div>
-                                        
-                                    </div>
-                                    <div class="col-xl-8 Images-slide fadeInLeft">
-                                        <img src="img/Phone-2.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-2">
-                                        <img src="img/Phone-1.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-1">
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>    
-                    </div>
                     <div class="carousel-item">
                         <div class="Slide-item Slide-3">
                             <div class="container">
@@ -184,16 +183,16 @@
                 data-aos-anchor-placement="center-bottom">Design Projects</h2>
               <div class="Parrafo-section_container">               
               		<p class="Parrafo Parrafo-section" data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom" data-aos-duration="3000">I am working in UI/UX Design, Web Development and Graphic Design. See some of the projects I’ve recently worked on:</p>
+                    data-aos-anchor-placement="center-bottom" data-aos-duration="3000">I am working in UI/UX Design, Web Development and Graphic Design. See some of the projects I’ve recently worked on: </p>
               </div>
               <!-- Gatha Project -->
               <div class="Project-container Gatha-project_container">
-                        <div class="Gatha-circles_bg">
-                                  <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Gatha-circle_1 animated fadeIn">
-                                  <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Gatha-circle_2 animated fadeIn">
-                                  <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Gatha-circle_3 animated fadeIn">
-                                  <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Gatha-circle_4 animated fadeIn">
-                                  <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Gatha-circle_5 animated fadeIn">
+                        <div class="Project-shape_bg">
+                                  <img src="img/Circle-1.svg" alt="Circle green" class="Shape-item Gatha-circle_1">
+                                  <img src="img/Circle-1.svg" alt="Circle green" class="Shape-item Gatha-circle_2">
+                                  <img src="img/Circle-1.svg" alt="Circle green" class="Shape-item Gatha-circle_3">
+                                  <img src="img/Circle-2.svg" alt="Circle green" class="Shape-item Gatha-circle_4">
+                                  <img src="img/Circle-3.svg" alt="Circle green" class="Shape-item Gatha-circle_5">
                         </div>
                         <div class="container">
                               <div class="row">
@@ -201,13 +200,16 @@
                                             <h3 class="Title Title-project">Gatha</h3>
                                             <h2 class=" Title-project_type Title-project_gatha">UI/UX DESIGN</h2>
                                             <p class="Parrafo Parrafo-project">Gatha is a Startup with the mission of making location sharing easier for family and friends.</p>
-                                            <p class="Parrafo Parrafo-project">I worked with the Gatha Team as UI/UX Designer and Web Developer. Sketch, Invision, Adobe Illustrator and Adobe Photoshop are some of the tools we’ve used to build a Prototype and a Wordpress Website.</p>
+                                            <p class="Parrafo Parrafo-project">I worked with the Gatha Team as UI/UX Designer and Web Developer. Sketch, Invision, Adobe Illustrator and Adobe Photoshop are some of the tools we’ve used to build an App Prototype and a Wordpress Website.</p>
                                           <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_1">
                                                        <a href="">SEE PROJECTS</a>
                                           </button>
                                     </div>
                                     <div class="col-7 offset-1">
                                                 <div class="Mockup-project Mockup-gatha">
+                                                      <div class="Mockup-phone_project Gatha-phone_mockup">
+                                                        <img src="img/Gatha-Phone-Mockup.svg" alt="Gatha-Phone-Mockup" class="img-fluid">
+                                                      </div>
                                                       
                                                 </div>
                                     </div>
@@ -216,6 +218,13 @@
               </div>
               <!-- DCM Project -->
               <div class="Project-container Dcm-project_container">
+                        <div class="Project-shape_bg">
+                                  <img src="img/Rhombus-Icon.svg" alt="Circle green" class="Shape-item Dcm-shape_1">
+                                  <img src="img/Check-Icon-Left.svg" alt="Circle green" class="Shape-item Dcm-shape_2">
+                                  <img src="img/Check-Icon-Right.svg" alt="Circle green" class="Shape-item Dcm-shape_3">
+                                  <img src="img/Rhombus-Icon.svg" alt="Circle green" class="Shape-item Dcm-shape_4">
+                                  <img src="img/Rhombus-Icon-Small.svg" alt="Circle green" class="Shape-item Dcm-shape_5">
+                        </div>                
                         <div class="container">
                               <div class="row">
                                       <div class="col-7">
@@ -226,8 +235,8 @@
                                     <div class="offset-1 col-4 Col-project_description">
                                             <h3 class="Title Title-project">DCM</h3>
                                             <h2 class=" Title-project_type Title-project_dcm">WEB DESIGN & DEVELOPMENT</h2>
-                                            <p class="Parrafo Parrafo-project">DCM is a company specialized in work at height training courses and SSH Consultancy.</p>
-                                            <p class="Parrafo Parrafo-project">I worked along with DCM to make their new Logotype and Web Design/Development. The most challenging part of the project was to create a certifications check system for DCM students.</p>
+                                            <p class="Parrafo Parrafo-project">DCM is a company specialized in Work at Height Training Courses and SSH Consultancy.</p>
+                                            <p class="Parrafo Parrafo-project">I worked along with DCM to make their new Logotype and Web Design/Development. The most challenging part of the project was to create a Certifications Tracking System for DCM students.</p>
                                           <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_2">
                                                        <a href="">SEE PROJECTS</a>
                                           </button>
@@ -237,13 +246,20 @@
               </div>
               <!-- Best One Project -->
               <div class="Project-container BO-project_container">
+                        <div class="Project-shape_bg">
+                                  <img src="img/Wave-Shape-Small-Left.svg" alt="Circle green" class="Shape-item BO-shape_1">
+                                  <img src="img/Wave-Shape-Medium-Left.svg" alt="Circle green" class="Shape-item BO-shape_2">
+                                  <img src="img/Wave-Icon.svg" alt="Circle green" class="Shape-item BO-shape_3">
+                                  <img src="img/Wave-Shape-Medium-Right.svg" alt="Circle green" class="Shape-item BO-shape_4">
+                                  <img src="img/3-Waves-Icon.svg" alt="Circle green" class="Shape-item BO-shape_5">
+                        </div>                  
                         <div class="container">
                               <div class="row">
                                     <div class="col-4 Col-project_description">
                                             <h3 class="Title Title-project">Best One</h3>
                                             <h2 class=" Title-project_type Title-project_bo">WEB DESIGN</h2>
                                             <p class="Parrafo Parrafo-project">Best One is a phone repairing company at Cali, Colombia.</p>
-                                            <p class="Parrafo Parrafo-project">I collaborated with a Web Development Agency to design the Best One Website. Our mission was to make the website user-friendly and show the wide range of solutions the company has for their users.</p>
+                                            <p class="Parrafo Parrafo-project">I collaborated with a Web Development Agency to design the Best One Website. Our mission was to make the website User-Friendly and show the wide range of solutions the company has for their Users.</p>
                                           <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_3">
                                                        <a href="">SEE PROJECTS</a>
                                           </button>
@@ -258,6 +274,13 @@
               </div>
               <!-- Molle Project -->
               <div class="Project-container Molle-project_container">
+                        <div class="Project-shape_bg">
+                                  <img src="img/Pizza-Shape-Small-Right.svg" alt="Circle green" class="Shape-item Molle-shape_1">
+                                  <img src="img/Pizza-Shape-Left.svg" alt="Circle green" class="Shape-item Molle-shape_2">
+                                  <img src="img/Pizza-Shape-Right.svg" alt="Circle green" class="Shape-item Molle-shape_3">
+                                  <img src="img/Pizza-Shape-Small-Right.svg" alt="Circle green" class="Shape-item Molle-shape_4">
+                                  <img src="img/Pizza-Shape-Small-Right.svg" alt="Circle green" class="Shape-item Molle-shape_5">
+                        </div>                   
                         <div class="container">
                               <div class="row">
                                       <div class="col-7">
@@ -269,7 +292,7 @@
                                             <h3 class="Title Title-project">Molle Pizza</h3>
                                             <h2 class=" Title-project_type Title-project_molle">WEB DESIGN</h2>
                                             <p class="Parrafo Parrafo-project">Molle Pizza is a pizza delivery restaurant.</p>
-                                            <p class="Parrafo Parrafo-project">I’ve used Adobe Illustrator to make their new Web Design. Hired by a Web Agency, I was given the task to bring a new look & feel and a better User flow for the pizza menu.</p>
+                                            <p class="Parrafo Parrafo-project">I’ve used Adobe Illustrator to make their new Web Design. Hired by a Web Agency, I was given the task to bring a new Look & Feel and a better User Flow for the pizza menu.</p>
                                           <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_4">
                                                        <a href="">SEE PROJECTS</a>
                                           </button>
@@ -286,7 +309,7 @@
               </div>              
               <h3 class="Title Subtitle">Services</h3>
               <div class="Parrafo-section_container">
-              		<p class="Parrafo Parrafo-section Parrafo-section_services">Take a look at the variety of services I provide to help companies, agencies and other professionals in the digital field:</p>
+              		<p class="Parrafo Parrafo-section Parrafo-section_services">Take a look at the Variety of Services I provide to Help Companies, Agencies and other Professionals in the Digital Field:</p>
               </div>
               <div class="container">            
 	              <div class="row Row-services_home">
@@ -354,13 +377,13 @@
                         <h1 class="Title Title-about">About me</h1>
                         <div class="Home-about_description">
                                     <div class="Parrafo-group">
-                                          <p class="Parrafo Parrafo-about_home">Hello! My name is Juan Carmona. Welcome to my space in the internet :)</p>
+                                          <p class="Parrafo Parrafo-about_home">Hello! My name is Juan Carmona.<br>Welcome to my space in the internet :)</p>
                                           <p class="Parrafo Parrafo-about_home">It’s been 4 years since I started this endless journey to become a Great Designer. During that time I’ve worked in giving design solutions to companies from Colombia, Argentina and USA.</p>
                                     </div>
                                     <ul class="List-about_home">
-                                          <li><img src="img/Rocket-Icon.svg" alt="Rocket Icon">Self-Starter</li>
-                                          <li><img src="img/Book-Icon.svg" alt="Book Icon">Non-Stop Learning</li>
-                                          <li><img src="img/Solutions-Icon.svg" alt="Solutions Icon">Solutions Seeker</li>
+                                          <li><img src="img/Rocket-Icon.svg" alt="Rocket Icon">Design Thinking</li>
+                                          <li><img src="img/Book-Icon.svg" alt="Book Icon">Human Centered Design</li>
+                                          <li><img src="img/Solutions-Icon.svg" alt="Solutions Icon">Atomic Design</li>
                                     </ul>
                         </div>
                         
@@ -373,7 +396,7 @@
         <section id="Home-testimonials">
               <h3 class="Title Subtitle">Testimonials</h3>
               <div class="Parrafo-section_container">
-                  <p class="Parrafo Parrafo-section Parrafo-section_testimonials">I have been fortunate to work with talented professionals and clients, who have taught me the value of communication and attitude to work as a team. <br>Check out what they say about my work:</p>
+                  <p class="Parrafo Parrafo-section Parrafo-section_testimonials">I have been fortunate to work with Talented Professionals and Clients, who have taught me the Value of Communication and Attitude to work as a team.<br>Check out what they say about my work:</p>
               </div>
               <!-- Testimonials-slider_container -->
               <div class="container Testimonials-slider_container">
@@ -410,21 +433,21 @@
                     <div class="carousel-item active">
                       <div class="Testimonial-content">
                         <div class="Circle-1_about Circle-1_testimonial">
-                          <img src="img/Waves-complete.svg" alt="" class="img-fluid animated fadeIn">
+                          <img src="img/Waves-complete.svg" alt="" class="img-fluid">
                         </div>
                         <div class="Testimonial-img">
                           <img src="img/Chris-Ellington-Profile.png" 
                                   srcset="img/Chris-Ellington-Profile.png 1x,
                                   img/Chris-Ellington-Profile@2x.png 2x"
                                   alt="Juan Profile "
-                                  class="img-fluid animated fadeIn">
+                                  class="img-fluid animated fadeInLeft">
                         </div>
                         <div class="Testimonial-description">
                           <h3 class="Testimonial-person animated fadeInUp">Chris Ellington</h3>
                           <div class="Parrafo-section_testimonial--overflow">
                             <p class="Parrafo Parrafo-section_testimonial animated fadeInUp">Juan is an amazing designer. He takes vague concepts and turns them into outstanding graphics. Over the years, I've seen him create everything from tiny icons to full-fledged responsive websites. He has designed…</p>
                           </div>
-                          <span class="Testimonial-linkedin animated fadeInUp">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></span>
+                          <span class="Testimonial-linkedin animated fadeInLeft">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></span>
                         </div>                      
                       </div>                      
                     </div>
@@ -432,21 +455,21 @@
                     <div class="carousel-item">
                       <div class="Testimonial-content">
                         <div class="Circle-1_about Circle-1_testimonial">
-                          <img src="img/Waves-complete.svg" alt="" class="img-fluid animated fadeIn">
+                          <img src="img/Waves-complete.svg" alt="" class="img-fluid">
                         </div>
                         <div class="Testimonial-img">
                           <img src="img/Juan-Carmona-Profile-2.png" 
                                   srcset="img/Juan-Carmona-Profile-2.png 1x,
                                   img/Juan-Carmona-Profile-2@2x.png 2x"
                                   alt="Juan Profile "
-                                  class="img-fluid animated fadeIn">
+                                  class="img-fluid animated fadeInLeft">
                         </div>
                         <div class="Testimonial-description">
                           <h3 class="Testimonial-person animated fadeInUp">Kevin Toro</h3>
                           <div class="Parrafo-section_testimonial--overflow">
                             <p class="Parrafo Parrafo-section_testimonial animated fadeInUp">Juan is an amazing designer. He takes vague concepts and turns them into outstanding graphics. Over the years, I've seen him create everything from tiny icons to full-fledged responsive websites. He has designed…</p>
                           </div>
-                          <span class="Testimonial-linkedin animated fadeInUp">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></span>
+                          <span class="Testimonial-linkedin animated fadeInLeft">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></span>
                         </div>                      
                       </div>                           
                     </div>
@@ -454,21 +477,21 @@
                     <div class="carousel-item">
                       <div class="Testimonial-content">
                         <div class="Circle-1_about Circle-1_testimonial">
-                          <img src="img/Waves-complete.svg" alt="" class="img-fluid animated fadeIn">
+                          <img src="img/Waves-complete.svg" alt="" class="img-fluid">
                         </div>
                         <div class="Testimonial-img">
                           <img src="img/Chris-Ellington-Profile.png" 
                                   srcset="img/Chris-Ellington-Profile.png 1x,
                                   img/Chris-Ellington-Profile@2x.png 2x"
                                   alt="Juan Profile "
-                                  class="img-fluid animated fadeIn">
+                                  class="img-fluid animated fadeInLeft">
                         </div>
                         <div class="Testimonial-description">
                           <h3 class="Testimonial-person animated fadeInUp">Jessica Zapata</h3>
                           <div class="Parrafo-section_testimonial--overflow">
                             <p class="Parrafo Parrafo-section_testimonial animated fadeInUp">Juan is an amazing designer. He takes vague concepts and turns them into outstanding graphics. Over the years, I've seen him create everything from tiny icons to full-fledged responsive websites. He has designed…</p>
                           </div>
-                          <span class="Testimonial-linkedin animated fadeInUp">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></span>
+                          <span class="Testimonial-linkedin animated fadeInLeft">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></span>
                         </div>                      
                       </div>                             
                     </div>                                                                                
@@ -489,9 +512,9 @@
         <!-- Home Let´s Work -->
         <section id="Home-letswork">
           <div class="container">
-            <h3 class="Title Subtitle">Let’s work together</h3>
+            <h3 class="Title Subtitle">Interested in working together?</h3>
             <div class="Parrafo-section_container"">
-              <p class="Parrafo Parrafo-section Parrafo-section_letswork">I am always up for new projects. If you want to create a new successful app or refresh your company website look & feel, hit me up and let’s work together.</p>
+              <p class="Parrafo Parrafo-section Parrafo-section_letswork">I am always up for new projects. If you want to create a new Successful App or Refresh your Company Website, get in touch and let’s work together.</p>
             </div>
             <div class="Btn-container">
                 <button class="Btn Btn-letswork animated fadeInUp">
