@@ -84,7 +84,7 @@
                                               <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Circle-4 animated fadeIn">
                                               <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
                                     </div>
-                                    <div class="col-xl-4 Text-slide">
+                                    <div class="col-md-5 col-12 Text-slide">
                                         <div class="Smoothness">
                                            <h1 class="Title animated fadeInUp"><span>App Design</span></h1> 
                                         </div>                            
@@ -96,70 +96,14 @@
                                         </div>
                                         
                                     </div>
-                                    <div class="col-xl-8 Images-slide">
+                                    <div class="col-md-7 col-12 Images-slide">
                                         <img src="img/Phone-2.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-2">
                                         <img src="img/Phone-1.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-1">
                                     </div>
                                 </div>
                             </div>
                         </div>    
-                    </div>                    
-                    <div class="carousel-item">
-                        <div class="Slide-item Slide-2">
-                            <div class="container">
-                                <div class="row Row-slide">
-                                    <div class="col-xl-8 Images-slide">
-                                        <img src="img/Phone-2.svg" alt="" class="img-fluid animated fadeIn">
-                                        <img src="img/Phone-1.svg" alt="" class="img-fluid animated fadeIn">
-                                        
-                                    </div>
-                                    <div class="col-xl-4 Text-slide">
-                                        <div class="Smoothness">
-                                           <h1 class="Title animated fadeInUp"><span>App Design</span></h1> 
-                                        </div>                            
-                                        <p class="Parrafo animated fadeInUp">UI/UX Design for Apps at your hands, let me help you with your bussines goals and make functional and appearing.</p>
-                                        <div class="Btn-container">
-                                            <button class="Btn animated fadeInUp"><a href="">
-                                            SEE PROJECTS</a></button>
-                                        </div>
-                                        
-                                    </div>                                    
-                                </div>
-                            </div>
-                        </div>    
-                    </div>                    
-                    <div class="carousel-item">
-                        <div class="Slide-item Slide-3">
-                            <div class="container">
-                                <div class="row Row-slide">
-                                    <div class="Circles-bg">
-                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-1 animated fadeIn">
-                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-2 animated fadeIn">
-                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-3 animated fadeIn">
-                                              <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Circle-4 animated fadeIn">
-                                              <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
-                                    </div>
-                                    <div class="col-xl-4 Text-slide">
-                                        <div class="Smoothness">
-                                           <h1 class="Title animated fadeInUp"><span>App Design</span></h1> 
-                                        </div>                            
-                                        <p class="Parrafo animated fadeInUp">UI/UX Design for Apps Service, ideal for startups. I can help you design a user-friendly yet delightful App for your users.</p>
-                                        <div class="Btn-container">
-                                            <button class="Btn animated fadeInUp">
-                                                <a href="">SEE PROJECTS</a>
-                                            </button>
-                                        </div>
-                                        
-                                    </div>
-                                    <div class="col-xl-8 Images-slide fadeInLeft">
-                                        <img src="img/Phone-2.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-2">
-                                        <img src="img/Phone-1.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-1">
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>    
-                    </div>                                        
+                    </div>                                                                                                  
                   </div>
                   <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -196,7 +140,7 @@
                         </div>
                         <div class="container">
                               <div class="row">
-                                    <div class="col-4 Col-project_description">
+                                    <div class="col-lg-4 col-12 Col-project_description">
                                             <h3 class="Title Title-project">Gatha</h3>
                                             <h2 class=" Title-project_type Title-project_gatha">UI/UX DESIGN</h2>
                                             <p class="Parrafo Parrafo-project">Gatha is a Startup with the mission of making location sharing easier for family and friends.</p>
@@ -205,12 +149,12 @@
                                                        <a href="">SEE PROJECTS</a>
                                           </button>
                                     </div>
-                                    <div class="col-7 offset-1">
+                                    <div class="col-lg-7 col-12 offset-lg-1">
                                                 <div class="Mockup-project Mockup-gatha">
+                                                      <img src="img/Gatha.jpg" alt="" class="img-fluid">
                                                       <div class="Mockup-phone_project Gatha-phone_mockup">
                                                         <img src="img/Gatha-Phone-Mockup.svg" alt="Gatha-Phone-Mockup" class="img-fluid">
                                                       </div>
-                                                      
                                                 </div>
                                     </div>
                                </div>
@@ -227,12 +171,15 @@
                         </div>                
                         <div class="container">
                               <div class="row">
-                                      <div class="col-7">
+                                      <div class="col-lg-7 col-12">
                                           <div class="Mockup-project Mockup-dcm">
-                                                
+                                                      <img src="img/DCM.jpg" alt="" class="img-fluid">
+                                                      <div class="Mockup-phone_project Dcm-phone_mockup">
+                                                        <img src="img/DCM-Phone-Mockup.svg" alt="DCM-Phone-Mockup" class="img-fluid">
+                                                      </div>                                                
                                           </div>
                                       </div>
-                                    <div class="offset-1 col-4 Col-project_description">
+                                    <div class="offset-lg-1 col-lg-4 Col-project_description">
                                             <h3 class="Title Title-project">DCM</h3>
                                             <h2 class=" Title-project_type Title-project_dcm">WEB DESIGN & DEVELOPMENT</h2>
                                             <p class="Parrafo Parrafo-project">DCM is a company specialized in Work at Height Training Courses and SSH Consultancy.</p>
@@ -255,7 +202,7 @@
                         </div>                  
                         <div class="container">
                               <div class="row">
-                                    <div class="col-4 Col-project_description">
+                                    <div class="col-lg-4 col-12 Col-project_description">
                                             <h3 class="Title Title-project">Best One</h3>
                                             <h2 class=" Title-project_type Title-project_bo">WEB DESIGN</h2>
                                             <p class="Parrafo Parrafo-project">Best One is a phone repairing company at Cali, Colombia.</p>
@@ -264,9 +211,12 @@
                                                        <a href="">SEE PROJECTS</a>
                                           </button>
                                     </div>
-                                    <div class="col-7 offset-1">
+                                    <div class="col-lg-7 col-12 offset-lg-1">
                                                 <div class="Mockup-project Mockup-bo">
-                                                      
+                                                        <img src="img/Best-One.jpg" alt="" class="img-fluid">
+                                                        <div class="Mockup-phone_project BO-phone_mockup">
+                                                        <img src="img/Best-One-Phone-Mockup.svg" alt="Best-One-Phone-Mockup" class="img-fluid">
+                                                        </div>                                                       
                                                 </div>
                                     </div>
                                </div>
@@ -283,12 +233,15 @@
                         </div>                   
                         <div class="container">
                               <div class="row">
-                                      <div class="col-7">
+                                      <div class="col-lg-7 col-12">
                                           <div class="Mockup-project Mockup-molle">
-                                                
+                                                       <img src="img/Molle-Pizza.jpg" alt="" class="img-fluid">
+                                                       <div class="Mockup-phone_project Molle-phone_mockup">
+                                                          <img src="img/Molle-Phone-Mockup.svg" alt="Molle-Phone-Mockup" class="img-fluid">
+                                                        </div>                                                  
                                           </div>
                                       </div>
-                                    <div class="offset-1 col-4 Col-project_description">
+                                    <div class="offset-lg-1 col-lg-4 col-12 Col-project_description">
                                             <h3 class="Title Title-project">Molle Pizza</h3>
                                             <h2 class=" Title-project_type Title-project_molle">WEB DESIGN</h2>
                                             <p class="Parrafo Parrafo-project">Molle Pizza is a pizza delivery restaurant.</p>
@@ -306,14 +259,14 @@
         <section id="Home-services">
               <div class="Circle-bg_section">
                     <img src="img/Waves-Left.svg" alt="" class="img-fluid Circle-1_about Circle-1_service">
-              </div>              
-              <h3 class="Title Subtitle">Services</h3>
-              <div class="Parrafo-section_container">
-              		<p class="Parrafo Parrafo-section Parrafo-section_services">Take a look at the Variety of Services I provide to Help Companies, Agencies and other Professionals in the Digital Field:</p>
               </div>
-              <div class="container">            
+              <div class="container">                            
+                   <h3 class="Title Subtitle">Services</h3>
+                    <div class="Parrafo-section_container">
+                    		    <p class="Parrafo Parrafo-section Parrafo-section_services">Take a look at the Variety of Services I provide to Help Companies, Agencies and other Professionals in the Digital Field:</p>
+                    </div>            
 	              <div class="row Row-services_home">
-                    <div class="col-4 Col-service Col-service_1">
+                    <div class="col-lg-4 col-md-8 col-12 Col-service Col-service_1">
                         <div class="content-service_home">
                             <div>
                             <img src="img/Logo.svg" alt="Service Icon" class="Service-icon Service-icon_1">
@@ -327,7 +280,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-4 Col-service Col-service_2">
+                    <div class="col-lg-4 col-md-8 col-12 Col-service Col-service_2">
                         <div class="content-service_home">
                             <div>
                             <img src="img/Logo.svg" alt="Service Icon" class="Service-icon Service-icon_1">
@@ -341,7 +294,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-4 Col-service Col-service_3">
+                    <div class="col-lg-4 col-md-8 col-12 Col-service Col-service_3">
                         <div class="content-service_home">
                             <div>
                             <img src="img/Logo.svg" alt="Service Icon" class="Service-icon Service-icon_1">
@@ -365,16 +318,18 @@
                   <img src="img/Waves-Right.svg" alt="" class="img-fluid Circle-2_about">
             </div>
             <div class="container Home-about_container">
-                <div class="row">
-                    <div class="col-4">
-                              <img src="img/Juan-Carmona-Profile.png" 
-                              srcset="img/Juan-Carmona-Profile.png 1x,
-                              img/Juan-Carmona-Profile@2x.png 2x"
-                              alt="Juan Profile "
-                              class="img-fluid Juan-Profile_img">      
+                <div class="row About-row">
+                    <div class="col-xl-4 col-lg-3 About-col_img">
+                              <div>
+                                <img src="img/Juan-Carmona-Profile.png" 
+                                srcset="img/Juan-Carmona-Profile.png 1x,
+                                img/Juan-Carmona-Profile@2x.png 2x"
+                                alt="Juan Profile "
+                                class="img-fluid Juan-Profile_img">
+                              </div>
                     </div>
-                    <div class="col-8">
-                        <h1 class="Title Title-about">About me</h1>
+                    <div class="col-xl-8 col-lg-9">
+                        <h1 class="Title Subtitle">About me</h1>
                         <div class="Home-about_description">
                                     <div class="Parrafo-group">
                                           <p class="Parrafo Parrafo-about_home">Hello! My name is Juan Carmona.<br>Welcome to my space in the internet :)</p>
@@ -382,7 +337,7 @@
                                     </div>
                                     <ul class="List-about_home">
                                           <li><img src="img/Rocket-Icon.svg" alt="Rocket Icon">Design Thinking</li>
-                                          <li><img src="img/Book-Icon.svg" alt="Book Icon">Human Centered Design</li>
+                                          <li><img src="img/Human-Centered-Design-Icon.svg" alt="Human Icon">Human Centered Design</li>
                                           <li><img src="img/Solutions-Icon.svg" alt="Solutions Icon">Atomic Design</li>
                                     </ul>
                         </div>
@@ -394,10 +349,12 @@
         <!-- Home About -->
         <!-- Home Testimonials -->
         <section id="Home-testimonials">
-              <h3 class="Title Subtitle">Testimonials</h3>
-              <div class="Parrafo-section_container">
-                  <p class="Parrafo Parrafo-section Parrafo-section_testimonials">I have been fortunate to work with Talented Professionals and Clients, who have taught me the Value of Communication and Attitude to work as a team.<br>Check out what they say about my work:</p>
-              </div>
+                <div class="container">
+                  <h3 class="Title Subtitle">Testimonials</h3>
+                  <div class="Parrafo-section_container">
+                      <p class="Parrafo Parrafo-section Parrafo-section_testimonials">I have been fortunate to work with Talented Professionals and Clients, who have taught me the Value of Communication and Attitude to work as a team.<br>Check out what they say about my work:</p>
+                  </div>
+                </div>
               <!-- Testimonials-slider_container -->
               <div class="container Testimonials-slider_container">
                 <div class="Testimonials-slider">
@@ -532,7 +489,7 @@
           <div class="container">
             <div class="row Row-footer">
               <!--Footer-col_1-->
-              <div class="col-5 Footer-col_1">
+              <div class="col-lg-5 col-md-8 col-12 Footer-col_1">
                 <div class="Content-col_1">
                   <div>
                     <img src="img/Juan-Carmona-Profile-2.png" 
@@ -566,7 +523,7 @@
                 </div>
               </div>
               <!--Footer-col_3-->
-              <div class="col-2 Footer-col_3">
+              <div class="col-lg-3 col-md-4 col-12 Footer-col_3">
                 <div class="Content-col_3">
                   <ul class="Footer-services">
                     <li><span>Services</span></li>
@@ -577,7 +534,7 @@
                 </div>
               </div>
               <!--Footer-col_4-->
-              <div class="offset-1 col-2 Footer-col_4">
+              <div class="col-2 Footer-col_4">
                 <div class="Content-col_4">
                   <h3 class="Partner-agency">Partner Agency</h3>
                   <img src="img/Logo.svg" class="img-fluid Partner-logo" alt="Partner Agency">
