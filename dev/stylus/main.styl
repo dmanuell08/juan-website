@@ -96,9 +96,8 @@ button
 	min-width 370px
 
 .Home-header
-	height 80vh
+	height 100vh
 	position relative
-	margin-top 120px
 	overflow hidden
 .Top-line
 	height 8px
@@ -113,6 +112,28 @@ button
 .Social-icon
 	display block
 	margin-bottom 32px
+.Mouse-scroll_btn
+	display inline-block
+	position absolute
+	top 95%
+	left 50%
+	transform translate(-50%,-95%) 
+	svg
+		height 35px
+		fill #ffff
+		path:nth-child(2)
+			animation MsScroll 3s ease infinite
+@keyframes MsScroll{
+	0%{
+		transform translateY(0%)
+	}
+	50%{
+		transform translateY(8px)
+	}
+	100%{
+		transform translateY(0%)
+	}
+}
 	
 	
 .Menu-container
@@ -127,6 +148,7 @@ button
 	transition all 1s ease-in-out
 	z-index 100
 	transition Animation_1	
+	box-shadow none !important
 
 .Menu-container.hide
 	top -100%
@@ -171,14 +193,14 @@ button
 		content ""
 		display block
 		position absolute
-		top 50%
+		top 15px
 		left 50%
 		transform translate(-50%,14px)
 		height 3px
 		width 0
 		background-color #FFEB99
 		z-index -1
-		transition all .65s cubic-bezier(0.845, 0.000, 0.165, 1.000)
+		transition all .45s cubic-bezier(0.845, 0.000, 0.165, 1.000)
 	&:hover
 		&:before
 			width 85%
@@ -189,6 +211,13 @@ button
 .Home-slider
 	position relative
 	overflow hidden
+	width 100%
+	height 100%
+	display flex
+	justify-content center
+	align-items center
+	.carousel
+		width 85%
 	.Social-icon_container
 		a
 			display block
@@ -201,7 +230,7 @@ button
 		height 640px
 		width 785px
 		border-radius 6px 385px 385px 6px
-		top 50%
+		top 55%
 		left 100%
 		transform translate(-100%,-50%) rotate(180deg)
 		background linear-gradient(138.5deg, #36394D 0%, #101224 100%)
@@ -209,11 +238,7 @@ button
 	.carousel-fade
 		.carousel-item
 			transition 1s all
-			height  650px
-	.carousel-inner
-		min-height 650px
 	.Slide-item
-		min-height 650px
 		&:focus
 			outline none				
 .carousel-inner
@@ -263,20 +288,22 @@ button
 	display flex
 	flex-direction column
 	justify-content center
+	align-items flex-end
 	.Parrafo
 		max-width 370px
 
 .Images-slide
 	position relative
+	display flex
+	justify-content center
+	overflow hidden
 	img
-		float right
 		display inline-block
-		animation-delay 1.8s
-		animation-duration 1.8s
-		width 270px
-	img:nth-child(1)
+		animation-delay 1.2s
+		animation-duration 1s
+	img:nth-child(2)
 		margin-top 80px
-		animation-delay 2.2s
+		animation-delay 1.4s
 
 
 .slick-dots
@@ -288,8 +315,8 @@ button
 	margin 0
 	display inline-table
 	top 50%
-	left 95%
-	transform translate(-50%,-50%)	
+	left 100%
+	transform translate(0%,-50%)	
 	li
 		width 64px
 		height 4px
@@ -565,27 +592,24 @@ button
 	top -10%	
 	animation-duration 8s
 .Gatha-circle_4
-	left 81%
-	top 55%
-	animation-duration 10s
+	left 76%
+	top 43%
+	width 220px
 .Gatha-circle_5
-	width 361px
-	top -5%
-	left 40%
-	animation-duration 12s
-
+	width 325px
+	top -10%
+	left 43%
+	
 .Dcm-shape_1
 	top 10%
 	left 10%
 	animation animate-bg2 3s linear infinite
 .Dcm-shape_2
-	top calc(30% + 80px)
+	top 30%
 	left 18%
-	animation-duration 5s
 .Dcm-shape_3
-	top calc(-5% + 30px)
+	top -15%
 	left 38%
-	animation-duration 7s
 .Dcm-shape_4
 	top 2%
 	left 80%
@@ -606,28 +630,24 @@ button
 .BO-shape_3
 	top -7%
 	left 42%					
-	animation animate-bg2 8s linear infinite
 .BO-shape_4
 	top -5%
 	left 85%					
 	animation animate-bg2 10s linear infinite
 .BO-shape_5
-	top 50%
-	left 83%					
-	animation animate-bg 12s linear infinite
+	top 47%
+	left 84%					
 
 .Molle-shape_1
 	top 0%
 	left 10%					
 	animation animate-bg2 4s linear infinite
 .Molle-shape_2
-	top 55%
+	top 50%
 	left 17%					
-	animation animate-bg 6s linear infinite	
 .Molle-shape_3
-	top -3%
-	left 51%					
-	animation animate-bg 8s linear infinite	
+	top -8%
+	left 52%					
 .Molle-shape_4
 	top 0%
 	left 80%					
@@ -768,6 +788,7 @@ button
 	display flex
 	justify-content center
 	.carousel-indicators
+		top 55%
 		left 110%
 		li
 			margin-bottom 52px
@@ -844,7 +865,6 @@ button
 	left 0%
 	transform translate(-50%,-50%)
 	z-index -1
-	animation animate-bg4 4s linear infinite
 	img
 		transform scale(0)
 		transition all 1.2s cubic-bezier(0.845, 0.000, 0.165, 1.000)
@@ -943,12 +963,14 @@ button
 		left 40%
 	.Dcm-phone_mockup, .Molle-phone_mockup
 		left 7%
-			
-@media (max-width: 1250px)
-	.Text-slide
-		padding-left 50px
+
+@media (max-width: 1333px)
 	.Images-slide 
-		padding-right 40px
+		img
+			width 248px
+		
+@media (max-width: 1250px)
+	.Images-slide 
 		img
 			width 250px
 			
@@ -967,8 +989,12 @@ button
 	.Home-slider
 		&:before	
 			height 500px
-		.Social-icon_container,.carousel-indicators
-			top 40%
+		.carousel
+			width 95%
+		.carousel-indicators
+			left 95%
+		.Social-icon_container
+			left 2%
 	.Circle-5
 		width 300px
 		top 80%
@@ -981,6 +1007,9 @@ button
 		align-items center
 
 @media (max-width: 991.98px)
+	.Title
+		font-size 30px
+		line-height 0
 	.Home-header
 		margin-top 0
 		height 100vh
@@ -989,9 +1018,12 @@ button
 			display flex
 			justify-content center
 			align-items center
+			&:before
+				height 450px
+				top 50%
+				left 145%
 			.Social-icon_container
-					left 6%
-					top 50%
+					display none
 			.carousel-indicators
 				top 50%
 			.carousel-inner
@@ -1003,10 +1035,15 @@ button
 			.Slide-item
 				min-height auto
 			.carousel-indicators
-				left 105%
+				display inline-flex
+				top 110%
+				left 50%
+				transform translate(-50%,0%)
+	.Circle-5
+		width 250px
 	.Images-slide 
 		img
-			width 180px
+			width 200px
 			
 	.Project-container
 		padding 92px 0
@@ -1073,12 +1110,6 @@ button
 		display none
 		
 @media (max-width: 840.98px)
-	.Home-header 
-		.Home-slider 
-			.carousel-indicators
-				left 97%
-			.Social-icon_container
-				left 5%
 	.Gatha-phone_mockup, .BO-phone_mockup
 		left 45%
 

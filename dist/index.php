@@ -45,6 +45,13 @@
         <div class="Top-line"></div>      
         <!-- Home header -->
         <section id="Home-header" class="Home-header">
+          <!-- Mouse Scroll btn -->
+              <div class="Mouse-scroll_btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 32">
+                      <path d="M11.5 31.75c6.1 0 11.1-5.05 11.1-11.25v-9C22.6 5.3 17.65.25 11.5.25 5.35.25.4 5.3.4 11.5v9c0 6.2 5 11.25 11.1 11.25zM2.4 11.5c0-5.1 4.05-9.25 9.1-9.25s9.1 4.15 9.1 9.25v9c0 5.1-4.05 9.25-9.1 9.25S2.4 25.6 2.4 20.5v-9z"></path>
+                      <path d="M11.5 14.55c.55 0 1-.45 1-1V9.9c0-.55-.45-1-1-1s-1 .45-1 1v3.65c0 .55.45 1 1 1z"></path>
+                </svg>
+              </div>
             <!-- Main Menu -->
             <nav id="Menu" class="Menu-container">
                 <a href="">
@@ -75,7 +82,7 @@
                   <div class="carousel-inner animated fadeIn">
                     <div class="carousel-item active">
                         <div class="Slide-item Slide-1">
-                            <div class="container">
+                            <div class="">
                                 <div class="row Row-slide">
                                     <div class="Circles-bg">
                                               <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-1 animated fadeIn">
@@ -85,20 +92,23 @@
                                               <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
                                     </div>
                                     <div class="col-md-5 col-12 Text-slide">
-                                        <div class="Smoothness">
-                                           <h1 class="Title animated fadeInUp"><span>App Design</span></h1> 
-                                        </div>                            
-                                        <p class="Parrafo animated fadeInUp">UI/UX Design for Apps Service, ideal for startups. I can help you design a User-Friendly and Delightful App for your Users.</p>
-                                        <div class="Btn-container">
-                                            <button class="Btn animated fadeInUp">
-                                                <a href="">SEE PROJECTS</a>
-                                            </button>
-                                        </div>
-                                        
+                                          <div class="Text-slide_content">
+                                            <div class="Smoothness">
+                                               <h1 class="Title animated fadeInUp"><span>App Design</span></h1> 
+                                            </div>                            
+                                            <p class="Parrafo animated fadeInUp">UI/UX Design for Apps Service, ideal for startups. I can help you design a User-Friendly and Delightful App for your Users.</p>
+                                            <div class="Btn-container">
+                                                <button class="Btn animated fadeInUp">
+                                                    <a href="">SEE PROJECTS</a>
+                                                </button>
+                                            </div>
+                                          </div>
                                     </div>
                                     <div class="col-md-7 col-12 Images-slide">
-                                        <img src="img/Phone-2.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-2">
-                                        <img src="img/Phone-1.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-1">
+                                        <div class="Images-slide_content">
+                                              <img src="img/Phone-1.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-1">
+                                              <img src="img/Phone-2.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-2">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -127,7 +137,7 @@
                 data-aos-anchor-placement="center-bottom">Design Projects</h2>
               <div class="Parrafo-section_container">               
               		<p class="Parrafo Parrafo-section" data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom" data-aos-duration="3000">I am working in UI/UX Design, Web Development and Graphic Design. See some of the projects I’ve recently worked on: </p>
+                    data-aos-anchor-placement="center-bottom">I am working in UI/UX Design, Web Development and Graphic Design. See some of the projects I’ve recently worked on: </p>
               </div>
               <!-- Gatha Project -->
               <div class="Project-container Gatha-project_container">
@@ -141,19 +151,26 @@
                         <div class="container">
                               <div class="row">
                                     <div class="col-lg-4 col-12 Col-project_description">
-                                            <h3 class="Title Title-project">Gatha</h3>
-                                            <h2 class=" Title-project_type Title-project_gatha">UI/UX DESIGN</h2>
-                                            <p class="Parrafo Parrafo-project">Gatha is a Startup with the mission of making location sharing easier for family and friends.</p>
-                                            <p class="Parrafo Parrafo-project">I worked with the Gatha Team as UI/UX Designer and Web Developer. Sketch, Invision, Adobe Illustrator and Adobe Photoshop are some of the tools we’ve used to build an App Prototype and a Wordpress Website.</p>
-                                          <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_1">
+                                            <h3 class="Title Title-project" data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Gatha</h3>
+                                            <h2 class=" Title-project_type Title-project_gatha" data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom" >UI/UX DESIGN</h2>
+                                            <p class="Parrafo Parrafo-project" data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Gatha is a Startup with the mission of making location sharing easier for family and friends.</p>
+                                            <p class="Parrafo Parrafo-project" data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">I worked with the Gatha Team as UI/UX Designer and Web Developer. Sketch, Invision, Adobe Illustrator and Adobe Photoshop are some of the tools we’ve used to build an App Prototype and a Wordpress Website.</p>
+                                          <button class="Btn  Btn-Projects Btn-Projects_1" data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">
                                                        <a href="">SEE PROJECTS</a>
                                           </button>
                                     </div>
                                     <div class="col-lg-7 col-12 offset-lg-1">
                                                 <div class="Mockup-project Mockup-gatha">
-                                                      <img src="img/Gatha.jpg" alt="" class="img-fluid">
+                                                      <img src="img/Gatha-Browser-Mockup.svg" alt="" class="img-fluid" data-aos="fade-up"
+                                                       data-aos-anchor-placement="center-bottom">
                                                       <div class="Mockup-phone_project Gatha-phone_mockup">
-                                                        <img src="img/Gatha-Phone-Mockup.svg" alt="Gatha-Phone-Mockup" class="img-fluid">
+                                                        <img src="img/Gatha-Phone-Mockup.svg" alt="Gatha-Phone-Mockup" class="img-fluid" data-aos="fade-up"
+                                                       data-aos-anchor-placement="center-bottom">
                                                       </div>
                                                 </div>
                                     </div>
