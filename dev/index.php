@@ -54,25 +54,37 @@
               </div>
             <!-- Main Menu -->
             <nav id="Menu" class="Menu-container">
+                <div class="Shape-menu_bg">
+                    <img src="img/Waves-Small-Right.svg" alt="Waves-Small-Left" class="Shape-menu Shape-menu_1">
+                    <img src="img/Waves-Small-Right.svg" alt="Waves-Small-Right" class="Shape-menu Shape-menu_2">
+                </div>
                 <a href="">
                         <img src="img/Logo.svg" alt="Logo juan carmona" class="Menu-logo">
                     </a>
+                    <h2 class="Title Subtitle">Juan Carmona</h2>
                 <ul class="Menu-list">
                     <li class="Menu-item Menu-item_active"><a href="" class="Page_active">Home</a></li>
                     <li class="Menu-item"><a href="">Projects</a></li>
                     <li class="Menu-item"><a href="">Services</a></li>
                     <li class="Menu-item"><a href="">Contact</a></li>
                 </ul>
+                <a href="mailto:hello@juancarmona.co" class="Email-menu">Hello@juancarmona.co</a>
             </nav>
             <!-- Main Menu -->
+              <div id="Hamb-btn" class="Hamburger-container_btn">
+                <span class="Hamb-line Hamb-line1"></span>
+                <span class="Hamb-line Hamb-line2"></span>
+                <span class="Hamb-line Hamb-line3"></span>
+              </div>                    
             <!-- Slider header -->
+            <img src="img/Logo.svg" alt="Logo juan carmona" class="Slide-logo">
             <div id="Home-slider" class="Home-slider">
 	        	<!-- Social Icons -->
 					<div class="Social-icon_container">       
                     <a href="https://www.instagram.com/juancarmona.co/"><i class="fab fa-instagram Social-icon Social-icon_1"></i></a>
                     <a href="https://www.linkedin.com/in/juancarmona-design/"><i class="fab fa-linkedin-in Social-icon Social-icon_2"></i></a>
                     <a href="https://dribbble.com/juancarmona"><i class="fab fa-dribbble Social-icon Social-icon_3"></i></a>
-		            </div>            	
+		            </div>           	
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                   <ol class="carousel-indicators">
 	                    <li data-target="#carouselExampleFade" data-slide-to="0" class="active"><p>01</p></li>
@@ -91,7 +103,7 @@
                                               <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Circle-4 animated fadeIn">
                                               <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
                                     </div>
-                                    <div class="col-md-5 col-12 Text-slide">
+                                    <div class="col-md-5 col-xl-4 col-12 Text-slide">
                                           <div class="Text-slide_content">
                                             <div class="Smoothness">
                                                <h1 class="Title animated fadeInUp"><span>App Design</span></h1> 
@@ -104,16 +116,91 @@
                                             </div>
                                           </div>
                                     </div>
-                                    <div class="col-md-7 col-12 Images-slide">
+                                    <div class="col-md-7 col-xl-8 col-12 Images-slide">
                                         <div class="Images-slide_content">
-                                              <img src="img/Phone-1.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-1">
-                                              <img src="img/Phone-2.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-2">
+                                              <img src="img/Phone-1.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-1 Phone-slide">
+                                              <img src="img/Phone-2.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-2 Phone-slide">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>    
-                    </div>                                                                                                  
+                    </div>  
+                    <div class="carousel-item">
+                        <div class="Slide-item Slide-2">
+                            <div class="">
+                                <div class="row Row-slide">
+                                    <div class="Circles-bg">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-1 animated fadeIn">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-2 animated fadeIn">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-3 animated fadeIn">
+                                              <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Circle-4 animated fadeIn">
+                                              <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
+                                    </div>
+                                    <div class="col-md-5 col-xl-4 col-12 Text-slide">
+                                          <div class="Text-slide_content">
+                                            <div class="Smoothness">
+                                               <h1 class="Title animated fadeInUp"><span>Web Design</span></h1> 
+                                            </div>                            
+                                            <p class="Parrafo animated fadeInUp">Do you need a Mobile-Friendly Web Design? Hire me to cover all your Web Needs from Wireframing and High-res Mockups to Interactive Prototypes.</p>
+                                            <div class="Btn-container">
+                                                <button class="Btn animated fadeInUp">
+                                                    <a href="">SEE PROJECTS</a>
+                                                </button>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-7 col-xl-8 col-12 Images-slide">
+                                        <div class="Images-slide_content">
+                                              <img src="img/Web-Design-Service.png" 
+                                                srcset="img/Web-Design-Service.png 1x,
+                                                img/Web-Design-Service@2x.png 2x"
+                                                alt="Web Design Service"
+                                                class="img-fluid animated fadeIn Image-slide2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>     
+                    <div class="carousel-item">
+                        <div class="Slide-item Slide-3">
+                            <div class="">
+                                <div class="row Row-slide">
+                                    <div class="Circles-bg">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-1 animated fadeIn">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-2 animated fadeIn">
+                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-3 animated fadeIn">
+                                              <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Circle-4 animated fadeIn">
+                                              <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
+                                    </div>
+                                    <div class="col-md-5 col-xl-4 col-12 Text-slide">
+                                          <div class="Text-slide_content">
+                                            <div class="Smoothness">
+                                               <h1 class="Title animated fadeInUp"><span>Web Development</span></h1> 
+                                            </div>                            
+                                            <p class="Parrafo animated fadeInUp">Get a SEO-Friendly Website ready to be indexed by Google. Coded from scratch with HTML, CSS and Javascript or using a Wordpress Theme.</p>
+                                            <div class="Btn-container">
+                                                <button class="Btn animated fadeInUp">
+                                                    <a href="">SEE PROJECTS</a>
+                                                </button>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-7 col-xl-8 col-12 Images-slide">
+                                        <div class="Images-slide_content">
+                                              <div class="Images-slide_content">
+                                              <img src="img/Web-Development-Service.png" 
+                                                srcset="img/Web-Development-Service.png 1x,
+                                                img/Web-Development-Service@2x.png 2x"
+                                                alt="Web Development Service"
+                                                class="img-fluid animated fadeIn Image-slide3">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>                                                                                                                                            
                   </div>
                   <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -145,8 +232,6 @@
                                   <img src="img/Circle-1.svg" alt="Circle green" class="Shape-item Gatha-circle_1">
                                   <img src="img/Circle-1.svg" alt="Circle green" class="Shape-item Gatha-circle_2">
                                   <img src="img/Circle-1.svg" alt="Circle green" class="Shape-item Gatha-circle_3">
-                                  <img src="img/Circle-2.svg" alt="Circle green" class="Shape-item Gatha-circle_4">
-                                  <img src="img/Circle-3.svg" alt="Circle green" class="Shape-item Gatha-circle_5">
                         </div>
                         <div class="container">
                               <div class="row">
@@ -164,13 +249,23 @@
                                                        <a href="">SEE PROJECTS</a>
                                           </button>
                                     </div>
-                                    <div class="col-lg-7 col-12 offset-lg-1">
+                                    <div class="col-xl-7 col-lg-6 col-10 offset-lg-1">
                                                 <div class="Mockup-project Mockup-gatha">
-                                                      <img src="img/Gatha-Browser-Mockup.svg" alt="" class="img-fluid" data-aos="fade-up"
+                                                      <img src="img/Circle-2.svg" alt="Circle green" class="Shape-item Gatha-circle_4">
+                                                      <img src="img/Circle-3.svg" alt="Circle green" class="Shape-item Gatha-circle_5">
+                                                       <img src="img/Gatha-Web-Design@1x.png" 
+                                                          srcset="img/Gatha-Web-Design@1x.png 1x,
+                                                          img/Gatha-Web-Design@2x.png 2x"
+                                                          alt="Gatha App"
+                                                          class="img-fluid" data-aos="fade-up"
                                                        data-aos-anchor-placement="center-bottom">
                                                       <div class="Mockup-phone_project Gatha-phone_mockup">
-                                                        <img src="img/Gatha-Phone-Mockup.svg" alt="Gatha-Phone-Mockup" class="img-fluid" data-aos="fade-up"
-                                                       data-aos-anchor-placement="center-bottom">
+                                                       <img src="img/Gatha-App-Design@1x.png" 
+                                                          srcset="img/Gatha-App-Design@1x.png 1x,
+                                                          img/Gatha-App-Design@2x.png 2x"
+                                                          alt="Gatha App Movile"
+                                                          class="img-fluid" data-aos="fade-up"
+                                                          data-aos-anchor-placement="center-bottom">
                                                       </div>
                                                 </div>
                                     </div>
@@ -180,20 +275,29 @@
               <!-- DCM Project -->
               <div class="Project-container Dcm-project_container">
                         <div class="Project-shape_bg">
-                                  <img src="img/Rhombus-Icon.svg" alt="Circle green" class="Shape-item Dcm-shape_1">
-                                  <img src="img/Check-Icon-Left.svg" alt="Circle green" class="Shape-item Dcm-shape_2">
-                                  <img src="img/Check-Icon-Right.svg" alt="Circle green" class="Shape-item Dcm-shape_3">
+                                  <img src="img/Rhombus-Icon.svg" alt="Circle green" class="Shape-item Dcm-shape_1">                           
                                   <img src="img/Rhombus-Icon.svg" alt="Circle green" class="Shape-item Dcm-shape_4">
                                   <img src="img/Rhombus-Icon-Small.svg" alt="Circle green" class="Shape-item Dcm-shape_5">
                         </div>                
                         <div class="container">
                               <div class="row">
-                                      <div class="col-lg-7 col-12">
+                                      <div class="col-xl-7 col-lg-6 col-10">
                                           <div class="Mockup-project Mockup-dcm">
-                                                      <img src="img/DCM.jpg" alt="" class="img-fluid">
+                                                        <img src="img/Check-Icon-Left.svg" alt="Circle green" class="Shape-item Dcm-shape_2">
+                                                       <img src="img/Check-Icon-Right.svg" alt="Circle green" class="Shape-item Dcm-shape_3">
+                                                      <img src="img/DCM-Web-Design@1x.png" 
+                                                          srcset="img/DCM-Web-Design@1x.png 1x,
+                                                          img/DCM-Web-Design@2x.png 2x"
+                                                          alt="DCM"
+                                                          class="img-fluid">
                                                       <div class="Mockup-phone_project Dcm-phone_mockup">
-                                                        <img src="img/DCM-Phone-Mockup.svg" alt="DCM-Phone-Mockup" class="img-fluid">
-                                                      </div>                                                
+                                                        <img src="img/DCM-Mobile-Web-Design@1x.png" 
+                                                          srcset="img/DCM-Mobile-Web-Design@1x.png 1x,
+                                                          img/DCM-Mobile-Web-Design@2x.png 2x"
+                                                          alt="Best One Movile"
+                                                          class="img-fluid">
+                                                      </div>
+
                                           </div>
                                       </div>
                                     <div class="offset-lg-1 col-lg-4 Col-project_description">
@@ -212,10 +316,8 @@
               <div class="Project-container BO-project_container">
                         <div class="Project-shape_bg">
                                   <img src="img/Wave-Shape-Small-Left.svg" alt="Circle green" class="Shape-item BO-shape_1">
-                                  <img src="img/Wave-Shape-Medium-Left.svg" alt="Circle green" class="Shape-item BO-shape_2">
-                                  <img src="img/Wave-Icon.svg" alt="Circle green" class="Shape-item BO-shape_3">
+                                  <img src="img/Wave-Shape-Medium-Left.svg" alt="Circle green" class="Shape-item BO-shape_2">       
                                   <img src="img/Wave-Shape-Medium-Right.svg" alt="Circle green" class="Shape-item BO-shape_4">
-                                  <img src="img/3-Waves-Icon.svg" alt="Circle green" class="Shape-item BO-shape_5">
                         </div>                  
                         <div class="container">
                               <div class="row">
@@ -228,11 +330,21 @@
                                                        <a href="">SEE PROJECTS</a>
                                           </button>
                                     </div>
-                                    <div class="col-lg-7 col-12 offset-lg-1">
+                                    <div class="col-xl-7 col-lg-6 col-10 offset-lg-1">
                                                 <div class="Mockup-project Mockup-bo">
-                                                        <img src="img/Best-One.jpg" alt="" class="img-fluid">
+                                                        <img src="img/Wave-Icon.svg" alt="Circle green" class="Shape-item BO-shape_3">
+                                                        <img src="img/3-Waves-Icon.svg" alt="Circle green" class="Shape-item BO-shape_5">
+                                                        <img src="img/Best-One-Web-Design@1x.png" 
+                                                          srcset="img/Best-One-Web-Design@1x.png 1x,
+                                                          img/Best-One-Web-Design@2x.png 2x"
+                                                          alt="Best One"
+                                                          class="img-fluid">
                                                         <div class="Mockup-phone_project BO-phone_mockup">
-                                                        <img src="img/Best-One-Phone-Mockup.svg" alt="Best-One-Phone-Mockup" class="img-fluid">
+                                                        <img src="img/Best-One-Responsive-Web-Design@1x.png" 
+                                                          srcset="img/Best-One-Responsive-Web-Design@1x.png 1x,
+                                                          img/Best-One-Responsive-Web-Design@2x.png 2x"
+                                                          alt="Best One Movile"
+                                                          class="img-fluid">
                                                         </div>                                                       
                                                 </div>
                                     </div>
@@ -243,18 +355,26 @@
               <div class="Project-container Molle-project_container">
                         <div class="Project-shape_bg">
                                   <img src="img/Pizza-Shape-Small-Right.svg" alt="Circle green" class="Shape-item Molle-shape_1">
-                                  <img src="img/Pizza-Shape-Left.svg" alt="Circle green" class="Shape-item Molle-shape_2">
-                                  <img src="img/Pizza-Shape-Right.svg" alt="Circle green" class="Shape-item Molle-shape_3">
                                   <img src="img/Pizza-Shape-Small-Right.svg" alt="Circle green" class="Shape-item Molle-shape_4">
                                   <img src="img/Pizza-Shape-Small-Right.svg" alt="Circle green" class="Shape-item Molle-shape_5">
                         </div>                   
                         <div class="container">
                               <div class="row">
-                                      <div class="col-lg-7 col-12">
+                                      <div class="col-xl-7 col-lg-6 col-10">
                                           <div class="Mockup-project Mockup-molle">
-                                                       <img src="img/Molle-Pizza.jpg" alt="" class="img-fluid">
+                                                      <img src="img/Pizza-Shape-Left.svg" alt="Circle green" class="Shape-item Molle-shape_2">
+                                                      <img src="img/Pizza-Shape-Right.svg" alt="Circle green" class="Shape-item Molle-shape_3">
+                                                       <img src="img/Molle-Pizza-Web-Design@1x.png" 
+                                                          srcset="img/Molle-Pizza-Web-Design@1x.png 1x,
+                                                          img/Molle-Pizza-Web-Design@2x.png 2x"
+                                                          alt="Molle Pizza"
+                                                          class="img-fluid">
                                                        <div class="Mockup-phone_project Molle-phone_mockup">
-                                                          <img src="img/Molle-Phone-Mockup.svg" alt="Molle-Phone-Mockup" class="img-fluid">
+                                                          <img src="img/Molle-Pizza-Mobile-Design@1x.png" 
+                                                          srcset="img/Molle-Pizza-Mobile-Design@1x.png 1x,
+                                                          img/Molle-Pizza-Mobile-Design@2x.png 2x"
+                                                          alt="Molle Pizza Movile"
+                                                          class="img-fluid">
                                                         </div>                                                  
                                           </div>
                                       </div>

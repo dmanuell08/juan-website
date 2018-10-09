@@ -37,7 +37,7 @@ $(document).ready(function(){
     //Carousel Bootstrap//
     $('.carousel').carousel({
 	  pause: "hover",
-	  interval: 8000
+	  interval: false
 	});
 
 	//Move elements on mouse//
@@ -73,6 +73,11 @@ $(".carousel").on("touchstart", function(event){
             $(this).off("touchmove");
     });
 });
+
+	$("#Hamb-btn").click(function(){
+	    $(".Menu-container").toggleClass("active");
+	    $(this).toggleClass("active");
+	 });
 
 
 });
