@@ -77,8 +77,10 @@
                 <span class="Hamb-line Hamb-line3"></span>
               </div>                    
             <!-- Slider header -->
-            <img src="img/Logo.svg" alt="Logo juan carmona" class="Slide-logo">
             <div id="Home-slider" class="Home-slider">
+            <div class=" text-center">
+              <img src="img/Logo.svg" alt="Logo juan carmona" class="Slide-logo">
+            </div>              
 	        	<!-- Social Icons -->
 					<div class="Social-icon_container">       
                     <a href="https://www.instagram.com/juancarmona.co/"><i class="fab fa-instagram Social-icon Social-icon_1"></i></a>
@@ -189,7 +191,7 @@
                                     </div>
                                     <div class="col-md-7 col-xl-8 col-12 Images-slide">
                                         <div class="Images-slide_content">
-                                              <div class="Images-slide_content">
+                                              <div class="">
                                               <img src="img/Web-Development-Service.png" 
                                                 srcset="img/Web-Development-Service.png 1x,
                                                 img/Web-Development-Service@2x.png 2x"
@@ -246,7 +248,7 @@
                                               data-aos-anchor-placement="center-bottom">I worked with the Gatha Team as UI/UX Designer and Web Developer. Sketch, Invision, Adobe Illustrator and Adobe Photoshop are some of the tools we’ve used to build an App Prototype and a Wordpress Website.</p>
                                           <button class="Btn  Btn-Projects Btn-Projects_1" data-aos="fade-up"
                                               data-aos-anchor-placement="center-bottom">
-                                                       <a href="">SEE PROJECTS</a>
+                                                       <a href="">SEE PROJECT</a>
                                           </button>
                                     </div>
                                     <div class="col-xl-7 col-lg-6 col-10 offset-lg-1">
@@ -306,7 +308,7 @@
                                             <p class="Parrafo Parrafo-project">DCM is a company specialized in Work at Height Training Courses and SSH Consultancy.</p>
                                             <p class="Parrafo Parrafo-project">I worked along with DCM to make their new Logotype and Web Design/Development. The most challenging part of the project was to create a Certifications Tracking System for DCM students.</p>
                                           <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_2">
-                                                       <a href="">SEE PROJECTS</a>
+                                                       <a href="">SEE PROJECT</a>
                                           </button>
                                     </div>
                               </div>                                                                   
@@ -327,7 +329,7 @@
                                             <p class="Parrafo Parrafo-project">Best One is a phone repairing company at Cali, Colombia.</p>
                                             <p class="Parrafo Parrafo-project">I collaborated with a Web Development Agency to design the Best One Website. Our mission was to make the website User-Friendly and show the wide range of solutions the company has for their Users.</p>
                                           <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_3">
-                                                       <a href="">SEE PROJECTS</a>
+                                                       <a href="">SEE PROJECT</a>
                                           </button>
                                     </div>
                                     <div class="col-xl-7 col-lg-6 col-10 offset-lg-1">
@@ -384,7 +386,7 @@
                                             <p class="Parrafo Parrafo-project">Molle Pizza is a pizza delivery restaurant.</p>
                                             <p class="Parrafo Parrafo-project">I’ve used Adobe Illustrator to make their new Web Design. Hired by a Web Agency, I was given the task to bring a new Look & Feel and a better User Flow for the pizza menu.</p>
                                           <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_4">
-                                                       <a href="">SEE PROJECTS</a>
+                                                       <a href="">SEE PROJECT</a>
                                           </button>
                                     </div>
                               </div>                                                                   
@@ -403,10 +405,10 @@
                     		    <p class="Parrafo Parrafo-section Parrafo-section_services">Take a look at the Variety of Services I provide to Help Companies, Agencies and other Professionals in the Digital Field:</p>
                     </div>            
 	              <div class="row Row-services_home">
-                    <div class="col-lg-4 col-md-8 col-12 Col-service Col-service_1">
+                    <div class="col-lg-4 col-sm-8 col-12 Col-service Col-service_1">
                         <div class="content-service_home">
                             <div>
-                            <img src="img/Logo.svg" alt="Service Icon" class="Service-icon Service-icon_1">
+                            <img src="img/App-Design-Icon.svg" alt="App Design" class="Service-icon Service-icon_1">
                             </div>
                             <h2 class="Title Service-title">App Design</h2>
                             <ul class="List-services_home">
@@ -417,10 +419,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-8 col-12 Col-service Col-service_2">
+                    <div class="col-lg-4 col-sm-8 col-12 Col-service Col-service_2">
                         <div class="content-service_home">
                             <div>
-                            <img src="img/Logo.svg" alt="Service Icon" class="Service-icon Service-icon_1">
+                            <img src="img/Web Design-Icon.svg" alt="Web Design" class="Service-icon Service-icon_1">
                             </div>
                             <h2 class="Title Service-title">Web Design</h2>
                             <ul class="List-services_home">
@@ -431,10 +433,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-8 col-12 Col-service Col-service_3">
+                    <div class="col-lg-4 col-sm-8 col-12 Col-service Col-service_3">
                         <div class="content-service_home">
                             <div>
-                            <img src="img/Logo.svg" alt="Service Icon" class="Service-icon Service-icon_1">
+                            <img src="img/Web-Development-Icon.svg" alt="Web Development" class="Service-icon Service-icon_1">
                             </div>
                             <h2 class="Title Service-title">Web Development</h2>
                             <ul class="List-services_home">
@@ -610,10 +612,11 @@
             <div class="Parrafo-section_container"">
               <p class="Parrafo Parrafo-section Parrafo-section_letswork">I am always up for new projects. If you want to create a new Successful App or Refresh your Company Website, get in touch and let’s work together.</p>
             </div>
-            <div class="Btn-container">
+            <h4 class="Email-footer"><a href="mailto:hello@juancarmona.co">Hello@juancarmona.co</a></h4>
+<!--             <div class="Btn-container">
                 <button class="Btn Btn-letswork animated fadeInUp">
                     <a href="">CONTACT ME</a>
-                </button>
+                </button> -->
             </div>            
           </div>
           <div class="Circle-bg_section">
@@ -636,8 +639,8 @@
                               class="img-fluid Juan-Profile_img2">   
                   </div>
                   <div class="Getintouch">
-                    <p class="Getintouch-title">Get in touch by email at:</p>
-                    <h4 class="Email-footer"><a href="mailto:hello@juancarmona.co">Hello@juancarmona.co</a></h4>
+                    <p class="Getintouch-title">Find me at:</p>
+<!--                     <h4 class="Email-footer"><a href="mailto:hello@juancarmona.co">Hello@juancarmona.co</a></h4> -->
                     <!-- Social Icons -->
                     <div class="Social-icon_container">       
                               <a href="https://dribbble.com/juancarmona"><i class="fab fa-dribbble Social-icon Social-icon_1"></i></a>
@@ -677,6 +680,7 @@
                   <img src="img/Logo.svg" class="img-fluid Partner-logo" alt="Partner Agency">
                 </div>
               </div>
+              <span class="Web-version">Web Version 3.0</span>
             </div>
           </div>
           <section class="Copyright">

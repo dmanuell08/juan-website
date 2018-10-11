@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="493px" height="493px" viewBox="0 0 493 493" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>0B89835F-4D37-4FC1-B3A2-5A6D0DD71FC9</title>
-    <desc>Created with sketchtool.</desc>
-    <defs></defs>
-    <g id="Web-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Home-Large" transform="translate(-429.000000, -5564.000000)" stroke-width="4">
-            <g id="Testimonials" transform="translate(0.000000, 5260.000000)">
-                <g id="Waves-Left" transform="translate(431.000000, 306.000000)">
-                    <circle id="Oval" stroke="#FFF5CC" cx="245" cy="245" r="49"></circle>
-                    <circle id="Oval" stroke="#464B66" opacity="0.4" cx="244.5" cy="244.5" r="146.5"></circle>
-                    <circle id="Oval" stroke="#464B66" opacity="0.2" cx="244.5" cy="244.5" r="244.5"></circle>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="493" height="493" xmlns="http://www.w3.org/2000/svg"><g transform="translate(2 2)" stroke-width="4" fill="none" fill-rule="evenodd"><circle stroke="#FFF5CC" cx="245" cy="245" r="49"/><circle stroke="#464B66" opacity=".4" cx="244.5" cy="244.5" r="146.5"/><circle stroke="#464B66" opacity=".2" cx="244.5" cy="244.5" r="244.5"/></g></svg>
