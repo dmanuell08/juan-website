@@ -291,6 +291,32 @@ button
 	top 70%
 	left 50%
 	animation-delay 1.3s
+.Square-1
+	top 0%
+	left 30%
+.Square-2
+	top 20%
+	left 35%
+.Square-3
+	top 115%
+	left 75%
+.Square-4
+	top 5%
+	left 95%
+.Square-5
+	top 95%
+	left 10%
+	margin 0 !important
+	animation-delay 1.3s !important
+.Triangle-4
+	top 0
+	left 98%	
+.Triangle-5
+	top 85%
+	left 10%
+	margin 0 !important
+	animation-delay 1.3s !important	
+		
 .Text-slide
 	display flex
 	flex-direction column
@@ -301,18 +327,20 @@ button
 		min-width auto
 .Slide-logo
 	display none
+.Images-slide_content
+	position relative
 .Images-slide
 	position relative
 	display flex
 	justify-content center
 	align-items center
-	overflow hidden
 	img
 		display inline-block
 		animation-delay 1.2s
 		animation-duration 1s
 	img:nth-child(2)
 		margin-top 80px
+		margin-left 40px
 		animation-delay 1.4s
 
 
@@ -970,10 +998,16 @@ button
 		font-size 14px
 		line-height 19px
 
+.Web-version
+	display none
+
 @media (max-width: 1450px)
 	.Home-slider
 		&:before	
 			left 120%
+	.Images-slide
+		.Phone-slide
+			width 200px
 			
 	.Dcm-phone_mockup, .Molle-phone_mockup
 		left 7%
@@ -981,18 +1015,11 @@ button
 		left 88%
 
 @media (max-width: 1333px)
-	.Images-slide 
-		.Phone-slide
-			width 248px
-	
 	.Gatha-phone_mockup, .BO-phone_mockup
 		left 55%
 		
 		
 @media (max-width: 1250px)
-	.Images-slide 
-		.Phone-slide
-			width 250px
 			
 	.Dcm-project_container, .Molle-project_container
 		&:before
@@ -1005,6 +1032,8 @@ button
 		top 63%	
 
 @media (max-width: 1199.98px)
+	.Home-header
+		height 700px
 	.Text-slide
 		padding-left 100px
 		.Parrafo
@@ -1012,23 +1041,29 @@ button
 			min-width auto
 	.Images-slide
 		.Phone-slide
-			width 200px
+			width 180px
 	.Home-slider
 		&:before	
 			height 500px
 		.carousel
 			width 95%
 		.carousel-indicators
-			left 95%
+			left 93%
 		.Social-icon_container
-			left 2%
+			left 4%
 	.Circle-5
 		width 300px
 		top 80%
+	.Square-4
+		width 80px
+	.Square-5
+		width 180px		
 	.Images-slide
 		.Image-slide2,.Image-slide3
 			width 400px
 	
+	#Home-projets
+		padding-top 40px
 	.Gatha-phone_mockup, .BO-phone_mockup
 		left 50%
 	.Dcm-phone_mockup, .Molle-phone_mockup
@@ -1055,7 +1090,6 @@ button
 		line-height 1
 	.Home-header
 		margin-top 0
-		height 100vh
 		.Home-slider 
 			height 100%
 			display flex
@@ -1082,12 +1116,16 @@ button
 				top 105%
 				left 50%
 				transform translate(-50%,0%)
+	.Text-slide
+		.Parrafo
+			font-size 16px
+			
 	.Circle-5
 		width 250px
+	.Square-5
+		width 180px
 	.Images-slide
 		min-height 440px 
-		.Phone-slide
-			width 200px
 	.Images-slide
 		.Image-slide2
 		.Image-slide3
@@ -1099,9 +1137,17 @@ button
 		.row
 			flex-direction column-reverse
 			align-items flex-start !important
+	.Gatha-circle_2
+		top 30%
+		left 1%
+	.Gatha-circle_3
+		top 35%
+		left 95%
+	.Gatha-circle_4
+		left 89%			
 	.Gatha-circle_5
-		top -12%
-		left -5%
+		top -15%
+		left -15%
 	.Dcm-shape_2
 		top 45%
 	.Dcm-shape_3
@@ -1113,10 +1159,10 @@ button
 			align-items flex-start !important
 	.Dcm-project_container
 		.row
-			justify-content end !important
+			justify-content flex-end !important
 	.Molle-project_container
 		.row
-			justify-content end !important							
+			justify-content flex-end !important							
 	.Col-project_description
 		margin-top 80px
 	.Gatha-phone_mockup, .BO-phone_mockup
@@ -1192,6 +1238,9 @@ button
 @media (max-width: 767.98px)
 	.Home-header
 		text-align center
+	.Menu-container.hide
+		top 0% !important
+		transition 1s all cubic-bezier(.785,.135,.15,.86)		
 	.Menu-container
 		height 100% !important
 		width 100% 
@@ -1199,17 +1248,17 @@ button
 		justify-content center
 		align-items center
 		flex-direction column
-		transform translateY(105%)
 		opacity 0
-		transform 800ms all cubic-bezier(.785,.135,.15,.86) !important
+		transform translateY(105%)
+		transition .5s all cubic-bezier(.785,.135,.15,.86) !important
 		padding 0
 		.Title
 			display block
 			margin-bottom 42px
 	.Menu-container.active
-		transform translateY(0%)
 		opacity 1
-		transform 800ms all cubic-bezier(.785,.135,.15,.86) !important
+		transform translateY(0)
+		transition .5s all cubic-bezier(.785,.135,.15,.86) !important
 	.Menu-list
 		display block
 		text-align center
@@ -1228,9 +1277,6 @@ button
 		margin-top 84px
 		&:hover
 			color #FFDE66
-	.Menu-container.hide
-		top 0% !important
-		transition 600ms all cubic-bezier(.785,.135,.15,.86)
 	.Shape-menu_bg
 		display block
 		position absolute
@@ -1323,7 +1369,7 @@ button
 				width 100%
 			.carousel-indicators
 				top 81%
-				left 47%
+				left 50%
 				li
 					p
 						height 30px
@@ -1337,7 +1383,58 @@ button
 							left 28%
 		.Images-slide
 			.Phone-slide
-				width 130px
+				width 100px
+	//Animation Menu
+	.Menu-container
+		.Email-menu,.Menu-item,.Title,.Menu-logo
+			opacity 0																							
+	.Menu-container.active
+		.Email-menu
+			animation nav_active 500ms normal .1s forwards ease-in-out
+		.Menu-item:nth-of-type(4)
+			animation nav_active 500ms normal .2s forwards ease-in-out
+		.Menu-item:nth-of-type(3)
+			animation nav_active 500ms normal .3s forwards ease-in-out
+		.Menu-item:nth-of-type(2)
+			animation nav_active 500ms normal .4s forwards ease-in-out
+		.Menu-item:nth-of-type(1)
+			animation nav_active 500ms normal .5s forwards ease-in-out											
+		.Title
+			animation nav_active 500ms normal .6s forwards ease-in-out	
+		.Menu-logo
+			animation nav_active 500ms normal .6s forwards ease-in-out							
+			
+									
+	@keyframes nav_normal{
+		
+		0%{
+			opacity 0
+			transform translateY(0)
+		}
+		50%{
+			opacity 1
+			transform translateY(50px)
+		}
+		
+		100%{
+			opacity 0
+			transform translateY(50px)
+		}		
+	}
+	
+	@keyframes nav_active{
+		
+		0%{
+			opacity 0
+			transform translateY(50px)
+		}
+		
+		100%{
+			opacity 1
+			transform translateY(0)
+		}		
+	}
+
 	.Circle-1
 		display none
 	.Circle-3
@@ -1351,9 +1448,19 @@ button
 		top 65%
 		left 30%
 		width 200px
+	.Square-2
+		top 40%
+		left 11%			
+	.Square-4
+		top 15%
+		left 100%				
+	.Square-5
+		width 150px
+		top 85%
+		left 10%		
 		
 	#Home-projets
-		padding-top 66px
+		padding-top 30px
 	.Dcm-project_container,.Molle-project_container
 		.Col-project_description
 			margin-top 120px
@@ -1366,11 +1473,18 @@ button
 			transform translate(-50%,-50%)
 	.Dcm-project_container,.Molle-project_container
 		&:before
-			left -45%	
+			left -45%
+	.Mockup-phone_project
+		top 80%	
 	.Gatha-phone_mockup, .BO-phone_mockup
-		left 45%
+		left 68%
+	.Gatha-circle_4
+		top 80%
+		left 95%
+		width 100px
 	.Gatha-circle_5
 		left -15%
+		width 200px
 	.Dcm-shape_2
 		width 250px
 		top 60%	
@@ -1380,7 +1494,7 @@ button
 		left 56%
 	.Mockup-phone_project
 		img
-			width 55px
+			width 80px
 	.Parrafo-project
 		max-width 100%
 		
@@ -1475,9 +1589,12 @@ button
 		text-align center
 		margin-top 32px
 	.Web-version
+		display block
 		font-size 14px
 		color #7A7F99
 		margin-top 40px
+		width 100%
+		text-align center
 	.Copyright-content
 		justify-content center
 	.Copyright-content 
@@ -1485,21 +1602,30 @@ button
 			display none
 		
 @media (max-width: 575.98px)
+	.Home-header
+		height auto
 	.Home-header .Home-slider
 		&:before
 			left 200%
 			top 67%
+	.Slide-logo
+		margin-top 40px
+			
 	.Project-container
 		&:before
 			height 350px
-			top 26%
+			top 27%
 	.Dcm-project_container,.Molle-project_container
 		&:before
-			left -80%	
+			left -56%	
 	.Gatha-phone_mockup, .BO-phone_mockup
 		left 60%
 	.Mockup-phone_project
 		top 85%
+	.Mockup-gatha,.Mockup-bo
+		margin-left 30px
+	.Mockup-dcm,.Mockup-molle
+		margin-right 30px		
 	.Gatha-circle_4
 		width 120px
 	.Gatha-circle_5
@@ -1562,22 +1688,57 @@ button
 	
 	#Home-letswork
 		padding-top 48px
+
+
+@media (max-width: 500px)
+	.Gatha-phone_mockup, .BO-phone_mockup
+		left 55%
+
 		
 @media (max-width: 459.98px)
 	.Mockup-phone_project 
 		img
 			width 55px
 	.Gatha-phone_mockup, .BO-phone_mockup
-		left 65%	
+		left 67%
+	.Gatha-project_container,.BO-project_container
+		&:before
+			transform translate(-30%,-50%)
+	.Gatha-circle_4
+		top 75%
+		left 90%
+		width 100px
 
 	#Home-about
 		&:before
 			left -80%
 
 @media (max-width: 375.98px)
-	.Home-header .Home-slider
-		&:before
-			left 260%
+	.Email-menu
+		margin-top 54px
+		font-size 16px
+	.Home-header 
+		.Home-slider
+			&:before
+				left 260%
+			.carousel-indicators
+				top 88%
+	.Images-slide_content
+		padding-top 16px
+	.Images-slide .Image-slide2, .Images-slide .Image-slide3
+		width 250px
+	.Images-slide
+		min-height 300px
+	.Slide-1
+		.Circle-4
+			top 45%
+		.Circle-5
+			width 150px
+			top 76%
+			left 19%
+	.Square-5
+		width 100px			
+
 	.Project-container
 		&:before
 			display none
@@ -1587,6 +1748,9 @@ button
 			width 55px
 	.Gatha-phone_mockup, .BO-phone_mockup
 		left 60%
+	.Gatha-circle_4
+		width 100px
+		left 85%
 	.Dcm-shape_2
 		top 58%
 	.Dcm-shape_3
@@ -1606,3 +1770,8 @@ button
 			margin-bottom 24px
 			img
 				width 30px
+				
+
+@media (max-width: 350.98px)
+	.Title
+		font-size 29px

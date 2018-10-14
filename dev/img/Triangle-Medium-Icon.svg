@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="88px" viewBox="0 0 84 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle-Medium-Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="94.800575%" x2="50%" y2="2.77555756e-15%" id="linearGradient-1">
+            <stop stop-color="#8A62A3" offset="0%"></stop>
+            <stop stop-color="#5A3D99" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slide-3" transform="translate(-1510.000000, -230.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Slider" transform="translate(0.000000, 120.000000)">
+                <g id="Slide-Image" transform="translate(777.000000, 110.000000)">
+                    <g id="Circles">
+                        <path d="M747.896851,-7.76066806 L823.564917,71.708077 C825.088288,73.3079637 825.026259,75.839864 823.426372,77.3632344 C822.682637,78.0713992 821.695022,78.4663832 820.668066,78.4663832 L745,78.4663832 C742.790861,78.4663832 741,76.6755222 741,74.4663832 L741,-5.00236188 C741,-7.21150088 742.790861,-9.00236188 745,-9.00236188 C746.094859,-9.00236188 747.141862,-8.55357869 747.896851,-7.76066806 Z" id="Triangle-Medium-Icon" transform="translate(778.835092, 39.233192) scale(-1, -1) translate(-778.835092, -39.233192) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

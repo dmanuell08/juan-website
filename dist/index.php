@@ -120,8 +120,17 @@
                                     </div>
                                     <div class="col-md-7 col-xl-8 col-12 Images-slide">
                                         <div class="Images-slide_content">
-                                              <img src="img/Phone-1.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-1 Phone-slide">
-                                              <img src="img/Phone-2.svg" alt="Gatha mockup" class="img-fluid animated fadeIn Phone-2 Phone-slide">
+                                              <img src="img/App-Design-Service@1x.png" 
+                                                srcset="img/App-Design-Service@1x.png 1x,
+                                                img/App-Design-Service@2x.png 2x"
+                                                alt="Web Design Service"
+                                                class="img-fluid animated fadeIn Phone-1 Phone-slide Image-slide">
+
+                                              <img src="img/App-UI-Service@1x.png" 
+                                                srcset="img/App-UI-Service@1x.png 1x,
+                                                img/App-UI-Service@2x.png 2x"
+                                                alt="Web Design Service"
+                                                class="img-fluid animated fadeIn Phone-2 Phone-slide Image-slide">
                                         </div>
                                     </div>
                                 </div>
@@ -133,11 +142,11 @@
                             <div class="">
                                 <div class="row Row-slide">
                                     <div class="Circles-bg">
-                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-1 animated fadeIn">
-                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-2 animated fadeIn">
-                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-3 animated fadeIn">
-                                              <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Circle-4 animated fadeIn">
-                                              <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
+                                              <img src="img/Square-Shape-Small.svg" alt="Circle green" class="Circle-item Circle-1 Square-1 animated fadeIn">
+                                              <img src="img/Square-Shape-Small.svg" alt="Circle green" class="Circle-item Circle-2 Square-2 animated fadeIn">
+                                              <img src="img/Square-Shape-Small.svg" alt="Circle green" class="Circle-item Circle-3 Square-3 animated fadeIn">
+                                              
+                                              
                                     </div>
                                     <div class="col-md-5 col-xl-4 col-12 Text-slide">
                                           <div class="Text-slide_content">
@@ -154,11 +163,14 @@
                                     </div>
                                     <div class="col-md-7 col-xl-8 col-12 Images-slide">
                                         <div class="Images-slide_content">
+                                              <img src="img/Square-Shape-Medium.svg" alt="Circle green" class="Circle-item Circle-4 Square-4 animated fadeIn">
+                                              <img src="img/Square-Shape-Large.svg" alt="Circle green" class="Circle-item Circle-5 Square-5 animated fadeIn">
+
                                               <img src="img/Web-Design-Service.png" 
                                                 srcset="img/Web-Design-Service.png 1x,
                                                 img/Web-Design-Service@2x.png 2x"
                                                 alt="Web Design Service"
-                                                class="img-fluid animated fadeIn Image-slide2">
+                                                class="img-fluid animated fadeIn Image-slide Image-slide2">
                                         </div>
                                     </div>
                                 </div>
@@ -170,11 +182,10 @@
                             <div class="">
                                 <div class="row Row-slide">
                                     <div class="Circles-bg">
-                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-1 animated fadeIn">
-                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-2 animated fadeIn">
-                                              <img src="img/Circle-1.svg" alt="Circle green" class="Circle-item Circle-3 animated fadeIn">
-                                              <img src="img/Circle-2.svg" alt="Circle green" class="Circle-item Circle-4 animated fadeIn">
-                                              <img src="img/Circle-3.svg" alt="Circle green" class="Circle-item Circle-5 animated fadeIn">
+                                              <img src="img/Triangle-Small-Icon-Left-1.svg" alt="Circle green" class="Circle-item Triangle-1 Circle-1 animated fadeIn">
+                                              <img src="img/Triangle-Small-Icon-Left-2.svg" alt="Circle green" class="Circle-item Triangle-2 Circle-2 animated fadeIn">
+                                              <img src="img/Triangle-Small-Icon-Right.svg" alt="Circle green" class="Circle-item Triangle-3 Circle-3 animated fadeIn">
+
                                     </div>
                                     <div class="col-md-5 col-xl-4 col-12 Text-slide">
                                           <div class="Text-slide_content">
@@ -191,12 +202,14 @@
                                     </div>
                                     <div class="col-md-7 col-xl-8 col-12 Images-slide">
                                         <div class="Images-slide_content">
+                                            <img src="img/Triangle-Medium-Icon.svg" alt="Circle green" class="Circle-item Circle-4 Triangle-4 animated fadeIn">
+                                              <img src="img/Triangle-Large-Icon.svg" alt="Circle green" class="Circle-item Circle-5 Triangle-5 animated fadeIn">
                                               <div class="">
                                               <img src="img/Web-Development-Service.png" 
                                                 srcset="img/Web-Development-Service.png 1x,
                                                 img/Web-Development-Service@2x.png 2x"
                                                 alt="Web Development Service"
-                                                class="img-fluid animated fadeIn Image-slide3">
+                                                class="img-fluid animated fadeIn Image-slide Image-slide3">
                                         </div>
                                     </div>
                                 </div>
@@ -463,7 +476,7 @@
                                 <img src="img/Juan-Carmona-Profile.png" 
                                 srcset="img/Juan-Carmona-Profile.png 1x,
                                 img/Juan-Carmona-Profile@2x.png 2x"
-                                alt="Juan Profile "
+                                alt="Juan Profile"
                                 class="img-fluid Juan-Profile_img">
                               </div>
                     </div>

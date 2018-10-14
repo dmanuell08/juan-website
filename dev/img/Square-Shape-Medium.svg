@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="100px" viewBox="0 0 120 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Square-Shape-Medium</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="31.0083356%" y1="-47.4576364%" x2="141.56528%" y2="93.3781309%" id="linearGradient-1">
+            <stop stop-color="#4267B2" offset="0%"></stop>
+            <stop stop-color="#06183D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slide-2" transform="translate(-1485.000000, -207.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Slider" transform="translate(0.000000, 120.000000)">
+                <g id="Slide-Image" transform="translate(718.000000, 51.000000)">
+                    <g id="Circles">
+                        <rect id="Square-Shape-Medium" x="767" y="36" width="120" height="100" rx="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -42,7 +42,7 @@ $(document).ready(function(){
 
 	//Move elements on mouse//
 	$("#Home-header").mousemove(function(e) {
-	  parallaxIt(e, ".Phone-1", -40);
+	  parallaxIt(e, ".Image-slide", -40);
 	  parallaxIt(e, ".Phone-2", -20);
 	});
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle-Small-Icon-Right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.77555756e-15%" x2="50%" y2="94.800575%" id="linearGradient-1">
+            <stop stop-color="#8A62A3" offset="0%"></stop>
+            <stop stop-color="#5A3D99" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slide-3" transform="translate(-1695.000000, -736.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Slider" transform="translate(0.000000, 120.000000)">
+                <g id="Slide-Image" transform="translate(777.000000, 110.000000)">
+                    <g id="Circles">
+                        <path d="M923.896851,507.654112 L937.786766,522.241694 C939.310136,523.841581 939.248107,526.373481 937.648221,527.896851 C936.904486,528.605016 935.916871,529 934.889915,529 L921,529 C918.790861,529 917,527.209139 917,525 L917,510.412419 C917,508.20328 918.790861,506.412419 921,506.412419 C922.094859,506.412419 923.141862,506.861202 923.896851,507.654112 Z" id="Triangle-Small-Icon-Right" transform="translate(928.572372, 517.000000) scale(-1, 1) translate(-928.572372, -517.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
