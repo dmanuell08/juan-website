@@ -53,29 +53,9 @@
                 </svg>
               </div>
             <!-- Main Menu -->
-            <nav id="Menu" class="Menu-container">
-                <div class="Shape-menu_bg">
-                    <img src="img/Waves-Small-Right.svg" alt="Waves-Small-Left" class="Shape-menu Shape-menu_1">
-                    <img src="img/Waves-Small-Right.svg" alt="Waves-Small-Right" class="Shape-menu Shape-menu_2">
-                </div>
-                <a href="">
-                        <img src="img/Logo.svg" alt="Logo juan carmona" class="Menu-logo">
-                    </a>
-                    <h2 class="Title Subtitle">Juan Carmona</h2>
-                <ul class="Menu-list">
-                    <li class="Menu-item Menu-item_active"><a href="" class="Page_active">Home</a></li>
-                    <li class="Menu-item"><a href="">Projects</a></li>
-                    <li class="Menu-item"><a href="">Services</a></li>
-                    <li class="Menu-item"><a href="">Contact</a></li>
-                </ul>
-                <a href="mailto:hello@juancarmona.co" class="Email-menu">Hello@juancarmona.co</a>
-            </nav>
-            <!-- Main Menu -->
-              <div id="Hamb-btn" class="Hamburger-container_btn">
-                <span class="Hamb-line Hamb-line1"></span>
-                <span class="Hamb-line Hamb-line2"></span>
-                <span class="Hamb-line Hamb-line3"></span>
-              </div>                    
+            <?php $page = "home"; require('menu.php');?>
+             <!-- Main Menu -->
+                 
             <!-- Slider header -->
             <div id="Home-slider" class="Home-slider">
             <div class=" text-center">
@@ -235,12 +215,14 @@
               <div class="Circle-bg_section">
                     <img src="img/Waves-Left.svg" alt="" class="img-fluid Circle-1_about Circle-1_projects">
               </div>             
-              <h2 class="Title Subtitle" data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom">Design Projects</h2>
-              <div class="Parrafo-section_container">               
-              		<p class="Parrafo Parrafo-section" data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom">I am working in UI/UX Design, Web Development and Graphic Design. See some of the projects I’ve recently worked on: </p>
-              </div>
+                <div class="container">
+                  <h2 class="Title Subtitle" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">Design Projects</h2>
+                  <div class="Parrafo-section_container">               
+                      <p class="Parrafo Parrafo-section" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">I am working in UI/UX Design, Web Development and Graphic Design. See some of the projects I’ve recently worked on: </p>
+                  </div>
+                </div>
               <!-- Gatha Project -->
               <div class="Project-container Gatha-project_container">
                         <div class="Project-shape_bg">

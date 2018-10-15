@@ -6,8 +6,8 @@
 <!-- Campos del formulario editables -->
 <form action="#Contact-section" method="POST" enctype="multipart/form-data">
     <input type="hidden" name="action" value="submit">
-    <input required type="text" name="nombre" value="" class="form-control Form_input" id="nombre" placeholder="Your Name *">
-    <input required type="email" name="email" value="" class="form-control Form_input" id="email" placeholder="Email *">
+    <input required type="text" name="nombre" value="" class="form-control Form_input" id="nombre" placeholder="Name">
+    <input required type="email" name="email" value="" class="form-control Form_input" id="email" placeholder="Email">
     <select required id="servicio" class="form-control Form_input form-control-lg" name="servicio">
         <option selected="selected" disabled="disabled">Project</option>
         <option value="Branding" >Branding</option>
@@ -15,8 +15,12 @@
         <option value="App Design" >App Design</option>
         <option value="Social Marketing" >Social Marketing</option>
     </select>
-    <textarea required type="text" name="mensaje" rows="4" cols="50" class="form-control Form_area" id="mensaje" placeholder="Message *"></textarea>
-    <button id="submit" class="Menu-button Form_button Up-animation" type="submit">Send</button>
+    <textarea required type="text" name="mensaje" rows="4" cols="50" class="form-control Form_area" id="mensaje" placeholder="Message"></textarea>
+    <div class="Btn-container">
+        <button id="submit" type="submit" class="Btn animated fadeInUp">
+            <a href="">CONTACT NOW</a>
+        </button>
+      </div>
     
 </form>
             <?php
