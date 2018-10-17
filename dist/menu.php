@@ -10,7 +10,7 @@
         <h2 class="Title Subtitle">Juan Carmona</h2>
     <ul class="Menu-list">
         <li class="Menu-item <?php echo ($page == "home" ? "Menu-item_active" : "")?>">
-            <a href="index.php" class=" <?php echo ($page == "home" ? "Page_active" : "")?>">Home</a>
+            <a href="https://www.juancarmona.co/" class=" <?php echo ($page == "home" ? "Page_active" : "")?>">Home</a>
         </li>
         <li class="Menu-item <?php echo ($page == "projects" ? "Menu-item_active" : "")?>">
             <a href="#Home-projets" class="Slide <?php echo ($page == "projects" ? "Page_active" : "")?>">Projects</a>
@@ -19,7 +19,7 @@
             <a href="#Home-services" class="Slide <?php echo ($page == "services" ? "Page_active" : "")?>">Services</a>
         </li>
         <li class="Menu-item <?php echo ($page == "contact" ? "Menu-item_active" : "")?>">
-            <a href="contact.php" class=" <?php echo ($page == "contact" ? "Page_active" : "")?>">Contact</a>
+            <a href="https://www.juancarmona.co/contact" class=" <?php echo ($page == "contact" ? "Page_active" : "")?>">Contact</a>
         </li>                        
     </ul>
     <a href="mailto:hello@juancarmona.co" class="Email-menu">Hello@juancarmona.co</a>

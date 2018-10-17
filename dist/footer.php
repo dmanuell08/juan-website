@@ -64,7 +64,7 @@
           </div>
           <section class="Copyright">
             <div class="container Copyright-content">
-              <span>Copyright © 2018 - Juan Carmona Design Studio</span>
+              <span>Copyright © 2018 - Juan Carmona</span>
               <span>Web Version 3.0</span>  
             </div>
           </section>

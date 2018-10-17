@@ -41,16 +41,16 @@
                 <h2 class="Title Subtitle">Juan Carmona</h2>
             <ul class="Menu-list">
                 <li class="Menu-item">
-                    <a href="index.php" class="">Home</a>
+                    <a href="https://www.juancarmona.co/" class="">Home</a>
                 </li>
                 <li class="Menu-item">
-                    <a href="index.php#Home-projets" class="">Projects</a>
+                    <a href="https://www.juancarmona.co#Home-projets" class="">Projects</a>
                 </li>
                 <li class="Menu-item">
-                    <a href="index.php#Home-services" class="">Services</a>
+                    <a href="https://www.juancarmona.co#Home-services" class="">Services</a>
                 </li>
                 <li class="Menu-item Menu-item_active">
-                    <a href="contact.php" class="Page_active">Contact</a>
+                    <a href="https://www.juancarmona.co/contact" class="Page_active">Contact</a>
                 </li>                        
             </ul>
             <a href="mailto:hello@juancarmona.co" class="Email-menu">Hello@juancarmona.co</a>
