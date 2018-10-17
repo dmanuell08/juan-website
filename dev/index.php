@@ -242,10 +242,10 @@
                                               data-aos-anchor-placement="center-bottom">Gatha is a Startup with the mission of making location sharing easier for family and friends.</p>
                                             <p class="Parrafo Parrafo-project" data-aos="fade-up"
                                               data-aos-anchor-placement="center-bottom">I worked with the Gatha Team as UI/UX Designer and Web Developer. Sketch, Invision, Adobe Illustrator and Adobe Photoshop are some of the tools we’ve used to build an App Prototype and a Wordpress Website.</p>
-                                          <button class="Btn  Btn-Projects Btn-Projects_1" data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom">
-                                                       <a href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a>
-                                          </button>
+                                          
+                                              <a class="Btn  Btn-Projects Btn-Projects_1" data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a>
+                                         
                                     </div>
                                     <div class="col-xl-7 col-lg-6 col-10 offset-lg-1">
                                                 <div class="Mockup-project Mockup-gatha">
@@ -305,9 +305,10 @@
                                             <h2 class=" Title-project_type Title-project_dcm">WEB DESIGN & DEVELOPMENT</h2>
                                             <p class="Parrafo Parrafo-project">DCM is a company specialized in Work at Height Training Courses and SSH Consultancy.</p>
                                             <p class="Parrafo Parrafo-project">I worked along with DCM to make their new Logotype and Web Design/Development. The most challenging part of the project was to create a Certifications Tracking System for DCM students.</p>
-                                          <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_2">
-                                                       <a href="">SEE PROJECT</a>
-                                          </button>
+                                            <p class="Parrafo Parrafo-project">Project details coming soon.</p>
+
+                                          <!-- <a class="Btn  Btn-Projects Btn-Projects_2" data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a> -->
                                     </div>
                               </div>                                                                   
                         </div>
@@ -326,9 +327,9 @@
                                             <h2 class=" Title-project_type Title-project_bo">WEB DESIGN</h2>
                                             <p class="Parrafo Parrafo-project">Best One is a phone repairing company at Cali, Colombia.</p>
                                             <p class="Parrafo Parrafo-project">I collaborated with a Web Development Agency to design the Best One Website. Our mission was to make the website User-Friendly and show the wide range of solutions the company has for their Users.</p>
-                                          <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_3">
-                                                       <a href="">SEE PROJECT</a>
-                                          </button>
+                                            <p class="Parrafo Parrafo-project">Project details coming soon.</p>
+                                              <!-- <a class="Btn  Btn-Projects Btn-Projects_3" data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a> -->
                                     </div>
                                     <div class="col-xl-7 col-lg-6 col-10 offset-lg-1">
                                                 <div class="Mockup-project Mockup-bo">
@@ -385,9 +386,9 @@
                                             <h2 class=" Title-project_type Title-project_molle">WEB DESIGN</h2>
                                             <p class="Parrafo Parrafo-project">Molle Pizza is a pizza delivery restaurant.</p>
                                             <p class="Parrafo Parrafo-project">I’ve used Adobe Illustrator to make their new Web Design. Hired by a Web Agency, I was given the task to bring a new Look & Feel and a better User Flow for the pizza menu.</p>
-                                          <button class="Btn animated fadeInUp Btn-Projects Btn-Projects_4">
-                                                       <a href="">SEE PROJECT</a>
-                                          </button>
+                                            <p class="Parrafo Parrafo-project">Project details coming soon.</p>
+                                              <!-- <a class="Btn  Btn-Projects Btn-Projects_4" data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a> -->
                                     </div>
                               </div>                                                                   
                         </div>
