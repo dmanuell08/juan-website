@@ -1,9 +1,13 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Juan Carmona - Design studio - Freelance Graphic and Web Designer</title>
-        <meta name="description" content="I am a Freelance Graphic and Web Designer based in Medellín, Colombia. I work remotely helping businesses with: Web Design & Development, App Design, Branding and Social Marketing.">
+        <title>Juan Carmona - UI/UX Designer & Web Developer</title>
+        <meta name="description" content="UI/UX Designer and Web Developer, with 4 years of experience. I am always up for new projects. I can help you with Web Design, App Design, Web Development and Graphic Design. I provide Design Solutions to Companies, Agencies and Professionals around the Globe.">
         <!-- Required meta tags -->
+        <link rel="icon" type="image/png" href="img/favicon-16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="img/favicon-32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="img/favicon-64.png" sizes="64x64">
+        <link rel="icon" type="image/png" href="img/favicon-144.png" sizes="144x144">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!-- Bootstrap CSS -->
@@ -15,31 +19,34 @@
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118457722-1"></script>
-<!-- 		<script>
+
+    <script>
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
 
 		  gtag('config', 'UA-118457722-1');
 		</script>
-        <script type="application/ld+json">
-          {
-            "@context": "http://schema.org/",
-            "@type": "Organization",
-            "name": "Juan Carmona - Design Studio",
-            "description": "I am a Freelance Graphic and Web Designer, I work along with Professionals, Agencies and Companies at projects like Branding and Graphic Design, Responsive Websites and User Interfaces and also Web Development.",
-            "makesOffer": "Branding, Graphic Design, Responsive Web Design and Development, App Design, Social Marketing.",
-            "image": "https://www.juancarmona.co/img/juan-profile.jpg",
-            "logo": "https://www.juancarmona.co/img/Juan-Carmona-Design-Studio.png",
-            "url": "https://www.juancarmona.co/",
-            "email": "hello@juancarmona.co",
-              "sameAs": [
-                 "https://https://www.facebook.com/juancarmona.co/",
-                 "https://www.instagram.com/juancarmona.co/",
-                 "https://www.linkedin.com/in/juancarmona-design/"
-               ]                
-          }
-      </script> -->
+
+    <script type="application/ld+json">
+           {
+             "@context": "http://schema.org/",
+             "type": "Person",
+             "ContactPoint": {
+               "type": "ContactPoint",
+               "contactType": "Customer service",
+               "email": "hello@juancarmona.co",
+               "telephone": "+57-314-665-1606",
+               "url": "https://www.juancarmona.co"
+             },
+             "description": "UI/UX Designer and Web Developer, with 4 years of experience. I am always up for new projects. I can help you with Web Design, App Design, Web Development and Graphic Design. I provide Design Solutions to Companies, Agencies and Professionals around the Globe.",
+             "image": "https://www.juancarmona.co/img/Juan-Carmona-Profile.png",
+             "jobTitle": "UI/UX Designer and Web Developer",
+             "name": "Juan Carmona",
+             "url": "https://www.juancarmona.co/",
+             "makesOffer": "Responsive Web Design, App Design, Web Development, Branding and Graphic Design."
+           }
+       </script>
     </head>
     <body>    
         <div class="Top-line"></div>      
@@ -59,13 +66,13 @@
             <!-- Slider header -->
             <div id="Home-slider" class="Home-slider">
             <div class=" text-center">
-              <img src="img/Logo.svg" alt="Logo juan carmona" class="Slide-logo">
+              <img src="img/Logo.svg" alt="Juan Carmona Logo" class="Slide-logo">
             </div>              
 	        	<!-- Social Icons -->
 					<div class="Social-icon_container">       
-                    <a href="https://www.instagram.com/juancarmona.co/"><i class="fab fa-instagram Social-icon Social-icon_1"></i></a>
-                    <a href="https://www.linkedin.com/in/juancarmona-design/"><i class="fab fa-linkedin-in Social-icon Social-icon_2"></i></a>
-                    <a href="https://dribbble.com/juancarmona"><i class="fab fa-dribbble Social-icon Social-icon_3"></i></a>
+                    <a href="https://www.instagram.com/juancarmona.co/" target="_blank"><i class="fab fa-instagram Social-icon Social-icon_1"></i></a>
+                    <a href="https://www.linkedin.com/in/juancarmona-design/" target="_blank"><i class="fab fa-linkedin-in Social-icon Social-icon_2"></i></a>
+                    <a href="https://dribbble.com/juancarmona" target="_blank"><i class="fab fa-dribbble Social-icon Social-icon_3"></i></a>
 		            </div>           	
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                   <ol class="carousel-indicators">
@@ -92,9 +99,7 @@
                                             </div>                            
                                             <p class="Parrafo animated fadeInUp">UI/UX Design for Apps Service, ideal for startups. I can help you design a User-Friendly and Delightful App for your Users.</p>
                                             <div class="Btn-container">
-                                                <button class="Btn animated fadeInUp">
-                                                    <a href="">SEE PROJECTS</a>
-                                                </button>
+                                                <a href="#Home-projets" class="Btn Btn-letswork animated fadeInUp Slide">SEE PROJECTS</a>
                                             </div>
                                           </div>
                                     </div>
@@ -103,13 +108,13 @@
                                               <img src="img/App-Design-Service@1x.png" 
                                                 srcset="img/App-Design-Service@1x.png 1x,
                                                 img/App-Design-Service@2x.png 2x"
-                                                alt="Web Design Service"
+                                                alt="App Design Service"
                                                 class="img-fluid animated fadeIn Phone-1 Phone-slide Image-slide">
 
                                               <img src="img/App-UI-Service@1x.png" 
                                                 srcset="img/App-UI-Service@1x.png 1x,
                                                 img/App-UI-Service@2x.png 2x"
-                                                alt="Web Design Service"
+                                                alt="App Design Service"
                                                 class="img-fluid animated fadeIn Phone-2 Phone-slide Image-slide">
                                         </div>
                                     </div>
@@ -135,9 +140,7 @@
                                             </div>                            
                                             <p class="Parrafo animated fadeInUp">Do you need a Mobile-Friendly Web Design? Hire me to cover all your Web Needs from Wireframing and High-res Mockups to Interactive Prototypes.</p>
                                             <div class="Btn-container">
-                                                <button class="Btn animated fadeInUp">
-                                                    <a href="">SEE PROJECTS</a>
-                                                </button>
+                                                <a href="#Home-projets" class="Btn Btn-letswork animated fadeInUp Slide">SEE PROJECTS</a>
                                             </div>
                                           </div>
                                     </div>
@@ -174,9 +177,7 @@
                                             </div>                            
                                             <p class="Parrafo animated fadeInUp">Get a SEO-Friendly Website ready to be indexed by Google. Coded from scratch with HTML, CSS and Javascript or using a Wordpress Theme.</p>
                                             <div class="Btn-container">
-                                                <button class="Btn animated fadeInUp">
-                                                    <a href="">SEE PROJECTS</a>
-                                                </button>
+                                                <a href="#Home-projets" class="Btn Btn-letswork animated fadeInUp Slide">SEE PROJECTS</a>
                                             </div>
                                           </div>
                                     </div>
@@ -243,7 +244,7 @@
                                               data-aos-anchor-placement="center-bottom">I worked with the Gatha Team as UI/UX Designer and Web Developer. Sketch, Invision, Adobe Illustrator and Adobe Photoshop are some of the tools we’ve used to build an App Prototype and a Wordpress Website.</p>
                                           <button class="Btn  Btn-Projects Btn-Projects_1" data-aos="fade-up"
                                               data-aos-anchor-placement="center-bottom">
-                                                       <a href="">SEE PROJECT</a>
+                                                       <a href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a>
                                           </button>
                                     </div>
                                     <div class="col-xl-7 col-lg-6 col-10 offset-lg-1">
@@ -253,14 +254,14 @@
                                                        <img src="img/Gatha-Web-Design@1x.png" 
                                                           srcset="img/Gatha-Web-Design@1x.png 1x,
                                                           img/Gatha-Web-Design@2x.png 2x"
-                                                          alt="Gatha App"
+                                                          alt="Gatha Web Design Wordpress"
                                                           class="img-fluid" data-aos="fade-up"
                                                        data-aos-anchor-placement="center-bottom">
                                                       <div class="Mockup-phone_project Gatha-phone_mockup">
                                                        <img src="img/Gatha-App-Design@1x.png" 
                                                           srcset="img/Gatha-App-Design@1x.png 1x,
                                                           img/Gatha-App-Design@2x.png 2x"
-                                                          alt="Gatha App Movile"
+                                                          alt="Gatha Mobile App Design"
                                                           class="img-fluid" data-aos="fade-up"
                                                           data-aos-anchor-placement="center-bottom">
                                                       </div>
@@ -282,16 +283,18 @@
                                           <div class="Mockup-project Mockup-dcm">
                                                         <img src="img/Check-Icon-Left.svg" alt="Circle green" class="Shape-item Dcm-shape_2">
                                                        <img src="img/Check-Icon-Right.svg" alt="Circle green" class="Shape-item Dcm-shape_3">
+
                                                       <img src="img/DCM-Web-Design@1x.png" 
                                                           srcset="img/DCM-Web-Design@1x.png 1x,
                                                           img/DCM-Web-Design@2x.png 2x"
-                                                          alt="DCM"
+                                                          alt="Dcm Web Development"
                                                           class="img-fluid">
+
                                                       <div class="Mockup-phone_project Dcm-phone_mockup">
                                                         <img src="img/DCM-Mobile-Web-Design@1x.png" 
                                                           srcset="img/DCM-Mobile-Web-Design@1x.png 1x,
                                                           img/DCM-Mobile-Web-Design@2x.png 2x"
-                                                          alt="Best One Movile"
+                                                          alt="Dcm Responsive Web Development"
                                                           class="img-fluid">
                                                       </div>
 
@@ -331,16 +334,18 @@
                                                 <div class="Mockup-project Mockup-bo">
                                                         <img src="img/Wave-Icon.svg" alt="Circle green" class="Shape-item BO-shape_3">
                                                         <img src="img/3-Waves-Icon.svg" alt="Circle green" class="Shape-item BO-shape_5">
+
                                                         <img src="img/Best-One-Web-Design@1x.png" 
                                                           srcset="img/Best-One-Web-Design@1x.png 1x,
                                                           img/Best-One-Web-Design@2x.png 2x"
-                                                          alt="Best One"
+                                                          alt="Best One Web Design"
                                                           class="img-fluid">
+
                                                         <div class="Mockup-phone_project BO-phone_mockup">
                                                         <img src="img/Best-One-Responsive-Web-Design@1x.png" 
                                                           srcset="img/Best-One-Responsive-Web-Design@1x.png 1x,
                                                           img/Best-One-Responsive-Web-Design@2x.png 2x"
-                                                          alt="Best One Movile"
+                                                          alt="Best One Responsive Web Design"
                                                           class="img-fluid">
                                                         </div>                                                       
                                                 </div>
@@ -364,13 +369,13 @@
                                                        <img src="img/Molle-Pizza-Web-Design@1x.png" 
                                                           srcset="img/Molle-Pizza-Web-Design@1x.png 1x,
                                                           img/Molle-Pizza-Web-Design@2x.png 2x"
-                                                          alt="Molle Pizza"
+                                                          alt="Molle Pizza Web Design"
                                                           class="img-fluid">
                                                        <div class="Mockup-phone_project Molle-phone_mockup">
                                                           <img src="img/Molle-Pizza-Mobile-Design@1x.png" 
                                                           srcset="img/Molle-Pizza-Mobile-Design@1x.png 1x,
                                                           img/Molle-Pizza-Mobile-Design@2x.png 2x"
-                                                          alt="Molle Pizza Movile"
+                                                          alt="Molle Pizza Responsive Web Design"
                                                           class="img-fluid">
                                                         </div>                                                  
                                           </div>
@@ -458,7 +463,7 @@
                                 <img src="img/Juan-Carmona-Profile.png" 
                                 srcset="img/Juan-Carmona-Profile.png 1x,
                                 img/Juan-Carmona-Profile@2x.png 2x"
-                                alt="Juan Profile"
+                                alt="Juan Carmona - UI/UX Designer"
                                 class="img-fluid Juan-Profile_img">
                               </div>
                     </div>
@@ -470,9 +475,9 @@
                                           <p class="Parrafo Parrafo-about_home">It’s been 4 years since I started this endless journey to become a Great Designer. During that time I’ve worked in giving design solutions to companies from Colombia, Argentina and USA.</p>
                                     </div>
                                     <ul class="List-about_home">
-                                          <li><img src="img/Rocket-Icon.svg" alt="Rocket Icon">Design Thinking</li>
-                                          <li><img src="img/Human-Centered-Design-Icon.svg" alt="Human Icon">Human Centered Design</li>
-                                          <li><img src="img/Solutions-Icon.svg" alt="Solutions Icon">Atomic Design</li>
+                                          <li><img src="img/Rocket-Icon.svg" alt="Design Thinking">Design Thinking</li>
+                                          <li><img src="img/Human-Centered-Design-Icon.svg" alt="Human Centered Design">Human Centered Design</li>
+                                          <li><img src="img/Solutions-Icon.svg" alt="Atomic Design">Atomic Design</li>
                                     </ul>
                         </div>
                         
@@ -499,23 +504,15 @@
                         <img src="img/Dots-Profiles-2.png" 
                                   srcset="img/Dots-Profiles-2.png 1x,
                                   img/Dots-Profiles-2@2x.png 2x"
-                                  alt="Juan Profile"
+                                  alt="Chris Ellington"
                                   class="img-fluid">
                       </li>
                       <li data-target="#carouselExampleFade2" data-slide-to="1">
                         <p>02</p>
-                        <img src="img/Dots-Profiles-2.png" 
-                                  srcset="img/Dots-Profiles-2.png 1x,
-                                  img/Dots-Profiles-2@2x.png 2x"
-                                  alt="Juan Profile"
-                                  class="img-fluid">
-                      </li>
-                      <li data-target="#carouselExampleFade2" data-slide-to="2">
-                        <p>03</p>
-                        <img src="img/Dots-Profiles-2.png" 
-                                  srcset="img/Dots-Profiles-2.png 1x,
-                                  img/Dots-Profiles-2@2x.png 2x"
-                                  alt="Juan Profile"
+                        <img src="img/Dots-Profiles-1.png" 
+                                  srcset="img/Dots-Profiles-1.png 1x,
+                                  img/Dots-Profiles-1@2x.png 2x"
+                                  alt="Hyrum Palmero"
                                   class="img-fluid">
                       </li>
                   </ol>                    
@@ -530,15 +527,17 @@
                           <img src="img/Chris-Ellington-Profile.png" 
                                   srcset="img/Chris-Ellington-Profile.png 1x,
                                   img/Chris-Ellington-Profile@2x.png 2x"
-                                  alt="Juan Profile "
+                                  alt="Chris Ellington"
                                   class="img-fluid animated fadeInLeft">
                         </div>
                         <div class="Testimonial-description">
                           <h3 class="Testimonial-person animated fadeInUp">Chris Ellington</h3>
                           <div class="Parrafo-section_testimonial--overflow">
-                            <p class="Parrafo Parrafo-section_testimonial animated fadeInUp">Juan is an amazing designer. He takes vague concepts and turns them into outstanding graphics. Over the years, I've seen him create everything from tiny icons to full-fledged responsive websites. He has designed…</p>
+                            <p class="Parrafo Parrafo-section_testimonial animated fadeInUp">Juan is an amazing designer. He takes vague concepts and turns them into outstanding graphics. Over the years, I've seen him create everything from tiny icons to full-fledged responsive websites.</p>
                           </div>
-                          <span class="Testimonial-linkedin animated fadeInLeft">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></span>
+                          <a href="https://www.linkedin.com/in/juancarmona-design/" target="_blank">
+                            <span class="Testimonial-linkedin animated fadeInLeft">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></span>
+                          </a>
                         </div>                      
                       </div>                      
                     </div>
@@ -549,43 +548,23 @@
                           <img src="img/Waves-complete.svg" alt="" class="img-fluid">
                         </div>
                         <div class="Testimonial-img">
-                          <img src="img/Juan-Carmona-Profile-2.png" 
-                                  srcset="img/Juan-Carmona-Profile-2.png 1x,
-                                  img/Juan-Carmona-Profile-2@2x.png 2x"
-                                  alt="Juan Profile "
+                          <img src="img/Hyrum-Profile@1x.png" 
+                                  srcset="img/Hyrum-Profile@1x.png 1x,
+                                  img/Hyrum-Profile@2x.png 2x"
+                                  alt="Hyrum Palmero"
                                   class="img-fluid animated fadeInLeft">
                         </div>
                         <div class="Testimonial-description">
-                          <h3 class="Testimonial-person animated fadeInUp">Kevin Toro</h3>
+                          <h3 class="Testimonial-person animated fadeInUp">Hyrum Palmero</h3>
                           <div class="Parrafo-section_testimonial--overflow">
-                            <p class="Parrafo Parrafo-section_testimonial animated fadeInUp">Juan is an amazing designer. He takes vague concepts and turns them into outstanding graphics. Over the years, I've seen him create everything from tiny icons to full-fledged responsive websites. He has designed…</p>
+                            <p class="Parrafo Parrafo-section_testimonial animated fadeInUp">Excelente profesional, muy atento a los detalles, a las especificaciones del proyecto y cumplido en los tiempos establecidos, basados en tendencias actuales y en la satisfacción de los usuarios.</p>
                           </div>
-                          <span class="Testimonial-linkedin animated fadeInLeft">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></span>
+                          <a href="https://www.linkedin.com/in/juancarmona-design/" target="_blank">
+                            <span class="Testimonial-linkedin animated fadeInLeft">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></span>
+                          </a>
                         </div>                      
                       </div>                           
-                    </div>
-                    <!-- Chris Testimonial-->
-                    <div class="carousel-item">
-                      <div class="Testimonial-content">
-                        <div class="Circle-1_about Circle-1_testimonial">
-                          <img src="img/Waves-complete.svg" alt="" class="img-fluid">
-                        </div>
-                        <div class="Testimonial-img">
-                          <img src="img/Chris-Ellington-Profile.png" 
-                                  srcset="img/Chris-Ellington-Profile.png 1x,
-                                  img/Chris-Ellington-Profile@2x.png 2x"
-                                  alt="Juan Profile "
-                                  class="img-fluid animated fadeInLeft">
-                        </div>
-                        <div class="Testimonial-description">
-                          <h3 class="Testimonial-person animated fadeInUp">Jessica Zapata</h3>
-                          <div class="Parrafo-section_testimonial--overflow">
-                            <p class="Parrafo Parrafo-section_testimonial animated fadeInUp">Juan is an amazing designer. He takes vague concepts and turns them into outstanding graphics. Over the years, I've seen him create everything from tiny icons to full-fledged responsive websites. He has designed…</p>
-                          </div>
-                          <span class="Testimonial-linkedin animated fadeInLeft">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></span>
-                        </div>                      
-                      </div>                             
-                    </div>                                                                                
+                    </div>                                                                               
                   </div>
                   <a class="carousel-control-prev" href="#carouselExampleFade2" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -607,11 +586,9 @@
             <div class="Parrafo-section_container"">
               <p class="Parrafo Parrafo-section Parrafo-section_letswork">I am always up for new projects. If you want to create a new Successful App or Refresh your Company Website, get in touch and let’s work together.</p>
             </div>
-            <h4 class="Email-footer"><a href="mailto:hello@juancarmona.co">Hello@juancarmona.co</a></h4>
-<!--             <div class="Btn-container">
-                <button class="Btn Btn-letswork animated fadeInUp">
-                    <a href="">CONTACT ME</a>
-                </button> -->
+            <!-- <h4 class="Email-footer"><a href="mailto:hello@juancarmona.co">Hello@juancarmona.co</a></h4> -->
+             <div class="Btn-container">
+                <a href="contact.php" class="Btn Btn-letswork animated fadeInUp">CONTACT ME</a>
             </div>            
           </div>
           <div class="Circle-bg_section">
@@ -620,71 +597,7 @@
         </section>
         <!-- Home Let´s Work -->
         <!-- Footer -->
-        <section id="Footer">
-          <div class="container">
-            <div class="row Row-footer">
-              <!--Footer-col_1-->
-              <div class="col-lg-5 col-md-8 col-12 Footer-col_1">
-                <div class="Content-col_1">
-                  <div>
-                    <img src="img/Juan-Carmona-Profile-2.png" 
-                              srcset="img/Juan-Carmona-Profile-2.png 1x,
-                              img/Juan-Carmona-Profile-2@2x.png 2x"
-                              alt="Juan Profile "
-                              class="img-fluid Juan-Profile_img2">   
-                  </div>
-                  <div class="Getintouch">
-                    <p class="Getintouch-title">Find me at:</p>
-<!--                     <h4 class="Email-footer"><a href="mailto:hello@juancarmona.co">Hello@juancarmona.co</a></h4> -->
-                    <!-- Social Icons -->
-                    <div class="Social-icon_container">       
-                              <a href="https://dribbble.com/juancarmona"><i class="fab fa-dribbble Social-icon Social-icon_1"></i></a>
-                              <a href="https://www.linkedin.com/in/juancarmona-design/"><i class="fab fa-linkedin-in Social-icon Social-icon_2"></i></a>
-                              <a href="https://www.instagram.com/juancarmona.co/"><i class="fab fa-instagram Social-icon Social-icon_3"></i></a>
-                          </div>                    
-                  </div>
-                  
-                </div>
-              </div>
-              <!--Footer-col_2-->
-              <div class="col-2 Footer-col_2">
-                <div class="Content-col_2">
-                  <ul class="Footer-menu">
-                    <li>Home</li>
-                    <li>Projects</li>
-                    <li>Services</li>
-                    <li>Contact </li>
-                  </ul>
-                </div>
-              </div>
-              <!--Footer-col_3-->
-              <div class="col-lg-3 col-md-4 col-12 Footer-col_3">
-                <div class="Content-col_3">
-                  <ul class="Footer-services">
-                    <li><span>Services</span></li>
-                    <li>App Design</li>
-                    <li>Web Design</li>
-                    <li>Web Development</li>
-                  </ul>
-                </div>
-              </div>
-              <!--Footer-col_4-->
-              <div class="col-2 Footer-col_4">
-                <div class="Content-col_4">
-                  <h3 class="Partner-agency">Partner Agency</h3>
-                  <img src="img/Logo.svg" class="img-fluid Partner-logo" alt="Partner Agency">
-                </div>
-              </div>
-              <span class="Web-version">Web Version 3.0</span>
-            </div>
-          </div>
-          <section class="Copyright">
-            <div class="container Copyright-content">
-              <span>Copyright © 2018 - Juan Carmona Design Studio</span>
-              <span>Web Version 3.0</span>  
-            </div>
-          </section>
-        </section>
+        <?php require'footer.php';?>
         <!-- Footer -->
         <!-- AOS css -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">

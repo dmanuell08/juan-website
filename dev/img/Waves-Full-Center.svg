@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1282px" height="1282px" viewBox="0 0 1282 1282" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Waves-Full-Center</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Large" transform="translate(-424.000000, -4666.000000)" stroke="#464B66" stroke-width="4">
+            <g id="Waves-Full-Center" transform="translate(426.000000, 4668.000000)">
+                <circle id="Oval" opacity="0.2" cx="638.5" cy="638.5" r="211.5"></circle>
+                <circle id="Oval" opacity="0.14" cx="638.5" cy="638.5" r="402.5"></circle>
+                <circle id="Oval" opacity="0.08" cx="639" cy="639" r="639"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

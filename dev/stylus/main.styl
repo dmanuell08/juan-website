@@ -68,15 +68,18 @@ button
 	display flex
 	justify-content center
 	align-items center
-	a
-		font-size 12px
-		line-height 12px
-		font-weight bold
-		letter-spacing 0.4px
-		font-family montserrat
+	font-size 12px
+	line-height 12px
+	font-weight bold
+	letter-spacing 0.4px
+	font-family montserrat
+	color Grey_100
+	&:hover
 		color Grey_100
-		&:focus
-			outline none	
+
+a	
+	&:focus
+		outline none	
 			
 
 .Title
@@ -337,6 +340,10 @@ button
 	display none
 .Images-slide_content
 	position relative
+		
+	.Phone-slide
+		box-shadow 0px 16px 40px rgba(0,0,0,0.6)
+		border-radius 43px
 .Images-slide
 	position relative
 	display flex
@@ -350,6 +357,9 @@ button
 		margin-top 80px
 		margin-left 40px
 		animation-delay 1.4s
+.Image-slide2,.Image-slide3
+	box-shadow 0px 24px 48px rgba(0,0,0,0.4)
+	
 
 
 .slick-dots
@@ -430,6 +440,9 @@ button
 		transition all 1000ms cubic-bezier(0.215, 0.610, 0.355, 1.000)
 .Juan-Profile_img
 	width 270px
+	box-shadow 0 16px 24px rgba(0,0,0,0.6)
+	border-radius 100% 
+	
 .Title-about
 	font-size 32px
 .Home-about_description
@@ -759,11 +772,15 @@ button
 }
 .Mockup-project
 	position relative
+	img:nth-of-type(3)
+		box-shadow 0 24px 48px rgba(0,0,0,0.4) 
 .Mockup-phone_project
 	position absolute
 	top 75%
 	left 50%
 	transform translate(-50%,-50%)
+	img
+		box-shadow 0 8px 28px rgba(0,0,0,0.2) 
 .Gatha-phone_mockup, .BO-phone_mockup
 	transform translate(150%,-50%)
 	left 64%
@@ -973,7 +990,7 @@ button
 	color #EDF0F5
 	margin-bottom 16px
 .Email-footer
-	margin-top 32px
+	margin-bottom 32px
 	a
 		font-size 22px
 		line-height 22px
@@ -981,7 +998,7 @@ button
 		color #FFDE66
 .Content-col_2,.Content-col_3
 	height 100%
-.Footer-menu li,.Footer-services li
+.Footer-menu li a,.Footer-services li a
 	font-size 16px
 	line-height 40px
 .Footer-services
@@ -1011,6 +1028,20 @@ button
 
 .Contact-container
 	margin-top 120px
+	position relative
+.Row_form
+	padding-top 88px
+.Select_container
+	overflow hidden
+	margin-bottom 16px
+	border 1px solid #464B66
+	border-radius .25rem
+	position relative
+	select
+		width 560px
+		margin-bottom 0
+		border none
+		background url("../img/Dropdown-Icon.svg") no-repeat 90% 50%
 .form-control
 	padding 16px 0 16px 24px
 	color #B8BBCC
@@ -1019,10 +1050,70 @@ button
 	letter-spacing 0.53px
 	height 100%
 	margin-bottom 16px
+	background-color #14172E
+	border-color #464B66
+	&:focus
+		background-color #14172E
+		border-color #ffde66
+		box-shadow none
+		color #b8bbcc
+.form-control::placeholder
+	color #b8bbcc
 .form-control-lg
 	padding 0
 	padding-left 22px
 	height 55px
+.Btn-contact
+	margin-bottom 80px
+	margin-top 24px
+.Col2_form
+	text-align center
+	display flex
+	flex-direction column
+	justify-content center
+	position relative
+	.Subtitle
+		margin-bottom 14px
+		margin-top 32px
+	.Parrafo
+		font-size 18px
+.Container_img-contact
+	position relative
+	text-align center
+	.Juan-Profile_img
+		width 200px
+.Waves_bg-contact
+	position absolute
+	top 46%
+	left 62%
+	transform translate(-50%,-50%)
+	z-index -1
+	animation animate-bg3 6s linear infinite
+.Social-contact
+	position relative
+	&:before
+		content ""
+		display block
+		position absolute
+		top 100%
+		left 50%
+		transform translate(-50%,-50%)
+		width 80px
+		height 4px
+		border-radius 1px
+		background-color #FFDE66
+		margin-top 24px
+	.Social-icon
+		display inline-block
+		margin 0 40px 0 0
+	.Social-icon_1
+		color #EA4C89
+	.Social-icon_2
+		color #007BB5
+	.Social-icon_3
+		color #f46f30
+		margin 0
+
 
 @media (max-width: 1450px)
 	.Home-slider
@@ -1031,6 +1122,7 @@ button
 	.Images-slide
 		.Phone-slide
 			width 200px
+			border-radius 30px
 			
 	.Dcm-phone_mockup, .Molle-phone_mockup
 		left 7%
@@ -1109,6 +1201,10 @@ button
 	.About-col_img
 		display flex
 		align-items center
+		
+	.Select_container
+		select
+			background-position 75% 50%
 
 @media (max-width: 991.98px)
 	.Mouse-scroll_btn
@@ -1252,6 +1348,31 @@ button
 
 	.Footer-col_2,.Footer-col_4
 		display none
+	
+	.Contact-container
+		margin-bottom 50px
+	.Row_form
+		flex-direction column-reverse
+		.Btn-container
+			display flex
+			justify-content center
+	.Waves_bg-contact
+		top 16%
+		left 50%
+	.Col1_form
+		margin-top 59px
+		text-align center
+		.Parrafo
+			font-size 16px
+			max-width 320px
+	.Parrafo_contact-container
+		display flex
+		justify-content center
+	.Select_container
+		select
+			width 108%
+			background-position 87% 50%
+		
 		
 @media (max-width: 840.98px)
 	.Text-slide
@@ -1416,6 +1537,7 @@ button
 		.Images-slide
 			.Phone-slide
 				width 100px
+				border-radius 18px
 	//Animation Menu
 	.Menu-container
 		.Email-menu,.Menu-item,.Title,.Menu-logo

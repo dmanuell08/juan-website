@@ -4,7 +4,7 @@
         <img src="img/Waves-Small-Right.svg" alt="Waves-Small-Left" class="Shape-menu Shape-menu_1">
         <img src="img/Waves-Small-Right.svg" alt="Waves-Small-Right" class="Shape-menu Shape-menu_2">
     </div>
-    <a href="">
+    <a href="index.php">
             <img src="img/Logo.svg" alt="Logo juan carmona" class="Menu-logo">
         </a>
         <h2 class="Title Subtitle">Juan Carmona</h2>
@@ -13,10 +13,10 @@
             <a href="index.php" class=" <?php echo ($page == "home" ? "Page_active" : "")?>">Home</a>
         </li>
         <li class="Menu-item <?php echo ($page == "projects" ? "Menu-item_active" : "")?>">
-            <a href="projects.php" class=" <?php echo ($page == "projects" ? "Page_active" : "")?>">Projects</a>
+            <a href="#Home-projets" class="Slide <?php echo ($page == "projects" ? "Page_active" : "")?>">Projects</a>
         </li>
         <li class="Menu-item <?php echo ($page == "services" ? "Menu-item_active" : "")?>">
-            <a href="services.php" class=" <?php echo ($page == "services" ? "Page_active" : "")?>">Services</a>
+            <a href="#Home-services" class="Slide <?php echo ($page == "services" ? "Page_active" : "")?>">Services</a>
         </li>
         <li class="Menu-item <?php echo ($page == "contact" ? "Menu-item_active" : "")?>">
             <a href="contact.php" class=" <?php echo ($page == "contact" ? "Page_active" : "")?>">Contact</a>

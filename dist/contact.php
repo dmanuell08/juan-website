@@ -1,8 +1,12 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Juan Carmona - Design studio - Freelance Graphic and Web Designer</title>
-        <meta name="description" content="I am a Freelance Graphic and Web Designer based in Medellín, Colombia. I work remotely helping businesses with: Web Design & Development, App Design, Branding and Social Marketing.">
+        <title>Contact for Design Projects - Juan Carmona</title>
+        <meta name="description" content="Contact me for Web Design, App Design, Web Development, Graphic Design or Branding Projects. I work remotely on Freelance or Contract Basis providing Design Solutions to Companies, Agencies and Professionals around the Globe.">
+        <link rel="icon" type="image/png" href="img/favicon-16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="img/favicon-32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="img/favicon-64.png" sizes="64x64">
+        <link rel="icon" type="image/png" href="img/favicon-144.png" sizes="144x144">        
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,121 +17,91 @@
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Open+Sans:300,400,500" rel="stylesheet">
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118457722-1"></script>
-<!-- 		<script>
+    <script>
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
 
 		  gtag('config', 'UA-118457722-1');
 		</script>
-        <script type="application/ld+json">
-          {
-            "@context": "http://schema.org/",
-            "@type": "Organization",
-            "name": "Juan Carmona - Design Studio",
-            "description": "I am a Freelance Graphic and Web Designer, I work along with Professionals, Agencies and Companies at projects like Branding and Graphic Design, Responsive Websites and User Interfaces and also Web Development.",
-            "makesOffer": "Branding, Graphic Design, Responsive Web Design and Development, App Design, Social Marketing.",
-            "image": "https://www.juancarmona.co/img/juan-profile.jpg",
-            "logo": "https://www.juancarmona.co/img/Juan-Carmona-Design-Studio.png",
-            "url": "https://www.juancarmona.co/",
-            "email": "hello@juancarmona.co",
-              "sameAs": [
-                 "https://https://www.facebook.com/juancarmona.co/",
-                 "https://www.instagram.com/juancarmona.co/",
-                 "https://www.linkedin.com/in/juancarmona-design/"
-               ]                
-          }
-      </script> -->
+
     </head>
     <body>    
       <div class="Top-line"></div>  
-      <!-- Main Menu -->
-            <?php $page = "contact"; require('menu.php');?>
         <!-- Main Menu -->
+        <nav id="Menu" class="Menu-container">
+            <div class="Shape-menu_bg">
+                <img src="img/Waves-Small-Right.svg" alt="Waves-Small-Left" class="Shape-menu Shape-menu_1">
+                <img src="img/Waves-Small-Right.svg" alt="Waves-Small-Right" class="Shape-menu Shape-menu_2">
+            </div>
+            <a href="index.php">
+                    <img src="img/Logo.svg" alt="Juan Carmona Logo" class="Menu-logo">
+                </a>
+                <h2 class="Title Subtitle">Juan Carmona</h2>
+            <ul class="Menu-list">
+                <li class="Menu-item">
+                    <a href="index.php" class="">Home</a>
+                </li>
+                <li class="Menu-item">
+                    <a href="index.php#Home-projets" class="">Projects</a>
+                </li>
+                <li class="Menu-item">
+                    <a href="index.php#Home-services" class="">Services</a>
+                </li>
+                <li class="Menu-item Menu-item_active">
+                    <a href="contact.php" class="Page_active">Contact</a>
+                </li>                        
+            </ul>
+            <a href="mailto:hello@juancarmona.co" class="Email-menu">Hello@juancarmona.co</a>
+        </nav>
+        <!-- Main Menu -->
+          <div id="Hamb-btn" class="Hamburger-container_btn">
+            <span class="Hamb-line Hamb-line1"></span>
+            <span class="Hamb-line Hamb-line2"></span>
+            <span class="Hamb-line Hamb-line3"></span>
+          </div>  
 
         <section id="Contact-container" class="Contact-container">
+          <img src="img/Waves-Full-Center.svg" alt="" class="img-fluid Waves_bg-contact">
           <div class="container">
                 <div class="row Row_form">
-                      <div class="col-6 Col1_form">
+                      <div class="col-lg-6 col-12 Col1_form">
                         <h1 class="Title animated fadeInUp"><span>Contact me</span></h1>
-                        <p class="Parrafo animated fadeInUp">I am always up for new projects. Get in touch and let’s work together.</p> 
+                        <div class="Parrafo_contact-container">
+                          <p class="Parrafo animated fadeInUp">I am always up for new projects. Get in touch and let’s work together.</p>
+                        </div>
                             <?php require 'contact-form.php'; ?>
                       </div>
-                      <div class="col-6 Col2_form">
-                        
+                      <div class="col-lg-6 col-12 Col2_form">
+                        <div class="Container_img-contact">
+
+                          <img src="img/Juan-Carmona-Profile.png" 
+                          srcset="img/Juan-Carmona-Profile.png 1x,
+                          img/Juan-Carmona-Profile@2x.png 2x"
+                          alt="Juan Carmona - UI/UX Designer"
+                          class="img-fluid Juan-Profile_img">
+                        </div>
+                        <h1 class="Title Subtitle">Juan Carmona</h1>
+                        <p class="Parrafo animated fadeInUp">UI/UX Designer & Web Developer</p>
+                        <div class="Social-contact">
+                          <a href="https://dribbble.com/juancarmona">
+                            <i class="fab fa-dribbble Social-icon Social-icon_1"></i>
+                          </a>
+                          <a href="https://www.linkedin.com/in/juancarmona-design/">
+                            <i class="fab fa-linkedin-in Social-icon Social-icon_2"></i>
+                          </a>
+                          <a href="https://www.instagram.com/juancarmona.co/">
+                            <i class="fab fa-instagram Social-icon Social-icon_3"></i>
+                          </a>
+                        </div>
                       </div>
                 </div>
           </div>
           
         </section>
         <!-- Footer -->
-        <section id="Footer">
-          <div class="container">
-            <div class="row Row-footer">
-              <!--Footer-col_1-->
-              <div class="col-lg-5 col-md-8 col-12 Footer-col_1">
-                <div class="Content-col_1">
-                  <div>
-                    <img src="img/Juan-Carmona-Profile-2.png" 
-                              srcset="img/Juan-Carmona-Profile-2.png 1x,
-                              img/Juan-Carmona-Profile-2@2x.png 2x"
-                              alt="Juan Profile "
-                              class="img-fluid Juan-Profile_img2">   
-                  </div>
-                  <div class="Getintouch">
-                    <p class="Getintouch-title">Find me at:</p>
-                              <!--                     <h4 class="Email-footer"><a href="mailto:hello@juancarmona.co">Hello@juancarmona.co</a></h4> -->
-                                                  <!-- Social Icons -->
-                    <div class="Social-icon_container">       
-                              <a href="https://dribbble.com/juancarmona"><i class="fab fa-dribbble Social-icon Social-icon_1"></i></a>
-                              <a href="https://www.linkedin.com/in/juancarmona-design/"><i class="fab fa-linkedin-in Social-icon Social-icon_2"></i></a>
-                              <a href="https://www.instagram.com/juancarmona.co/"><i class="fab fa-instagram Social-icon Social-icon_3"></i></a>
-                          </div>                    
-                  </div>
-                  
-                </div>
-              </div>
-              <!--Footer-col_2-->
-              <div class="col-2 Footer-col_2">
-                <div class="Content-col_2">
-                  <ul class="Footer-menu">
-                    <li>Home</li>
-                    <li>Projects</li>
-                    <li>Services</li>
-                    <li>Contact </li>
-                  </ul>
-                </div>
-              </div>
-              <!--Footer-col_3-->
-              <div class="col-lg-3 col-md-4 col-12 Footer-col_3">
-                <div class="Content-col_3">
-                  <ul class="Footer-services">
-                    <li><span>Services</span></li>
-                    <li>App Design</li>
-                    <li>Web Design</li>
-                    <li>Web Development</li>
-                  </ul>
-                </div>
-              </div>
-              <!--Footer-col_4-->
-              <div class="col-2 Footer-col_4">
-                <div class="Content-col_4">
-                  <h3 class="Partner-agency">Partner Agency</h3>
-                  <img src="img/Logo.svg" class="img-fluid Partner-logo" alt="Partner Agency">
-                </div>
-              </div>
-              <span class="Web-version">Web Version 3.0</span>
-            </div>
-          </div>
-          <section class="Copyright">
-            <div class="container Copyright-content">
-              <span>Copyright © 2018 - Juan Carmona Design Studio</span>
-              <span>Web Version 3.0</span>  
-            </div>
-          </section>
-        </section>
+        <?php require'footer.php';?>
         <!-- Footer -->
         <!-- AOS css -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
