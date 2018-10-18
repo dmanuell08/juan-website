@@ -80,19 +80,19 @@
                           srcset="img/Juan-Carmona-Profile.png 1x,
                           img/Juan-Carmona-Profile@2x.png 2x"
                           alt="Juan Carmona - UI/UX Designer"
-                          class="img-fluid Juan-Profile_img">
+                          class="img-fluid Juan-Profile_img animated fadeInLeft">
                         </div>
-                        <h1 class="Title Subtitle">Juan Carmona</h1>
-                        <p class="Parrafo animated fadeInUp">UI/UX Designer & Web Developer</p>
-                        <div class="Social-contact">
-                          <a href="https://dribbble.com/juancarmona">
-                            <i class="fab fa-dribbble Social-icon Social-icon_1"></i>
+                        <h1 class="Title Subtitle animated fadeInLeft">Juan Carmona</h1>
+                        <p class="Parrafo animated fadeInLeft">UI/UX Designer & Web Developer</p>
+                        <div class="Social-contact animated fadeInLeft">
+                          <a href="https://dribbble.com/juancarmona" class="">
+                            <i class="fab fa-dribbble Social-icon Social-icon_1 animated fadeInLeft"></i>
                           </a>
-                          <a href="https://www.linkedin.com/in/juancarmona-design/">
-                            <i class="fab fa-linkedin-in Social-icon Social-icon_2"></i>
+                          <a href="https://www.linkedin.com/in/juancarmona-design/" class="">
+                            <i class="fab fa-linkedin-in Social-icon Social-icon_2 animated fadeInLeft"></i>
                           </a>
-                          <a href="https://www.instagram.com/juancarmona.co/">
-                            <i class="fab fa-instagram Social-icon Social-icon_3"></i>
+                          <a href="https://www.instagram.com/juancarmona.co/" class="">
+                            <i class="fab fa-instagram Social-icon Social-icon_3 animated fadeInLeft"></i>
                           </a>
                         </div>
                       </div>

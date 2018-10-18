@@ -288,24 +288,40 @@
                                                           srcset="img/DCM-Web-Design@1x.png 1x,
                                                           img/DCM-Web-Design@2x.png 2x"
                                                           alt="Dcm Web Development"
-                                                          class="img-fluid">
+                                                          class="img-fluid"
+
+                                                          data-aos="fade-up"
+                                                          data-aos-anchor-placement="center-bottom">
 
                                                       <div class="Mockup-phone_project Dcm-phone_mockup">
                                                         <img src="img/DCM-Mobile-Web-Design@1x.png" 
                                                           srcset="img/DCM-Mobile-Web-Design@1x.png 1x,
                                                           img/DCM-Mobile-Web-Design@2x.png 2x"
                                                           alt="Dcm Responsive Web Development"
-                                                          class="img-fluid">
+                                                          class="img-fluid"
+                                                          data-aos="fade-up"
+                                                          data-aos-anchor-placement="center-bottom">
                                                       </div>
 
                                           </div>
                                       </div>
                                     <div class="offset-lg-1 col-lg-4 Col-project_description">
-                                            <h3 class="Title Title-project">DCM</h3>
-                                            <h2 class=" Title-project_type Title-project_dcm">WEB DESIGN & DEVELOPMENT</h2>
-                                            <p class="Parrafo Parrafo-project">DCM is a company specialized in Work at Height Training Courses and SSH Consultancy.</p>
-                                            <p class="Parrafo Parrafo-project">I worked along with DCM to make their new Logotype and Web Design/Development. The most challenging part of the project was to create a Certifications Tracking System for DCM students.</p>
-                                            <p class="Parrafo Parrafo-project">Project details coming soon.</p>
+                                            <h3 class="Title Title-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">
+                                              DCM</h3>
+                                            <h2 class=" Title-project_type Title-project_dcm"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">WEB DESIGN & DEVELOPMENT</h2>
+                                            <p class="Parrafo Parrafo-project"
+                                             data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">DCM is a company specialized in Work at Height Training Courses and SSH Consultancy.</p>
+                                            <p class="Parrafo Parrafo-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">I worked along with DCM to make their new Logotype and Web Design/Development. The most challenging part of the project was to create a Certifications Tracking System for DCM students.</p>
+                                            <p class="Parrafo Parrafo-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Project details coming soon.</p>
 
                                           <!-- <a class="Btn  Btn-Projects Btn-Projects_2" data-aos="fade-up"
                                               data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a> -->
@@ -323,11 +339,20 @@
                         <div class="container">
                               <div class="row">
                                     <div class="col-lg-4 col-12 Col-project_description">
-                                            <h3 class="Title Title-project">Best One</h3>
-                                            <h2 class=" Title-project_type Title-project_bo">WEB DESIGN</h2>
-                                            <p class="Parrafo Parrafo-project">Best One is a phone repairing company at Cali, Colombia.</p>
-                                            <p class="Parrafo Parrafo-project">I collaborated with a Web Development Agency to design the Best One Website. Our mission was to make the website User-Friendly and show the wide range of solutions the company has for their Users.</p>
-                                            <p class="Parrafo Parrafo-project">Project details coming soon.</p>
+                                            <h3 class="Title Title-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Best One</h3>
+                                            <h2 class=" Title-project_type Title-project_bo"data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">WEB DESIGN</h2>
+                                            <p class="Parrafo Parrafo-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Best One is a phone repairing company at Cali, Colombia.</p>
+                                            <p class="Parrafo Parrafo-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">I collaborated with a Web Development Agency to design the Best One Website. Our mission was to make the website User-Friendly and show the wide range of solutions the company has for their Users.</p>
+                                            <p class="Parrafo Parrafo-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Project details coming soon.</p>
                                               <!-- <a class="Btn  Btn-Projects Btn-Projects_3" data-aos="fade-up"
                                               data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a> -->
                                     </div>
@@ -340,14 +365,18 @@
                                                           srcset="img/Best-One-Web-Design@1x.png 1x,
                                                           img/Best-One-Web-Design@2x.png 2x"
                                                           alt="Best One Web Design"
-                                                          class="img-fluid">
+                                                          class="img-fluid"
+                                                          data-aos="fade-up"
+                                                          data-aos-anchor-placement="center-bottom">
 
                                                         <div class="Mockup-phone_project BO-phone_mockup">
                                                         <img src="img/Best-One-Responsive-Web-Design@1x.png" 
                                                           srcset="img/Best-One-Responsive-Web-Design@1x.png 1x,
                                                           img/Best-One-Responsive-Web-Design@2x.png 2x"
                                                           alt="Best One Responsive Web Design"
-                                                          class="img-fluid">
+                                                          class="img-fluid"
+                                                          data-aos="fade-up"
+                                                          data-aos-anchor-placement="center-bottom">
                                                         </div>                                                       
                                                 </div>
                                     </div>
@@ -367,26 +396,42 @@
                                           <div class="Mockup-project Mockup-molle">
                                                       <img src="img/Pizza-Shape-Left.svg" alt="Circle green" class="Shape-item Molle-shape_2">
                                                       <img src="img/Pizza-Shape-Right.svg" alt="Circle green" class="Shape-item Molle-shape_3">
+
                                                        <img src="img/Molle-Pizza-Web-Design@1x.png" 
                                                           srcset="img/Molle-Pizza-Web-Design@1x.png 1x,
                                                           img/Molle-Pizza-Web-Design@2x.png 2x"
                                                           alt="Molle Pizza Web Design"
-                                                          class="img-fluid">
+                                                          class="img-fluid"
+                                                          data-aos="fade-up"
+                                                          data-aos-anchor-placement="center-bottom">
+
                                                        <div class="Mockup-phone_project Molle-phone_mockup">
                                                           <img src="img/Molle-Pizza-Mobile-Design@1x.png" 
                                                           srcset="img/Molle-Pizza-Mobile-Design@1x.png 1x,
                                                           img/Molle-Pizza-Mobile-Design@2x.png 2x"
                                                           alt="Molle Pizza Responsive Web Design"
-                                                          class="img-fluid">
+                                                          class="img-fluid"
+                                                          data-aos="fade-up"
+                                                          data-aos-anchor-placement="center-bottom">
                                                         </div>                                                  
                                           </div>
                                       </div>
                                     <div class="offset-lg-1 col-lg-4 col-12 Col-project_description">
-                                            <h3 class="Title Title-project">Molle Pizza</h3>
-                                            <h2 class=" Title-project_type Title-project_molle">WEB DESIGN</h2>
-                                            <p class="Parrafo Parrafo-project">Molle Pizza is a pizza delivery restaurant.</p>
-                                            <p class="Parrafo Parrafo-project">I’ve used Adobe Illustrator to make their new Web Design. Hired by a Web Agency, I was given the task to bring a new Look & Feel and a better User Flow for the pizza menu.</p>
-                                            <p class="Parrafo Parrafo-project">Project details coming soon.</p>
+                                            <h3 class="Title Title-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Molle Pizza</h3>
+                                            <h2 class=" Title-project_type Title-project_molle"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">WEB DESIGN</h2>
+                                            <p class="Parrafo Parrafo-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Molle Pizza is a pizza delivery restaurant.</p>
+                                            <p class="Parrafo Parrafo-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">I’ve used Adobe Illustrator to make their new Web Design. Hired by a Web Agency, I was given the task to bring a new Look & Feel and a better User Flow for the pizza menu.</p>
+                                            <p class="Parrafo Parrafo-project"
+                                             data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Project details coming soon.</p>
                                               <!-- <a class="Btn  Btn-Projects Btn-Projects_4" data-aos="fade-up"
                                               data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a> -->
                                     </div>
@@ -401,12 +446,18 @@
                     <img src="img/Waves-Left.svg" alt="" class="img-fluid Circle-1_about Circle-1_service">
               </div>
               <div class="container">                            
-                   <h3 class="Title Subtitle">Services</h3>
+                   <h3 class="Title Subtitle"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">Services</h3>
                     <div class="Parrafo-section_container">
-                    		    <p class="Parrafo Parrafo-section Parrafo-section_services">Take a look at the Variety of Services I provide to Help Companies, Agencies and other Professionals in the Digital Field:</p>
+                    	<p class="Parrafo Parrafo-section Parrafo-section_services"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="center-bottom">Take a look at the Variety of Services I provide to Help Companies, Agencies and other Professionals in the Digital Field:</p>
                     </div>            
 	              <div class="row Row-services_home">
-                    <div class="col-lg-4 col-sm-8 col-12 Col-service Col-service_1">
+                    <div class="col-lg-4 col-sm-8 col-12 Col-service Col-service_1"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="center-bottom">
                         <div class="content-service_home">
                             <div>
                             <img src="img/App-Design-Icon.svg" alt="App Design" class="Service-icon Service-icon_1">
@@ -420,7 +471,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-8 col-12 Col-service Col-service_2">
+                    <div class="col-lg-4 col-sm-8 col-12 Col-service Col-service_2"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">
                         <div class="content-service_home">
                             <div>
                             <img src="img/Web Design-Icon.svg" alt="Web Design" class="Service-icon Service-icon_1">
@@ -434,7 +487,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-8 col-12 Col-service Col-service_3">
+                    <div class="col-lg-4 col-sm-8 col-12 Col-service Col-service_3"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">
                         <div class="content-service_home">
                             <div>
                             <img src="img/Web-Development-Icon.svg" alt="Web Development" class="Service-icon Service-icon_1">
@@ -465,20 +520,34 @@
                                 srcset="img/Juan-Carmona-Profile.png 1x,
                                 img/Juan-Carmona-Profile@2x.png 2x"
                                 alt="Juan Carmona - UI/UX Designer"
-                                class="img-fluid Juan-Profile_img">
+                                class="img-fluid Juan-Profile_img"
+                                data-aos="fade-up"
+                                data-aos-anchor-placement="center-bottom">
                               </div>
                     </div>
                     <div class="col-xl-8 col-lg-9">
-                        <h1 class="Title Subtitle">About me</h1>
-                        <div class="Home-about_description">
+                          <h1 class="Title Subtitle"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="center-bottom"
+                          >About me</h1>
+                          <div class="Home-about_description">
                                     <div class="Parrafo-group">
-                                          <p class="Parrafo Parrafo-about_home">Hello! My name is Juan Carmona.<br>Welcome to my space in the internet :)</p>
-                                          <p class="Parrafo Parrafo-about_home">It’s been 4 years since I started this endless journey to become a Great Designer. During that time I’ve worked in giving design solutions to companies from Colombia, Argentina and USA.</p>
+                                          <p class="Parrafo Parrafo-about_home"
+                                          data-aos="fade-up"
+                                          data-aos-anchor-placement="center-bottom">Hello! My name is Juan Carmona.<br>Welcome to my space in the internet :)</p>
+                                          <p class="Parrafo Parrafo-about_home"
+                                          data-aos="fade-up"
+                                          data-aos-anchor-placement="center-bottom">It’s been 4 years since I started this endless journey to become a Great Designer. During that time I’ve worked in giving design solutions to companies from Colombia, Argentina and USA.</p>
                                     </div>
                                     <ul class="List-about_home">
-                                          <li><img src="img/Rocket-Icon.svg" alt="Design Thinking">Design Thinking</li>
-                                          <li><img src="img/Human-Centered-Design-Icon.svg" alt="Human Centered Design">Human Centered Design</li>
-                                          <li><img src="img/Solutions-Icon.svg" alt="Atomic Design">Atomic Design</li>
+                                          <li data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom"><img src="img/Rocket-Icon.svg" alt="Design Thinking">Design Thinking</li>
+                                          <li
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom"><img src="img/Human-Centered-Design-Icon.svg" alt="Human Centered Design">Human Centered Design</li>
+                                          <li
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom"><img src="img/Solutions-Icon.svg" alt="Atomic Design">Atomic Design</li>
                                     </ul>
                         </div>
                         
@@ -490,9 +559,13 @@
         <!-- Home Testimonials -->
         <section id="Home-testimonials">
                 <div class="container">
-                  <h3 class="Title Subtitle">Testimonials</h3>
+                  <h3 class="Title Subtitle"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom">Testimonials</h3>
                   <div class="Parrafo-section_container">
-                      <p class="Parrafo Parrafo-section Parrafo-section_testimonials">I have been fortunate to work with Talented Professionals and Clients, who have taught me the Value of Communication and Attitude to work as a team.<br>Check out what they say about my work:</p>
+                      <p class="Parrafo Parrafo-section Parrafo-section_testimonials"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">I have been fortunate to work with Talented Professionals and Clients, who have taught me the Value of Communication and Attitude to work as a team.<br>Check out what they say about my work:</p>
                   </div>
                 </div>
               <!-- Testimonials-slider_container -->
@@ -583,12 +656,18 @@
         <!-- Home Let´s Work -->
         <section id="Home-letswork">
           <div class="container">
-            <h3 class="Title Subtitle">Interested in working together?</h3>
+            <h3 class="Title Subtitle"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">Interested in working together?</h3>
             <div class="Parrafo-section_container"">
-              <p class="Parrafo Parrafo-section Parrafo-section_letswork">I am always up for new projects. If you want to create a new Successful App or Refresh your Company Website, get in touch and let’s work together.</p>
+              <p class="Parrafo Parrafo-section Parrafo-section_letswork"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom" data-aos-delay="130">I am always up for new projects. If you want to create a new Successful App or Refresh your Company Website, get in touch and let’s work together.</p>
             </div>
             <!-- <h4 class="Email-footer"><a href="mailto:hello@juancarmona.co">Hello@juancarmona.co</a></h4> -->
-             <div class="Btn-container">
+             <div class="Btn-container"
+              data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-delay="135">
                 <a href="contact.php" class="Btn Btn-letswork animated fadeInUp">CONTACT ME</a>
             </div>            
           </div>

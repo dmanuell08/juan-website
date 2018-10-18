@@ -17,9 +17,9 @@
                     <h4 class="Email-footer"><a href="mailto:hello@juancarmona.co">Hello@juancarmona.co</a></h4>
                     <!-- Social Icons -->
                     <div class="Social-icon_container">       
-                              <a href="https://dribbble.com/juancarmona"><i class="fab fa-dribbble Social-icon Social-icon_1"></i></a>
-                              <a href="https://www.linkedin.com/in/juancarmona-design/"><i class="fab fa-linkedin-in Social-icon Social-icon_2"></i></a>
-                              <a href="https://www.instagram.com/juancarmona.co/"><i class="fab fa-instagram Social-icon Social-icon_3"></i></a>
+                              <a target="_blank" href="https://dribbble.com/juancarmona"><i class="fab fa-dribbble Social-icon Social-icon_1"></i></a>
+                              <a target="_blank" href="https://www.linkedin.com/in/juancarmona-design/"><i class="fab fa-linkedin-in Social-icon Social-icon_2"></i></a>
+                              <a target="_blank" href="https://www.instagram.com/juancarmona.co/"><i class="fab fa-instagram Social-icon Social-icon_3"></i></a>
                           </div>                    
                   </div>
                   
@@ -64,7 +64,7 @@
           </div>
           <section class="Copyright">
             <div class="container Copyright-content">
-              <span>Copyright © 2018 - Juan Carmona Design Studio</span>
+              <span>Copyright © 2018 - Juan Carmona</span>
               <span>Web Version 3.0</span>  
             </div>
           </section>

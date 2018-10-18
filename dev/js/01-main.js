@@ -74,9 +74,9 @@ $(".carousel").on("touchstart", function(event){
     });
 });
 
-	$("#Hamb-btn").click(function(){
+	$("#Hamb-btn,.Menu-item a").click(function(){
 	    $(".Menu-container").toggleClass("active");
-	    $(this).toggleClass("active");
+	    $("#Hamb-btn").toggleClass("active");
 	 });
 
 

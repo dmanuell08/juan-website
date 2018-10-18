@@ -1002,9 +1002,10 @@ a
 .Footer-services
 	span
 		color #B8BBCC
+		line-height 40px
 .Partner-agency
 	font-size 16px
-	line-height 16px
+	line-height 40px
 	font-weight 500
 	color #EDF0F5
 .Partner-logo
@@ -1074,6 +1075,7 @@ a
 	flex-direction column
 	justify-content center
 	position relative
+	overflow hidden
 	.Subtitle
 		margin-bottom 14px
 		margin-top 32px
@@ -1084,6 +1086,7 @@ a
 	text-align center
 	.Juan-Profile_img
 		width 200px
+		animation-delay 100ms
 .Waves_bg-contact
 	position absolute
 	top 46%
@@ -1105,19 +1108,47 @@ a
 		border-radius 1px
 		background-color #FFDE66
 		margin-top 24px
+		
 	.Social-icon
 		display inline-block
 		margin 0 40px 0 0
 	.Social-icon_1
 		color #EA4C89
+		animation-delay 400ms
 	.Social-icon_2
 		color #007BB5
+		animation-delay 450ms
 	.Social-icon_3
 		color #f46f30
 		margin 0
+		animation-delay 500ms
 	
 	.done-message
 		color Yellow_400
+
+.Contact-container
+	form
+		overflow hidden
+	.Btn
+		animation-delay 0s
+	textarea
+		animation-delay 100ms
+	.Select_container
+		animation-delay 200ms
+	#email
+		animation-delay 300ms
+	#nombre
+		animation-delay 400ms
+	.Title
+		animation-delay 500ms
+	.Col2_form
+		.Title
+			animation-delay 200ms
+		.Parrafo
+			animation-delay 300ms
+	.Col1_form
+		.Parrafo
+			animation-delay 450ms
 
 
 @media (max-width: 1450px)
@@ -1675,7 +1706,7 @@ a
 		
 		
 	#Home-services
-		padding 30px 0 50px
+		padding 0 0 50px
 	.Service-title
 		font-size 20px
 		
