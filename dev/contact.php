@@ -35,22 +35,22 @@
                 <img src="img/Waves-Small-Right.svg" alt="Waves-Small-Left" class="Shape-menu Shape-menu_1">
                 <img src="img/Waves-Small-Right.svg" alt="Waves-Small-Right" class="Shape-menu Shape-menu_2">
             </div>
-            <a href="index.php">
+            <a href="https://www.juancarmona.co/">
                     <img src="img/Logo.svg" alt="Juan Carmona Logo" class="Menu-logo">
                 </a>
                 <h2 class="Title Subtitle">Juan Carmona</h2>
             <ul class="Menu-list">
                 <li class="Menu-item">
-                    <a href="index.php" class="">Home</a>
+                    <a href="https://www.juancarmona.co/" class="">Home</a>
                 </li>
                 <li class="Menu-item">
-                    <a href="index.php#Home-projets" class="">Projects</a>
+                    <a href="https://www.juancarmona.co#Home-projets" class="">Projects</a>
                 </li>
                 <li class="Menu-item">
-                    <a href="index.php#Home-services" class="">Services</a>
+                    <a href="https://www.juancarmona.co#Home-services" class="">Services</a>
                 </li>
                 <li class="Menu-item Menu-item_active">
-                    <a href="contact.php" class="Page_active">Contact</a>
+                    <a href="https://www.juancarmona.co/contact" class="Page_active">Contact</a>
                 </li>                        
             </ul>
             <a href="mailto:hello@juancarmona.co" class="Email-menu">Hello@juancarmona.co</a>
