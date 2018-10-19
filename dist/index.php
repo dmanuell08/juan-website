@@ -247,7 +247,7 @@
                                               data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a>
                                          
                                     </div>
-                                    <div class="col-xl-7 col-lg-6 col-10 offset-lg-1">
+                                    <div class="col-xl-7 col-lg-6 col-10 offset-lg-1 Col-gatha_project">
                                                 <div class="Mockup-project Mockup-gatha">
                                                       <img src="img/Circle-2.svg" alt="Circle green" class="Shape-item Gatha-circle_4">
                                                       <img src="img/Circle-3.svg" alt="Circle green" class="Shape-item Gatha-circle_5">
@@ -279,7 +279,7 @@
                         </div>                
                         <div class="container">
                               <div class="row">
-                                      <div class="col-xl-7 col-lg-6 col-10">
+                                      <div class="col-xl-7 col-lg-6 col-10 Col-dcm_project">
                                           <div class="Mockup-project Mockup-dcm">
                                                         <img src="img/Check-Icon-Left.svg" alt="Circle green" class="Shape-item Dcm-shape_2">
                                                        <img src="img/Check-Icon-Right.svg" alt="Circle green" class="Shape-item Dcm-shape_3">
@@ -356,7 +356,7 @@
                                               <!-- <a class="Btn  Btn-Projects Btn-Projects_3" data-aos="fade-up"
                                               data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a> -->
                                     </div>
-                                    <div class="col-xl-7 col-lg-6 col-10 offset-lg-1">
+                                    <div class="col-xl-7 col-lg-6 col-10 offset-lg-1 Col-bo_project">
                                                 <div class="Mockup-project Mockup-bo">
                                                         <img src="img/Wave-Icon.svg" alt="Circle green" class="Shape-item BO-shape_3">
                                                         <img src="img/3-Waves-Icon.svg" alt="Circle green" class="Shape-item BO-shape_5">
@@ -392,7 +392,7 @@
                         </div>                   
                         <div class="container">
                               <div class="row">
-                                      <div class="col-xl-7 col-lg-6 col-10">
+                                      <div class="col-xl-7 col-lg-6 col-10 Col-molle_project">
                                           <div class="Mockup-project Mockup-molle">
                                                       <img src="img/Pizza-Shape-Left.svg" alt="Circle green" class="Shape-item Molle-shape_2">
                                                       <img src="img/Pizza-Shape-Right.svg" alt="Circle green" class="Shape-item Molle-shape_3">
@@ -609,8 +609,8 @@
                           <div class="Parrafo-section_testimonial--overflow">
                             <p class="Parrafo Parrafo-section_testimonial animated fadeInUp">Juan is an amazing designer. He takes vague concepts and turns them into outstanding graphics. Over the years, I've seen him create everything from tiny icons to full-fledged responsive websites.</p>
                           </div>
-                          <a href="https://www.linkedin.com/in/juancarmona-design/" target="_blank">
-                            <span class="Testimonial-linkedin animated fadeInLeft">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></span>
+                          <a href="https://www.linkedin.com/in/juancarmona-design/" target="_blank" class="">
+                            <p class="Testimonial-linkedin animated fadeInUp">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></p>
                           </a>
                         </div>                      
                       </div>                      
@@ -633,8 +633,8 @@
                           <div class="Parrafo-section_testimonial--overflow">
                             <p class="Parrafo Parrafo-section_testimonial animated fadeInUp">Excelente profesional, muy atento a los detalles, a las especificaciones del proyecto y cumplido en los tiempos establecidos, basados en tendencias actuales y en la satisfacción de los usuarios.</p>
                           </div>
-                          <a href="https://www.linkedin.com/in/juancarmona-design/" target="_blank">
-                            <span class="Testimonial-linkedin animated fadeInLeft">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></span>
+                          <a href="https://www.linkedin.com/in/juancarmona-design/" target="_blank" >
+                            <p class="Testimonial-linkedin animated fadeInUp">SEE AT LINKEDIN<i class="fab fa-linkedin-in animated fadeInUp"></i></p>
                           </a>
                         </div>                      
                       </div>                           
