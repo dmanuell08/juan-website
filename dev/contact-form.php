@@ -4,7 +4,7 @@
     if ($action==""){
 ?>
 <!-- Campos del formulario editables -->
-<form action="#Contact-section" method="POST" enctype="multipart/form-data">
+<form action="#Contact-section" method="POST" enctype="multipart/form-data" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
     <input type="hidden" name="action" value="submit">
     <input required type="text" name="nombre" value="" class="form-control Form_input animated fadeInUp" id="nombre" placeholder="Name">
     <input required type="email" name="email" value="" class="form-control Form_input animated fadeInUp" id="email" placeholder="Email">

@@ -37,7 +37,7 @@ $(document).ready(function(){
     //Carousel Bootstrap//
     $('.carousel').carousel({
 	  pause: "hover",
-	  interval: 6000
+	  interval: 8000
 	});
 
 	//Move elements on mouse//

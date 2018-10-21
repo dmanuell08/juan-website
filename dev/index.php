@@ -530,14 +530,10 @@
                           data-aos="fade-up"
                           data-aos-anchor-placement="center-bottom"
                           >About me</h1>
-                          <div class="Home-about_description">
+                          <div class="Home-about_description" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                                     <div class="Parrafo-group">
-                                          <p class="Parrafo Parrafo-about_home"
-                                          data-aos="fade-up"
-                                          data-aos-anchor-placement="center-bottom">Hello! My name is Juan Carmona.<br>Welcome to my space in the internet :)</p>
-                                          <p class="Parrafo Parrafo-about_home"
-                                          data-aos="fade-up"
-                                          data-aos-anchor-placement="center-bottom">It’s been 4 years since I started this endless journey to become a Great Designer. During that time I’ve worked in giving design solutions to companies from Colombia, Argentina and USA.</p>
+                                          <p class="Parrafo Parrafo-about_home">Hello! My name is Juan Carmona.<br>Welcome to my space in the internet :)</p>
+                                          <p class="Parrafo Parrafo-about_home">It’s been 4 years since I started this endless journey to become a Great Designer. During that time I’ve worked in giving design solutions to companies from Colombia, Argentina and USA.</p>
                                     </div>
                                     <ul class="List-about_home">
                                           <li data-aos="fade-up"
