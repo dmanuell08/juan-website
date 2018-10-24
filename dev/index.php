@@ -270,6 +270,113 @@
                                </div>
                         </div>
               </div>
+              <!-- Molle Project -->
+              <div class="Project-container Molle-project_container">
+                        <div class="Project-shape_bg">
+                                  <img src="img/Pizza-Shape-Small-Right.svg" alt="Circle green" class="Shape-item Molle-shape_1">
+                                  <img src="img/Pizza-Shape-Small-Right.svg" alt="Circle green" class="Shape-item Molle-shape_4">
+                                  <img src="img/Pizza-Shape-Small-Right.svg" alt="Circle green" class="Shape-item Molle-shape_5">
+                        </div>                   
+                        <div class="container">
+                              <div class="row">
+                                      <div class="col-xl-7 col-lg-6 col-10 Col-molle_project">
+                                          <div class="Mockup-project Mockup-molle">
+                                                      <img src="img/Pizza-Shape-Left.svg" alt="Circle green" class="Shape-item Molle-shape_2">
+                                                      <img src="img/Pizza-Shape-Right.svg" alt="Circle green" class="Shape-item Molle-shape_3">
+
+                                                       <img src="img/Molle-Pizza-Web-Design@1x.png" 
+                                                          srcset="img/Molle-Pizza-Web-Design@1x.png 1x,
+                                                          img/Molle-Pizza-Web-Design@2x.png 2x"
+                                                          alt="Molle Pizza Web Design"
+                                                          class="img-fluid"
+                                                          data-aos="fade-up"
+                                                          data-aos-anchor-placement="center-bottom">
+
+                                                       <div class="Mockup-phone_project Molle-phone_mockup">
+                                                          <img src="img/Molle-Pizza-Mobile-Design@1x.png" 
+                                                          srcset="img/Molle-Pizza-Mobile-Design@1x.png 1x,
+                                                          img/Molle-Pizza-Mobile-Design@2x.png 2x"
+                                                          alt="Molle Pizza Responsive Web Design"
+                                                          class="img-fluid"
+                                                          data-aos="fade-up"
+                                                          data-aos-anchor-placement="center-bottom">
+                                                        </div>                                                  
+                                          </div>
+                                      </div>
+                                    <div class="offset-lg-1 col-lg-4 col-12 Col-project_description">
+                                            <h3 class="Title Title-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Molle Pizza</h3>
+                                            <h2 class=" Title-project_type Title-project_molle"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">WEB DESIGN</h2>
+                                            <p class="Parrafo Parrafo-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Molle Pizza is a pizza delivery restaurant.</p>
+                                            <p class="Parrafo Parrafo-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">I’ve used Adobe Illustrator to make their new Web Design. Hired by a Web Agency, I was given the task to bring a new Look & Feel and a better User Flow for the pizza menu.</p>
+                                              <a class="Btn Btn-Projects Btn-Projects_4" data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71733671/Molle-Pizza-Web-Design" target="_blank">SEE PROJECT</a>
+                                    </div>
+                              </div>                                                                   
+                        </div>
+              </div>
+              
+              <!-- Best One Project -->
+              <div class="Project-container BO-project_container">
+                        <div class="Project-shape_bg">
+                                  <img src="img/Wave-Shape-Small-Left.svg" alt="Circle green" class="Shape-item BO-shape_1">
+                                  <img src="img/Wave-Shape-Medium-Left.svg" alt="Circle green" class="Shape-item BO-shape_2">       
+                                  <img src="img/Wave-Shape-Medium-Right.svg" alt="Circle green" class="Shape-item BO-shape_4">
+                        </div>                  
+                        <div class="container">
+                              <div class="row">
+                                    <div class="col-lg-4 col-12 Col-project_description">
+                                            <h3 class="Title Title-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Best One</h3>
+                                            <h2 class=" Title-project_type Title-project_bo"data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">WEB DESIGN</h2>
+                                            <p class="Parrafo Parrafo-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Best One is a phone repairing company at Cali, Colombia.</p>
+                                            <p class="Parrafo Parrafo-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">I collaborated with a Web Development Agency to design the Best One Website. Our mission was to make the website User-Friendly and show the wide range of solutions the company has for their Users.</p>
+                                            <p class="Parrafo Parrafo-project"
+                                              data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom">Project details coming soon.</p>
+                                              <!-- <a class="Btn  Btn-Projects Btn-Projects_3" data-aos="fade-up"
+                                              data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a> -->
+                                    </div>
+                                    <div class="col-xl-7 col-lg-6 col-10 offset-lg-1 Col-bo_project">
+                                                <div class="Mockup-project Mockup-bo">
+                                                        <img src="img/Wave-Icon.svg" alt="Circle green" class="Shape-item BO-shape_3">
+                                                        <img src="img/3-Waves-Icon.svg" alt="Circle green" class="Shape-item BO-shape_5">
+
+                                                        <img src="img/Best-One-Web-Design@1x.png" 
+                                                          srcset="img/Best-One-Web-Design@1x.png 1x,
+                                                          img/Best-One-Web-Design@2x.png 2x"
+                                                          alt="Best One Web Design"
+                                                          class="img-fluid"
+                                                          data-aos="fade-up"
+                                                          data-aos-anchor-placement="center-bottom">
+
+                                                        <div class="Mockup-phone_project BO-phone_mockup">
+                                                        <img src="img/Best-One-Responsive-Web-Design@1x.png" 
+                                                          srcset="img/Best-One-Responsive-Web-Design@1x.png 1x,
+                                                          img/Best-One-Responsive-Web-Design@2x.png 2x"
+                                                          alt="Best One Responsive Web Design"
+                                                          class="img-fluid"
+                                                          data-aos="fade-up"
+                                                          data-aos-anchor-placement="center-bottom">
+                                                        </div>                                                       
+                                                </div>
+                                    </div>
+                               </div>
+                        </div>
+              </div>
               <!-- DCM Project -->
               <div class="Project-container Dcm-project_container">
                         <div class="Project-shape_bg">
@@ -328,116 +435,7 @@
                                     </div>
                               </div>                                                                   
                         </div>
-              </div>
-              <!-- Best One Project -->
-              <div class="Project-container BO-project_container">
-                        <div class="Project-shape_bg">
-                                  <img src="img/Wave-Shape-Small-Left.svg" alt="Circle green" class="Shape-item BO-shape_1">
-                                  <img src="img/Wave-Shape-Medium-Left.svg" alt="Circle green" class="Shape-item BO-shape_2">       
-                                  <img src="img/Wave-Shape-Medium-Right.svg" alt="Circle green" class="Shape-item BO-shape_4">
-                        </div>                  
-                        <div class="container">
-                              <div class="row">
-                                    <div class="col-lg-4 col-12 Col-project_description">
-                                            <h3 class="Title Title-project"
-                                              data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom">Best One</h3>
-                                            <h2 class=" Title-project_type Title-project_bo"data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom">WEB DESIGN</h2>
-                                            <p class="Parrafo Parrafo-project"
-                                              data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom">Best One is a phone repairing company at Cali, Colombia.</p>
-                                            <p class="Parrafo Parrafo-project"
-                                              data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom">I collaborated with a Web Development Agency to design the Best One Website. Our mission was to make the website User-Friendly and show the wide range of solutions the company has for their Users.</p>
-                                            <p class="Parrafo Parrafo-project"
-                                              data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom">Project details coming soon.</p>
-                                              <!-- <a class="Btn  Btn-Projects Btn-Projects_3" data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a> -->
-                                    </div>
-                                    <div class="col-xl-7 col-lg-6 col-10 offset-lg-1 Col-bo_project">
-                                                <div class="Mockup-project Mockup-bo">
-                                                        <img src="img/Wave-Icon.svg" alt="Circle green" class="Shape-item BO-shape_3">
-                                                        <img src="img/3-Waves-Icon.svg" alt="Circle green" class="Shape-item BO-shape_5">
-
-                                                        <img src="img/Best-One-Web-Design@1x.png" 
-                                                          srcset="img/Best-One-Web-Design@1x.png 1x,
-                                                          img/Best-One-Web-Design@2x.png 2x"
-                                                          alt="Best One Web Design"
-                                                          class="img-fluid"
-                                                          data-aos="fade-up"
-                                                          data-aos-anchor-placement="center-bottom">
-
-                                                        <div class="Mockup-phone_project BO-phone_mockup">
-                                                        <img src="img/Best-One-Responsive-Web-Design@1x.png" 
-                                                          srcset="img/Best-One-Responsive-Web-Design@1x.png 1x,
-                                                          img/Best-One-Responsive-Web-Design@2x.png 2x"
-                                                          alt="Best One Responsive Web Design"
-                                                          class="img-fluid"
-                                                          data-aos="fade-up"
-                                                          data-aos-anchor-placement="center-bottom">
-                                                        </div>                                                       
-                                                </div>
-                                    </div>
-                               </div>
-                        </div>
-              </div>
-              <!-- Molle Project -->
-              <div class="Project-container Molle-project_container">
-                        <div class="Project-shape_bg">
-                                  <img src="img/Pizza-Shape-Small-Right.svg" alt="Circle green" class="Shape-item Molle-shape_1">
-                                  <img src="img/Pizza-Shape-Small-Right.svg" alt="Circle green" class="Shape-item Molle-shape_4">
-                                  <img src="img/Pizza-Shape-Small-Right.svg" alt="Circle green" class="Shape-item Molle-shape_5">
-                        </div>                   
-                        <div class="container">
-                              <div class="row">
-                                      <div class="col-xl-7 col-lg-6 col-10 Col-molle_project">
-                                          <div class="Mockup-project Mockup-molle">
-                                                      <img src="img/Pizza-Shape-Left.svg" alt="Circle green" class="Shape-item Molle-shape_2">
-                                                      <img src="img/Pizza-Shape-Right.svg" alt="Circle green" class="Shape-item Molle-shape_3">
-
-                                                       <img src="img/Molle-Pizza-Web-Design@1x.png" 
-                                                          srcset="img/Molle-Pizza-Web-Design@1x.png 1x,
-                                                          img/Molle-Pizza-Web-Design@2x.png 2x"
-                                                          alt="Molle Pizza Web Design"
-                                                          class="img-fluid"
-                                                          data-aos="fade-up"
-                                                          data-aos-anchor-placement="center-bottom">
-
-                                                       <div class="Mockup-phone_project Molle-phone_mockup">
-                                                          <img src="img/Molle-Pizza-Mobile-Design@1x.png" 
-                                                          srcset="img/Molle-Pizza-Mobile-Design@1x.png 1x,
-                                                          img/Molle-Pizza-Mobile-Design@2x.png 2x"
-                                                          alt="Molle Pizza Responsive Web Design"
-                                                          class="img-fluid"
-                                                          data-aos="fade-up"
-                                                          data-aos-anchor-placement="center-bottom">
-                                                        </div>                                                  
-                                          </div>
-                                      </div>
-                                    <div class="offset-lg-1 col-lg-4 col-12 Col-project_description">
-                                            <h3 class="Title Title-project"
-                                              data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom">Molle Pizza</h3>
-                                            <h2 class=" Title-project_type Title-project_molle"
-                                              data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom">WEB DESIGN</h2>
-                                            <p class="Parrafo Parrafo-project"
-                                              data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom">Molle Pizza is a pizza delivery restaurant.</p>
-                                            <p class="Parrafo Parrafo-project"
-                                              data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom">I’ve used Adobe Illustrator to make their new Web Design. Hired by a Web Agency, I was given the task to bring a new Look & Feel and a better User Flow for the pizza menu.</p>
-                                            <p class="Parrafo Parrafo-project"
-                                             data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom">Project details coming soon.</p>
-                                              <!-- <a class="Btn  Btn-Projects Btn-Projects_4" data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a> -->
-                                    </div>
-                              </div>                                                                   
-                        </div>
-              </div>                                                                        
+              </div>                                                                   
         </section>
         <!-- Home Projects -->
         <!-- Home Services --> 
