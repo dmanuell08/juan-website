@@ -4,13 +4,13 @@
         <img src="img/Waves-Small-Right.svg" alt="Waves-Small-Left" class="Shape-menu Shape-menu_1">
         <img src="img/Waves-Small-Right.svg" alt="Waves-Small-Right" class="Shape-menu Shape-menu_2">
     </div>
-    <a href="index.php">
+    <a href="https://www.juancarmona.co">
             <img src="img/Logo.svg" alt="Logo juan carmona" class="Menu-logo">
         </a>
         <h2 class="Title Subtitle">Juan Carmona</h2>
     <ul class="Menu-list">
         <li class="Menu-item <?php echo ($page == "home" ? "Menu-item_active" : "")?>">
-            <a href="https://www.juancarmona.co/" class=" <?php echo ($page == "home" ? "Page_active" : "")?>">Home</a>
+            <a href="https://www.juancarmona.co" class=" <?php echo ($page == "home" ? "Page_active" : "")?>">Home</a>
         </li>
         <li class="Menu-item <?php echo ($page == "projects" ? "Menu-item_active" : "")?>">
             <a href="#Home-projets" class="Slide <?php echo ($page == "projects" ? "Page_active" : "")?>">Projects</a>

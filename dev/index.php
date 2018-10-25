@@ -662,7 +662,7 @@
              <div class="Btn-container"
               data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom" data-aos-delay="135">
-                <a href="contact.php" class="Btn Btn-letswork animated fadeInUp">CONTACT ME</a>
+                <a href="https://www.juancarmona.co/contact" class="Btn Btn-letswork animated fadeInUp">CONTACT ME</a>
             </div>            
           </div>
           <div class="Circle-bg_section">

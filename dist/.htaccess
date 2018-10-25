@@ -1,0 +1,44 @@
+<filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+    Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
+
+RewriteEngine On
+
+RewriteBase /
+# remove .php; use THE_REQUEST to prevent infinite loops 
+RewriteCond %{HTTP_HOST} ^https://www.juancarmona.co
+RewriteCond %{THE_REQUEST} ^GET\ (.*)\.php\ HTTP 
+RewriteRule (.*)\.php$ $1 [R=301] 
+# remove index 
+RewriteRule (.*)index$ $1 [R=301] 
+# remove slash if not directory 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_URI} /$ 
+RewriteRule (.*)/ $1 [R=301] 
+# add .php to access file, but don't redirect 
+RewriteCond %{REQUEST_FILENAME}.php -f 
+RewriteCond %{REQUEST_URI} !/$ 
+RewriteRule (.*) $1\.php [L]
+
+#Redireccionar a https cuando tiene www
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^www\.
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#Redireccionar a https con www cuando no tiene https ni www
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule .* https://www.juancarmona.co%{REQUEST_URI} [L,R=301]
+
+#Redireccionar a www cuando tiene https
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} !^www\.
+
+RewriteRule .* https://www.juancarmona.co%{REQUEST_URI} [L,R=301]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php72” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddType application/x-httpd-ea-php72___lsphp .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

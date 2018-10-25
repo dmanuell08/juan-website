@@ -29,10 +29,10 @@
               <div class="col-2 Footer-col_2" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <div class="Content-col_2">
                   <ul class="Footer-menu">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="https://www.juancarmona.co">Home</a></li>
                     <li><a href="#Home-projets">Projects</a></li>
                     <li><a href="#Home-services">Services</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="https://www.juancarmona.co/contact">Contact</a></li>
                   </ul>
                 </div>
               </div>
