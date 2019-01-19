@@ -17,7 +17,6 @@
         <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Open+Sans:300,400,500" rel="stylesheet">
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118457722-1"></script>
 
     <script>
@@ -243,8 +242,7 @@
                                             <p class="Parrafo Parrafo-project" data-aos="fade-up"
                                               data-aos-anchor-placement="center-bottom">I worked with the Gatha Team as UI/UX Designer and Web Developer. Sketch, Invision, Adobe Illustrator and Adobe Photoshop are some of the tools we’ve used to build an App Prototype and a Wordpress Website.</p>
                                           
-                                              <a class="Btn  Btn-Projects Btn-Projects_1" data-aos="fade-up"
-                                              data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a>
+                                              <a class="Btn Btn-Projects Btn-Projects_1" data-aos="fade-up" data-aos-anchor-placement="center-bottom" href="https://www.behance.net/gallery/71501111/Gatha-App-Design" target="_blank">SEE PROJECT</a>
                                          
                                     </div>
                                     <div class="col-xl-7 col-lg-6 col-10 offset-lg-1 Col-gatha_project">
